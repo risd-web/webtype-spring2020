@@ -1,0 +1,6 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Web Type"
+theme = "type"
+
+sectionPagesMenu = "main"

@@ -1,0 +1,2 @@
+baseURL = ""
+publishDir = "docs"
