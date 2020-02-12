@@ -1,0 +1,13 @@
+{{ define "main" }}
+TEST
+	<main>
+		{{.Content}}
+		<ul>
+			{{ range .Site.AllPages }}
+				<li>
+					<a href="{{.Permalink}}">{{.Title}}</a>
+				</li>
+			{{ end }}
+		</ul>
+	</main>
+{{ end }}
