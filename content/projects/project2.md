@@ -30,14 +30,3 @@ Create a variable font and a typographic "minisite" for your typeface specimen.
 * finalize typeface
 * finalize website specimen
 
-
-Variable Fonts
-* [Variable Fonts](https://v-fonts.com/)
-* [Axis Praxis](https://www.axis-praxis.org/specimens/__DEFAULT__)
-* [Dinamo Gauntlet](https://dinamodarkroom.com/gauntlet/)
-
-The minisite
-* [Gimlet](https://djr.com/gimlet-xray/)
-* [IBM Plex](https://www.ibm.com/plex/)
-* [Recursive](https://www.recursive.design/)
-* [Russian Type journal](http://2017.typejournal.ru/)

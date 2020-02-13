@@ -1,7 +1,7 @@
 $(function(){
 	console.log('script loaded');
-	$(document).on("click","body", function(event){
 
+	$(document).on("click","body", function(event){
 		if ($(event.target).hasClass('element')){
 			$(event.target).remove();
 		}else{
@@ -20,4 +20,12 @@ $(function(){
 		}
 	  
 	});
+
+	$(window).resize(function() {
+		console.log('resize');
+	 	$('.element').each(function(){
+	 		$(this).remove();
+	 	});
+	});
+
 });

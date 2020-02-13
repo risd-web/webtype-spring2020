@@ -1,14 +1,9 @@
 <aside>
-	<div>
-		<div>
-			<h3>LATEST POSTS</h3>
-		</div>
-		<div>
-			<ul>
-				{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-				{{ end }}
-			</ul>
-		</div>
-	</div>
+	{{ range .Params.reference }}
+		<figure class="link-preview">
+			 <iframe class="preview" type="text/html" src="{{.link}}" frameborder="0">
+	 		</iframe>
+		    <figcaption><a href="{{.link}}">{{.title}}</a></figcaption>
+		</figure>
+	{{ end }}
 </aside>

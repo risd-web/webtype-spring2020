@@ -1,13 +1,16 @@
 {{ define "main" }}
-TEST
 	<main>
-		{{.Content}}
-		<ul>
-			{{ range .Site.AllPages }}
-				<li>
-					<a href="{{.Permalink}}">{{.Title}}</a>
-				</li>
-			{{ end }}
-		</ul>
+		<article>
+			{{.Content}}
+			<!-- <ul>
+				{{ range .Site.AllPages }}
+					<li>
+						<a href="{{.Permalink}}">{{.Title}}</a>
+					</li>
+				{{ end }}
+			</ul> -->
+		</article>
+		{{ partial "sidebar" . }}
 	</main>
+
 {{ end }}

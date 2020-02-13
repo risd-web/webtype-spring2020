@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	
+	
+	<link rel="stylesheet" href="/webtype-spring2020/css/style.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+	<script src="/webtype-spring2020/js/script.js"></script>
+</head>
+<body>
+	<header>
+	<a href="https://risd-web.github.io/webtype-spring2020/">Web Type</a>
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/webtype-spring2020/webtype-spring2020/lectures/">Lectures</a></li>
+			
+			<li><a href="/webtype-spring2020/webtype-spring2020/notes/">Notes</a></li>
+			
+			<li><a href="/webtype-spring2020/webtype-spring2020/projects/">Projects</a></li>
+			
+			<li><a href="/webtype-spring2020/webtype-spring2020/resources/">Resources</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1></h1>
+			<time>January 1, 0001</time>
+			<p>
+				<p>drafts</p>
+<p><a href="http://artflx.uchicago.edu/images/encyclopedie/V19/plate_19_19_1.jpeg">http://artflx.uchicago.edu/images/encyclopedie/V19/plate_19_19_1.jpeg</a>
+<a href="https://www.ibm.com/ibm/history/ibm100/us/en/icons/selectric/">https://www.ibm.com/ibm/history/ibm100/us/en/icons/selectric/</a>
+<a href="http://www.designhistory.org/Digital_Revolution_pages/EarlyDigType.html">http://www.designhistory.org/Digital_Revolution_pages/EarlyDigType.html</a>
+<a href="http://oldcomputers.net/macintosh.html">http://oldcomputers.net/macintosh.html</a>
+<a href="https://www.emigre.com/Designer/ZuzanaLicko">https://www.emigre.com/Designer/ZuzanaLicko</a>
+<a href="https://en.wikipedia.org/wiki/Verdana#/media/File:VerdanaSpecimen.svg">https://en.wikipedia.org/wiki/Verdana#/media/File:VerdanaSpecimen.svg</a>
+<a href="https://en.wikipedia.org/wiki/Georgia_(typeface)#/media/File:GeorgiaSpecimenAIB.svg">https://en.wikipedia.org/wiki/Georgia_(typeface)#/media/File:GeorgiaSpecimenAIB.svg</a>
+<a href="https://en.wikipedia.org/wiki/Core_fonts_for_the_Web">https://en.wikipedia.org/wiki/Core_fonts_for_the_Web</a>
+<a href="https://www.adobe.com/content/dam/acom/en/devnet/font/pdfs/5091.Design_MM_Fonts.pdf">https://www.adobe.com/content/dam/acom/en/devnet/font/pdfs/5091.Design_MM_Fonts.pdf</a>
+<a href="https://en.wikipedia.org/wiki/Multiple_master_fonts">https://en.wikipedia.org/wiki/Multiple_master_fonts</a>
+<a href="https://en.wikipedia.org/wiki/OpenType">https://en.wikipedia.org/wiki/OpenType</a>
+<a href="https://www.typenetwork.com/brochure/opentype-font-variations/">https://www.typenetwork.com/brochure/opentype-font-variations/</a></p>
+<p><a href="http://fontbureau.typenetwork.com/news/article/jump-in-the-water-is-warm">http://fontbureau.typenetwork.com/news/article/jump-in-the-water-is-warm</a></p>
+<h2 id="advanced-selectors">Advanced Selectors</h2>
+<p>There are many ways to target elements that use the DOM, or the structure of HTML, rather than specific element names, assigned classes or ids.</p>
+<h3 id="relationship-selectors">Relationship selectors</h3>
+<p>Certain selectors can target elements based on how they are nested (parent-child, descendant, and sibling relationships). More on selectors on slide 23.</p>
+<p>Selector
+Description
+Sample Syntax
+child (&gt;)
+matches an element that is a direct child of another
+li&gt;a { }
+descendant ( )
+matches an element that is a descendent of another, not just a direct child
+p a { }
+adjacent sibling selector (+)
+matches only the specified element that immediately follows the former specified element
+h1+p { }
+general sibling selector (~)
+matches the second element only if it is preceded by the first, and both share a common parent
+h1~p { }</p>
+<h3 id="attribute-selectors">Attribute Selectors</h3>
+<p>If you want to select elements based on their attributes, you can use an attribute selector.
+See full list of attribute selectors.
+selector[attribute] {
+property: value;
+}
+Selector
+Description
+existence [attr]</p>
+<p>ex:a[target]
+matches a specific attribute (regardless of value)
+equality [attr=&quot;value&rdquo;]
+ex:a[target=&rdquo;_blank&rdquo;]</p>
+<p>matches a specific attribute with a specific value (needs to match exactly)
+substring [attr*=&quot;value&rdquo;]</p>
+<p>ex:img[alt*=&quot;art&rdquo;]
+matches a specific attribute whose value contains a specific substring (the specified string of letters appears somewhere in the value)
+Note: The difference between  h1#page-title and h1[id=&quot;page-title&rdquo;] is that the latter is more specific; with conflicting rules, the latter will override the former.</p>
+<p>Pseudo-Classes
+A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected.
+The most popular use of pseudo selectors are in links. Browsers typically show text links in blue with an underline text decoration; visited links are purple. To customize this, you can target those elements using pseudo-classes.</p>
+<pre><code>selector:pseudo-class {
+	property: value;
+}
+</code></pre><pre><code>a:link {
+	color: red;
+	text-decoration: underline;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: green;
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+	text-decoration: underline;
+} 
+</code></pre><p>Note: The :hover class can be applied to any element, but will not work in mobile.</p>
+<h2 id="structural-pseudo-classes">Structural Pseudo-classes</h2>
+<p>You can use pseudo selectors to target specific children of parent elements.
+More on pseudo classes.
+A common use is to style alternate rows in a table:</p>
+<pre><code>tr:nth-child(even){
+  background: #EEE;
+}
+</code></pre><p>Selector
+Description
+First child element:first-childli:first-child
+matches the first child element, regardless of type, in a parent element
+Last child element:last-childli:last-child
+matches the last child element, regardless of type, in a parent element
+Nth child element:nth-child( )li:nth-child(2)
+matches a child element in relation to its position within the parent element — accepts numerals, formulas, and keywords
+Table Header
+cell
+cell
+cell
+cell
+cell
+cell
+cell
+cell
+cell
+cell
+cell
+cell</p>
+<h3 id="pseudo-elements">Pseudo-Elements</h3>
+<p>Pseudo-elements allow you to style specific parts of an element or generate content around an element. More on pseudo-elements and things you can do with them.</p>
+<pre><code>p.note::after {
+content: url(images/icons/nemo.png);
+}
+
+p.note::before {
+content: &quot;Note: &quot;;
+font-weight: bold;
+}
+selector::pseudo-element {
+	property: value;
+}
+</code></pre><pre><code>&lt;p class=&quot;note&quot;&gt;This is a paragraph with a “note” class. &lt;/p&gt;			
+</code></pre><div class="output">
+Note: This is a paragraph with a “note” class. 	
+</div>
+<h2 id="css-review">CSS: Review</h2>
+<p>You should now have an understanding of how to</p>
+<ul>
+<li>Write CSS rules</li>
+<li>Use external CSS stylesheets</li>
+<li>Leverage how styles “cascade”</li>
+<li>Target elements with selectors</li>
+<li>Specify color and text properties</li>
+<li>Use the box model</li>
+<li>Target elements with advanced selectors</li>
+<li>Use pseudo-classes and pseudo-elements</li>
+</ul>
+<h2 id="user-experience">“User Experience”</h2>
+<p>###The 5Es Experience Framework, <a href="https://fromkeetra.com/">Keetra Dean Dixon</a>
+While the 5Es is a method for experiential design, it applies well to designing a web experience. It helps us consider:</p>
+<ul>
+<li>How would you like people to move through the experience?</li>
+<li>How can you attract them and keep them engaged?</li>
+</ul>
+<ol>
+<li>Entice</li>
+</ol>
+<ul>
+<li>How are visitors invited to participate?</li>
+<li>How are they invited to the space in the first place?</li>
+</ul>
+<ol start="2">
+<li>Enter</li>
+</ol>
+<ul>
+<li>What is the threshold moment where a visitor transitions from their world to yours?</li>
+</ul>
+<ol start="3">
+<li>Engage</li>
+</ol>
+<ul>
+<li>How do visitors interact? How do they know how to interact? How do they engage with one another?</li>
+</ul>
+<ol start="4">
+<li>Exit</li>
+</ol>
+<ul>
+<li>How do visitors know when they are done? What is the second threshold– the transition back into the real world?</li>
+</ul>
+<ol start="5">
+<li>Extend</li>
+</ol>
+<ul>
+<li>How do guests continue to participate? Is there a take-home or social opportunity?</li>
+</ul>
+<p>Closing the circle</p>
+<ul>
+<li>This cycle can span an entire event, a whole space, or just a single piece of an interaction.</li>
+</ul>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/65248695" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+<blockquote>
+<p>By writing directly into a mechanical form rather than a manuscript (as we’re doing right now) the writer would be working closer to the nature of the multiplied result, and through an increasing awareness and gradual mastery of the form’s new limitations and possibilities *the writing itself would evolve;* the shorter the distance between the raw material of words and their processed output, the more entwined the content and form from the outset. This line of thinking was more famously expounded by Benjamin in his 1936 essay “The Work of Art in the Age of Mechanical Reproduction,” which more broadly argues that an authentic, pertinent art is the result of engagement with the latest technological innovations.</p>
+</blockquote>
+<ul>
+<li>
+<p><a href="http://www.servinglibrary.org/journal/3/letter-and-spirit">Dexter Sinister: LETTER &amp; Spirit</a></p>
+</li>
+<li>
+<p><a href="http://www.servinglibrary.org/journal/3/how-to-do-words-with-things">Bruno Latour: How to do Words with Things</a></p>
+</li>
+<li>
+<p><a href="http://www.servinglibrary.org/journal/1/a-note-on-the-time">Dexster Sinister: A Note on Time</a></p>
+</li>
+</ul>
+<h3 id="remote-vs-local">Remote vs. Local</h3>
+<h3 id="protocols">Protocols</h3>
+<p>Protocols are standardized ways in which information (data &amp; documents) can be passed from one computer to another.</p>
+<ul>
+<li>Email (POP, SMTP, IMAP)</li>
+<li>FTP (File Transfer Protocol)</li>
+<li>IP (Internet Protocol)</li>
+<li>HTTP (HyperText Transfer Protocol)</li>
+</ul>
+<h3 id="hypertext-protocol">Hypertext Protocol</h3>
+<p><code>http://www.mywebsite.com</code></p>
+<ul>
+<li>HTTP is the most common protocol for transferring web content from server to client on the world wide web (www.)</li>
+<li><code>https://</code>  is used for secure connections, whenever information should be encrypted in transit</li>
+<li>URLS often begin with “www” but should not be necessary if the server is properly configured</li>
+<li>The web client, or browser, uses its rendering engine to translate marked up content (such as HTML, XML, image files, etc.) and formatting information (such as CSS, XSL, etc.) to what you see on the screen</li>
+</ul>
+<h3 id="directories">Directories</h3>
+<p>When building a website, it is best to organize your files into appropriate structures by using folders.
+Root	top level folder
+index.html	main homepage
+File names: best practice to use lowercase, numbers, hyphens ( - ), underscores ( _ ) and no spaces
+Establish a consistent naming convention</p>
+<h3 id="traversing-paths">Traversing Paths</h3>
+<p>You can reach a location in 3 different ways:
+Absolute Path: exact location ( http://www… )
+Relative Path: directions relative to where you currently are
+(foldername/) 	“down” or “forward” a folder
+( ../) 	“up” or “back” a folder
+Root relative Path: directions relative to your home
+(/path) path from root folder. This will only work properly if you have a local server setup.</p>
+<p>Stay organized! Use folders and appropriate file names
+Avoid using spaces or special characters in file and folder names. Easiest to just use lowercase.
+Make sure you understand where your files are located within your computer
+Save and close out of files first, before moving them.</p>
+<h3 id="ip-internet-protocol--dns-domain-name-server">IP (Internet Protocol) &amp; DNS (Domain Name Server)</h3>
+<ul>
+<li>
+<p>198.7.247.225
+IP : Internet Protocol is a machine-readable specific identification number assigned to a device (computer, printer, etc) within a particular computer network.</p>
+</li>
+<li>
+<p>risd.edu
+DNS : The Domain Name Server provides the human-readable version of the IP, mapping domain names to IP addresses.</p>
+</li>
+</ul>
+<h3 id="url-uniform-resource-locator">URL (Uniform Resource Locator)</h3>
+<p><code>https://github.com/risd-web/webtype-spring2020</code></p>
+<p>Webpage can be identified either by  URL (Uniform Resource Locator), containing the following:</p>
+<ul>
+<li>An indication of the communication protocol, such as HTTP or HTTPS</li>
+<li>The domain name of the resource. There may be subdomains preceding the TLD (i.e. “.com” or top-level domain.)
+The port number, indicating over which port the connection to the server should be attempted. By default this is 80 and is omitted in the URL (<a href="http://risdweb17.motsuka.com">http://risdweb17.motsuka.com</a>:80/resources/)
+Any additional locating information, such as the path of the requested file, or any query parameters</li>
+</ul>
+<h3 id="subdomains">Subdomains</h3>
+<p>Subdomains are extensions of the main domain. Once you’ve registered and purchased a domain name, it is usually free to add additional subdomain addresses. This is useful when you’d like to create multiple websites under one domain.
+risd.gd, for example, uses subdomains for its more specific websites</p>
+<ul>
+<li><a href="http://pointerpointer.com/">Pointer Pointer</a></li>
+<li><a href="http://mousepointer.name/">Mouse Pointer</a></li>
+<li><a href="http://okikata.org/">Akihiko Taniguchi</a></li>
+<li><a href="http://booktwo.org/notebook/welcome-js/">Welcome.js</a></li>
+</ul>
+<h1 id="projects">Projects</h1>
+<h2 id="compilation">Compilation</h2>
+<ul>
+<li>Compile all of your work into a single website. These should all be linked from an index.html file living at your repository root.</li>
+<li>Be sure to organize your files into appropriate folders (avoid spaces and capitals)</li>
+<li>Be consistent in your naming</li>
+<li>Every Project and Exercise should be in their own respective folder. For online exercises, simply include a screenshot image in the folder. Include any process images (sketches, etc.) in a process folder, but please do not include raw psd files. For section 2, be sure to include a link to your in-class presentation as well. Below is a sample folder structure:</li>
+</ul>
+<pre><code>repository-name(root)
+├── index.html
+├── style.css
+├── script.js
+│
+├── projects
+│   ├── project1
+│   │    ├── index.html
+│   │    ├── style.css
+│   │    └── images
+│   │           ├── img1.jpg
+│   │           ├── img2.jpg
+│   │           └── img3.jpg
+│   ├──project2
+│   │    ├── index.html
+│   │    └── style.css
+│   .
+│   .
+│   .
+├── exercises
+│   ├── exercise1
+│   │    ├── index.html
+│   │
+│   ├──exercise2
+│   │    ├── index.html
+│   │    └── style.css
+│   .
+│   .
+│   .
+├── presentation
+│   .
+│   .
+│   .
+└── process
+    .
+    .
+    .
+</code></pre><h2 id="project-4-final">Project 4: Final</h2>
+<blockquote>
+<p>Determine your own final project. You may begin a new project from scratch, or choose to expand upon a previous project or exercise. Your decisions in how to organize the content, format it, navigate through it, and interact with it should carefully reflect your concept.</p>
+</blockquote>
+<ol>
+<li>Plan (Sketch a sitemap, categorize your content)</li>
+<li>Design (Consider your layout, typography, and palette)</li>
+<li>Develop (Leverage your combined knowledge of HTML, CSS and JavaScript)</li>
+<li>Test your website (Design the responsive behavior of the site and test across devices, including phones)</li>
+</ol>
+<h2 id="project-3-a-record">Project 3: A Record</h2>
+<blockquote>
+<p>Choose a span of time to represent as a multi-page website. This might be your personal history (every year of your life), your activities over a 7 day week, or a 24-hour period.</p>
+</blockquote>
+<ul>
+<li>Gather data and contents (imagery, etc.) Consider different forms of media.</li>
+<li>Determine a navigational system suitable for your framework: is it linear or modular? How do you build a sequence?</li>
+<li>How do you express the passage or experience of time? What is the website about?</li>
+<li>Pay close attention to the user experience. What information orients / disorients?</li>
+<li>Incorporate at least one interactive element using jQuery / JavaScript.</li>
+<li>Due <strong>Tuesday January 23</strong></li>
+</ul>
+<h2 id="project-2-dedesign-systemsj">Project 2: (De)design Systemsj</h2>
+<blockquote>
+<p>Choose and study a “default” of the web and either enhance it or subvert it. Whether you are subverting or enhancing the behavior, be deliberate; the site should demonstrate self-consciousness in its mode of construction.</p>
+</blockquote>
+<ul>
+<li>Pick a system, convention, or trend of the web (either past or present.) Study its iterations.</li>
+<li>What is / is not communicated with this? What audiences does it assume? What systems does it support / not support?</li>
+<li>Determine an approach to illustrate your findings.</li>
+<li>Develop your site in HTML &amp; CSS. How does the visual and interactive language support the content?</li>
+<li>Due <strong>Wednesday January 17.</strong></li>
+</ul>
+<h2 id="project-1-styling-lyrics">Project 1: Styling Lyrics</h2>
+<blockquote>
+<p>Choose a text and use web technologies as an expressive platform for it using HTML &amp; CSS</p>
+</blockquote>
+<ul>
+<li>Pick an expressive piece of text: song lyrics, a poem, a manifesto, etc.</li>
+<li>Combine with imagery and sketch out a design for this text.</li>
+<li>Translate this sketch into HTML &amp; CSS</li>
+<li>Reference on designing for the screen: <a href="https://www.frankchimero.com/writing/what-screens-want/">What Screens Want</a></li>
+<li>Due <strong>Tuesday January 9.</strong></li>
+</ul>
+
+			</p>
+			
+		</article>
+		<aside>
+	
+</aside>
+	</main>
+
+	
+</body>
+</html>

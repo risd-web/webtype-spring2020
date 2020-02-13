@@ -1,151 +1,102 @@
 ---
-title: "Links"
+title: "Various types of sites"
 date: 2020-02-10
-draft: true
 ---
 
+Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than showcase exemplary samples of content or aesthetics.
 
-## Type Collections
-* [Synoptic Office: Chinese Type Archive](https://chinesetypearchive.com/#/ )
+## Reading collections
+- [The Avery Review](http://averyreview.com/)
+- [HTML Output](http://htmloutput.risd.gd/)
+- [Critical Atlas of the Internet](http://internet-atlas.net/)
+- [Justin McGuirk](http://justinmcguirk.com/)
+- [Poetic Computation](http://poeticcomputation.info/)
+- [Untold Stories](http://www.untold-stories.net/)
+- [Wendy36](http://berlin.rietveldacademie.nl/wendy36/index.html)
 
-## Reading
-* [The Avery Review](http://averyreview.com/) (Eric Hu)
-* [HTML Output](http://htmloutput.risd.gd/)
-* [Critical Atlas of the Internet](http://internet-atlas.net/) (Louise Drulhe)
+## Typographic web designs
+- [Illuminating Radioactivity](https://illuminating-radioactivity.com/)
+- [XXXI](https://www.xxxi.nyc/)
+- [XXXI Intro to Coding Workshop](https://www.xxxi.nyc/intro-to-coding/)
+- [Nathan Tokyo](https://nathan.tokyo/)
+- [Z-Bau](http://z-bau.com/)
+- [Typeforce](http://typeforce.com/8/)
+- [Wattis Institute](http://www.wattis.org/)
+- [Shiraz Abdullahi Gallab: Headgear](http://headgear.pw/)
+- [Synoptic Office: Chinese Type Archive](https://chinesetypearchive.com/#/ )
+- [Russian Type journal](http://2017.typejournal.ru/)
+- [Dowse Museum](http://dowse.org.nz/)
+- [Stedlijk](https://www.stedelijk.nl/en)
+- [Strelka Alumni Ball](https://alumniball.strelka.com/)
+- [Het Nieuwe Institut](https://hetnieuweinstituut.nl/)
+- [PACKET](http://packet-biweekly.com/)
+- [Ryder Ripps](http://ryder-ripps.com/)
 
-
-* [Triple Canopy](https://www.canopycanopycanopy.com/)
-* [Justin McGuirk](http://justinmcguirk.com/) (ProjectProjects)
-* [The Creative Independent](https://thecreativeindependent.com/)
-
-* [Poetic Computation](http://poeticcomputation.info/) (Taeyoon Choi)
-* [Moving/Image](http://movingimage.kr/)
-* [Untold Stories](http://www.untold-stories.net/) (Ruben Pater)
-* [YES YES YES](http://www.yesalternativepress.com/)
-* [Z-Bau](http://z-bau.com/)
-
-* [PACKET](http://packet-biweekly.com/)
-* [Trans Books](http://transbooks.center/)
-
-* [Zac's Haunted House](http://www.kiddiepunk.com/zacshauntedhouse/) (Dennis Cooper)
-* [Sprawl](http://sprawl.space/) (Metahaven)
-
-## Portfolio / Project Collection Sites
-* [Robby Leonardi](http://www.rleonardi.com/interactive-resume/)
-* [Misplaced](http://misplaced.design/)
-* [Wendy36](http://berlin.rietveldacademie.nl/wendy36/index.html)
-* [Petra Cortright](http://www.petracortright.com/)
-* [Claudia Doms](http://claudiadoms.com/)
-* [Tom Sansome](https://img.sanso.me/)
-* [Claudia Maté](http://claudiamate.com/)
-* [Jana Reddemann](http://janareddemann.de)
-* [Edgar Schmitz](http://edgarschmitz.com/)
-
-* [Moving Poster](http://www.themovingposter.com/)
-* [Ryder Ripps](http://ryder-ripps.com/)
-
-## Audio
-* [The Johnny Cash Project](http://www.thejohnnycashproject.com/) (Chris Milk, Aaron Koblin)
-* [Secousse Radio](http://secousse.tv/) 
-* [Gass Records](https://gassrecords.com/)
-* [Radio Garden](http://radio.garden/)
-* [Nosaj Thing](http://nosajthing.com/)
-* [Laurel Halo](http://www.laurelhalo.com/)
-* [Webermichelson](http://webermichelson.com/) (S. Michelson)
-* [I'm not even here](http://imnotevenhere.com/) (Max Rieger)
-* [Truth and Quantity](http://truth-and-quantity.com/) (Gregor Hochmuth)
-
-## Type on the Web
-* [Babak Radboy](http://www.babakradboy.com/)
-* [Untitled Sans](http://untitledsans.com/)
-* [Fem Type](http://www.femtype.com/) (Medeina Musteikyte)
-* [CIM:Interfaces](http://interfaces.xyz/) ()
-* [Typeforce](http://typeforce.com/8/)
-* [Wattis Institute](http://www.wattis.org/)
-* [Greta Thorkels](http://gretathorkels.net/index.html)
-* [B-sides Festival](http://festival.b-sides.ch/)
-
-## The vernacular Web
-* [DISRUPT THE(M)ALL](https://the-m-all.com/en)
-
-* [Camerons World](http://www.cameronsworld.net/) (Cameron Askin)
-* [Space Jam](https://www.warnerbros.com/archive/spacejam/movie/jam.htm)
-
-
-## Studios
-* [OkFocus](http://okfoc.us/)
-* [Linked by Air](http://new.linkedbyair.net/Work)
-* [Rumors Studio](http://rumors-studio.com/)
-* [Studio Moniker](http://studiomoniker.com/projects)
-* [Project Projects](http://www.projectprojects.com/projects/types/web)
-* [Offshore Studio](http://www.offshorestudio.ch/)
-
-## Web Artists
-* [Olia Lialina](http://art.teleportacia.org/)
-* [Rafael Rozendaal](http://www.newrafael.com/)
-* [Jodi.org](www.jodi.org)
-
-## Websites that are very website
-* [Clickclickclick](https://clickclickclick.click/)
-* [Other People Also Bought](http://otherpeoplealsobought.com/) (Jonas Lund & Sebastian Schmeig)
-* (http://snake-lake-awake-cake-drake-rake-shake.com/)
-* [Data Patterns](http://www.datapatterns.info/)
-* [Dither Studies](http://danieltemkin.com/DitherStudies/) (Daniel Temkin)
-* [Just Put It On a Pedestal](http://archive.rhizome.org/artbase/53270/) (Anthony Antonellis)
-* [Oliver Laric](http://oliverlaric.com/pixel/oliverlaric.htm)
-* [Web Residencies](http://web-residencies.zkm.de/)
-* [Interface Experience](http://interface-experience.org/)
-* [Pointer Pointer](http://pointerpointer.com/)
-* [Mouse Pointer](http://mousepointer.name/)
-* [Akihiko Taniguchi](http://okikata.org/)
-* [Welcome.js](http://booktwo.org/notebook/welcome-js/) (James Bridle)
-* (http://motherfuckingwebsite.com/)
-
-* [Dowse Museum](http://dowse.org.nz/)
-* [Moonsick Gang](http://moonsickgang.com)
-
-
-## Interactive Text
-* [place a stone](https://studiomoniker.com/projects/place-a-stone)
-* [clickclickclick](https://clickclickclick.click/#2d88ac297e2ca8bbc874b8444048aca1)
-* [2013 Lisbon Architecture Triennale](https://www.zak.group/projects/close-closer-website)
-
+## Sites for Typefaces
+- [Fem Type](http://www.femtype.com/)
+- [Untitled Sans](http://untitledsans.com/)
+- [Google Fonts + Chinese](https://googlefonts.github.io/chinese/#tc-About-20200212)
+- [Google Fonts + Korean](https://googlefonts.github.io/korean/)
+- [Temporary State](http://typefaces.temporarystate.net/preview/Manege)
+- [Alfatype](http://www.alfatypefonts.com/)
+- [Gimlet](https://djr.com/gimlet-xray/)
+- [IBM Plex](https://www.ibm.com/plex/)
+- [Recursive](https://www.recursive.design/)
 
 ## Type as Form
-* [Sweethearts](http://www.sweetheartsweetheart.com/index.html)
-* [Elswewhere](http://elsewhere.space/1/)
-* [Monomono studio](http://www.monomono.studio/)
-* [PAL](http://pal-tv.de/)
+- [Sweethearts](http://www.sweetheartsweetheart.com/index.html)
+- [Elswewhere](http://elsewhere.space/1/)
+- [Data Patterns](http://www.datapatterns.info/)
+- [Monomono studio](http://www.monomono.studio/)
+- [YES YES YES](http://www.yesalternativepress.com/)
+- [Moonsick Gang](http://moonsickgang.com)
+
+## Interactive Text
+- [place a stone](https://studiomoniker.com/projects/place-a-stone)
+- [clickclickclick](https://clickclickclick.click/)
+- [2013 Lisbon Architecture Triennale](https://www.zak.group/projects/close-closer-website)
 
 ## Generators
-* [Space Type Generator](https://spacetypegenerator.com/)
-* [Letters from Sweden: Funkis ABC](https://yourfunkis.se/)
-* [Metaflop](https://www.metaflop.com/modulator)
-* [Universal Sans](https://universalsans.com/#0.10.20.11111111111.450)
+- [Hello from Here](https://hellofromhe.re/)
+- [Space Type Generator](https://spacetypegenerator.com/)
+- [Letters from Sweden: Funkis ABC](https://yourfunkis.se/)
+- [Metaflop](https://www.metaflop.com/modulator)
+- [Universal Sans](https://universalsans.com/)
 
-## Foundry Websites
-* [Commercial Type Showcase](http://showcase.commercialtype.com/)
-* [Temporary State](http://typefaces.temporarystate.net/preview/Manege)
-* [Alfatype](http://www.alfatypefonts.com/)
-
-
-## Open Source
-* [Open Foundry](https://open-foundry.com/fonts/bagnard_sans_regular)
-* [Future Fonts](https://www.futurefonts.xyz/)
-* [Use & Modify](http://usemodify.com/)
-* [Libre Fonts by Womxn](https://www.design-research.be/by-womxn/)
-* [OSP Kitchen](http://osp.kitchen/)
+## Type + Audio
+- [Secousse Radio](http://secousse.tv/) 
+- [Laurel Halo](http://www.laurelhalo.com/)
+- [Truth and Quantity](http://truth-and-quantity.com/)
+- [Goertek](https://www.kontrapunkt.com/work/goertek/)
+- [Phase](https://www.eliashanzer.com/phase/)
 
 
-## Readings
+## Online Publications
+- [Rhizome](https://rhizome.org/)
+- [Triple Canopy](https://www.canopycanopycanopy.com/)
+- [Triple Canopy: The Binder and the Server](https://artjournal.collegeart.org/?p=2644)
+- [E-flux](https://www.e-flux.com/)
+- [The New Inquiry](https://thenewinquiry.com/)
+- [Rachel Rosenfelt: The New Inquiry](https://www.are.na/blog/rachel-rosenfelt)
+- [The Intercept](https://theintercept.com/)
+- [The Creative Independent](https://thecreativeindependent.com/)
+- [Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit](http://linkedbyair.net/balkin.pdf)
 
-* [What is Code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
-* [Olia Lialina: Vernacular Web](http://art.teleportacia.org/observation/vernacular/)
-* [Jill Lepore: The CobWeb](https://www.newyorker.com/magazine/2015/01/26/cobweb)
+## Web Design Studios
+- [Linked by Air](http://new.linkedbyair.net/Work)
+- [Rumors Studio](http://rumors-studio.com/)
+- [Studio Moniker](http://studiomoniker.com/projects)
+- [Project Projects](http://www.projectprojects.com/projects/types/web)
 
-* [Parametric and Variable Typefaces](https://eyeondesign.aiga.org/parametric-and-variable-typeface-systems-shape-shifters-for-letterforms/)
-* [A brief overview of developments in digital type design](https://medium.com/@fpeulrich/a-brief-overview-of-developments-in-digital-type-design-561d9e63a122)
+## General Website Collections
+- [Hoverstates](https://www.hoverstat.es/)
+- [Hallo Internet](http://hallointer.net/)
+- [Brutalist Websites](https://brutalistwebsites.com/)
+- [Readymag](https://2019.readymag.com/intro/)
 
-* [Typotheque: Typeface as Programme](https://www.typotheque.com/articles/typeface_as_programme)
+## Classics
+- [Rafael Rozendaal](http://www.newrafael.com/)
+- [Jodi.org](www.jodi.org)
+- [Cameron’s World](https://www.cameronsworld.net/)
+- [My Boyfriend Came Back From the War](http://www.teleportacia.org/war/)
 
-*[Sometimes it looks like a duck, sometimes it looks like a rabbit](http://linkedbyair.net/balkin.pdf)

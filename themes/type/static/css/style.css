@@ -8,9 +8,10 @@ body{
 header{
 	position: sticky;
 	z-index: 100;
-	/* background: white; */
 	top: 0;
 	margin-left: 40vw;
+	padding-left: 1.5em;
+	background: white;
 }
 .site-title, nav{
 	display: inline-block;
@@ -24,11 +25,13 @@ nav ul li{
 main{
 	padding: 1.5em;
 	margin-left: 40vw; 
+
 }
 
 article{
 	margin-right: 1em;
 	max-width: 40em;
+	position: relative;
 }
 
 aside{
@@ -49,12 +52,40 @@ aside{
 a:hover{
 	color: rgb(255,0,0);
 }*/
+pre {
+	background: #e8e8e8;
+	padding: 8px;
+}
+code{
+	font-size: 1.15em;
+	background: #e8e8e8;
+}
+
+
+.highlight{
+	background: #e8e8e8;
+	padding: 8px 1em;
+}
 	
+table th{
+	text-align: left;
+}
+th, td{
+	padding-right: 1em;
+	box-sizing: border-box;
+}
 .element{
 	position: absolute;
-/*	color: #005021;*/
-	font-size: 2.5em;
-	height: 30px;
+	color: rgb(0,0,255);
+	font-weight: bold;
+    background: white;
+    padding: 8px;
+    line-height: 1;
+    box-shadow: inset 2px 1px 3px rgba(0,0,255,.8);
+}
+
+.box{
+	border: 1px solid rgba(0,0,255);
 }
 
 .link-preview {
@@ -65,7 +96,6 @@ a:hover{
 .link-preview figcaption{
 	padding: 5px;
 }
-
 
 .link-preview iframe{	
 	padding: 5px;

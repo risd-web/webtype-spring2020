@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Web Type</title>
+    <link>https://risd-web.github.io/webtype-spring2020/notes/</link>
+    <description>Recent content in Notes on Web Type</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://risd-web.github.io/webtype-spring2020/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://risd-web.github.io/webtype-spring2020/notes/draft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/notes/draft/</guid>
+      <description>drafts
+http://artflx.uchicago.edu/images/encyclopedie/V19/plate_19_19_1.jpeg https://www.ibm.com/ibm/history/ibm100/us/en/icons/selectric/ http://www.designhistory.org/Digital_Revolution_pages/EarlyDigType.html http://oldcomputers.net/macintosh.html https://www.emigre.com/Designer/ZuzanaLicko https://en.wikipedia.org/wiki/Verdana#/media/File:VerdanaSpecimen.svg https://en.wikipedia.org/wiki/Georgia_(typeface)#/media/File:GeorgiaSpecimenAIB.svg https://en.wikipedia.org/wiki/Core_fonts_for_the_Web https://www.adobe.com/content/dam/acom/en/devnet/font/pdfs/5091.Design_MM_Fonts.pdf https://en.wikipedia.org/wiki/Multiple_master_fonts https://en.wikipedia.org/wiki/OpenType https://www.typenetwork.com/brochure/opentype-font-variations/
+http://fontbureau.typenetwork.com/news/article/jump-in-the-water-is-warm
+Advanced Selectors There are many ways to target elements that use the DOM, or the structure of HTML, rather than specific element names, assigned classes or ids.
+Relationship selectors Certain selectors can target elements based on how they are nested (parent-child, descendant, and sibling relationships). More on selectors on slide 23.
+Selector Description Sample Syntax child (&amp;gt;) matches an element that is a direct child of another li&amp;gt;a { } descendant ( ) matches an element that is a descendent of another, not just a direct child p a { } adjacent sibling selector (+) matches only the specified element that immediately follows the former specified element h1+p { } general sibling selector (~) matches the second element only if it is preceded by the first, and both share a common parent h1~p { }</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://risd-web.github.io/webtype-spring2020/notes/notes1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/notes/notes1/</guid>
+      <description>To dos:  review syllabus setup Github and student repositories  Lecture:  lecture: hyperlink lecture: HTML file organization  In-class exercise:  Hello World Custom typeface  </description>
+    </item>
+    
+  </channel>
+</rss>

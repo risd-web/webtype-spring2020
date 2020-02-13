@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Web Type</title>
+    <link>https://risd-web.github.io/webtype-spring2020/resources/</link>
+    <description>Recent content in Resources on Web Type</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://risd-web.github.io/webtype-spring2020/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Common Errors</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/common-errors/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/common-errors/</guid>
+      <description>Common errors to watch out for when troubleshooting:
+HTML  Are your HTML elements wrapped in open and close tags? Are your HTML elements properly nested? Do your attribute values have quotation marks around them? Are your directory paths correct? Double check your link syntax.  CSS  Do you have opening and closing brackets? Does your property and value pairs have colons in between them? Do you have a semicolon at the end of each declaration?</description>
+    </item>
+    
+    <item>
+      <title>Type Help</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/type-help/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/type-help/</guid>
+      <description>Below are links to some resources for typefaces and typography.
+Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should you self-host Google Fonts?    Open Source  Open Foundry Future Fonts Use &amp;amp; Modify Libre Fonts by Womxn OSP Kitchen League of Movable Type Font Squirrel and webfont generator  Typography Reference  Typewolf Ellen Lupton&amp;rsquo;s Thinking with Type  Foundry Websites  Occupant Fonts Commercial Type Showcase Colophon Foundry Klim Type Grilli Type Ohno Type Sharp Type DJR Frere-Jones Type  Type technology tools and reference  Using @font-face typetura.</description>
+    </item>
+    
+    <item>
+      <title>Various types of sites</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/links/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/links/</guid>
+      <description>Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than showcase exemplary samples of content or aesthetics.
+Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Google Fonts + Chinese Google Fonts + Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type + Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
+    </item>
+    
+    <item>
+      <title>Web Help</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/web-help/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/web-help/</guid>
+      <description>Below are links to some resources for coding.
+Documentation  Mozilla Developer Network Devdocs  Guides  What is a URL? Folder Poetry Dealing with files What goes in your head Why Coding Style Matters on Smashing Magazine (with useful list of validators) Writing your Best Code: HTML/CSS coding best practices and list of resources Google developer documentation style guide Sublime Text unofficial documentation &amp;amp; keyboard shortcuts  HTML  About Semantic HTML elements Overview of newer HTML tags Mix Blend Mode Nth-Child Paragraph Formatting on the Web Character sets: HTML Entities and Character Codes  CSS  CSS inheritance Shay Howe&amp;rsquo;s Guides CSS Basics Codecademy A guide to centering things Layout tutorials CSS Tricks Simple Grid Approach Articles on A List Apart: Content-out Layout | The Infinite Grid | Fluid Grids Using Style Tiles  Media Queries &amp;amp; Responsive design  Responsive Web Design Responsive Design Media Queries 7 Habits of Highly Effective Media Queries mediaqueri.</description>
+    </item>
+    
+  </channel>
+</rss>

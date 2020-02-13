@@ -3,28 +3,11 @@
 		<article>
 			<h1>{{ .Title }}</h1>
 			<time>{{ .Date.Format "January 2, 2006" }}</time>
-			<div>
+			<p>
 				{{ .Content }}
-			</div>
-			{{ with .Params.tags }}
-			<div>
-				<ul id="tags">
-					{{ range . }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			{{ end }}
+			</p>
 			
 		</article>
-		<aside>
-			{{ range .Params.reference }}
-				<figure class="link-preview">
-					 <iframe class="preview" type="text/html" src="{{.link}}" frameborder="0">
-			 		</iframe>
-				    <figcaption><a href="{{.link}}">{{.title}}</a></figcaption>
-				</figure>
-			{{ end }}
-		</aside>
+		{{ partial "sidebar" . }}
 	</main>
 {{ end }}

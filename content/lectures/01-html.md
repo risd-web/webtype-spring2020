@@ -1,152 +1,179 @@
 ---
 title: "HTML"
 date: 2020-02-10
-draft: true
+summary: "Semantic markup"
 reference:
- - title: "The World Wide Web Project"
-   link: "http://info.cern.ch/hypertext/WWW/TheProject.html"
- - title: "Submarine Cable Map"
-   link: "https://www.submarinecablemap.com/"
- - title: "Trevor Paglen: Undersea Cables"
-   link: "https://www.tba21.org/journals/article/trevorpaglen"
- - title: "Jodi: IDN"
-   link: "http://xn--9l7a.com/"
- - title: "Zuzana Licko"
-   link: "https://www.emigre.com/Designer/ZuzanaLicko"
- - title: "What is Code"
-   link: "https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/"
- - title: "Jörg Piringer: Unicode"
-   link: "https://vimeo.com/36132600"
+ - title: "Embroidery Trouble Shooting Page"
+   link: "https://web.archive.org/web/20060314044545/http://www.sewingandembroiderywarehouse.com/embtrb.htm"
 ---
 
 
-Semantic Markup
-HTML
-
-HTML
 HTML is the language of web pages interpreted by web browsers.
+- HTML = **H**yper**T**ext **M**arkup **L**anguage
+- HTML defines web content by organizing text comprised of a series of nested tags
+- HTML can be created with any simple text editor.
 
-HTML = 
+An `.html` file has 2 forms:
+1. As code, in your text editor.
+2. As an webpage, in your browser.
 
-HyperText Markup Language
-HTML defines web content by organizing text
-Comprised of a series of nested tags
-HTML can be created with any simple text editor.
+
+### HTML Tag
+
+Tags are used to mark-up content in HTML. It is always between two angled brackets.
+
 `<p>`
-Left-Angle Bracket(Less-than Sign)
-Right-Angle Bracket(More-than Sign)
-Character
 
-Semantic Markup
-Semantic: relating to meaning in language or logic 
-Semantic markup establishes the hierarchy and structure of information
-heading
-paragraph
-list
+### Anatomy
+- Left-Angle Bracket `<`
+- Tag name `p`
+- Right-Angle Bracket `>`
 
-An HTML page
-browser view
-text editor view
+### HTML Element
 
-Viewing the Source Code
-You can see the HTML and structure of any webpage by right-clicking and selecting View Page Source or Inspect in your browser.
-View source (⌘+Option+U) displays the original source file (usually html file) that is rendered in the browser.
-Inspect (⌘+Option+I or ⌘+Shift+C) displays the HTML structure that the browser determined from the source file. This is often an easier tool to use, as the semantic structure is clearer with the collapsed tags. You can also hover over elements to see what they correspond to on your screen.
+All content is surrounded  between opening and closing tags. A closing tag is indicated with a forward slash `/`. Most forms of markup require both. ([Here’s](https://web.archive.org/web/20060314044545/http://www.sewingandembroiderywarehouse.com/embtrb.htm) what happens when you don’t close tags.)
 
-HTML Tags
-Tags are always between two angle brackets, used to mark-up content. 
-All content is surrounded  between opening and closing tags. A closing tag is indicated with a forward slash “/”. Here’s what happens when you don’t close tags.
+`<p>lorem ipsum ...</p>`
+
+`<h1>headline</h1>`
+
+### Anatomy
+- opening tag `<h1>`
+- content `headline` — this is the actual text that will display
+- closing tag `</h1>`
 
 
+## Semantic Markup
+- Semantic: relating to meaning in language or logic 
+Semantic markup establishes the hierarchy and structure of information. The latest version of html, html5, introduced several new elements (among other things) to improve how precisely a tag can describe the content it contains.
 
-```<h1>headline</h1>```
+※ Clicking around on this site, you might notice that you’ll see the underlying elements. But the best way to see this is to open up the Inspector. 
+
+- headings `h1`, `h2`, `h3`, `h4`, `h5`, `h6`
+- paragraph `p`
+- lists `ul`, `ol`, `dl`
+
+You can see the HTML and structure of any webpage by opening your Inspector tool on your browser. 
+- Inspect (⌘+Option+I or ⌘+Shift+C) displays the HTML structure and styles that the browser determined from the source file. You can also hover over elements to see what they correspond to on your screen. ** The inspector is your best tool when developing websites because it bridges the gap between your intentions with your code + how the browser renders it. **
 
 
-
-opening tag
-closing tag
-HTML element = content + markup
-content
-
-Nested structures
+## Nested structures
 An element nested within another is called a child element. Conversely, an element containing another is called its parent. A child element must be closed before its parent element. 
+
 This is incorrect syntax:
 ```
-<p>All these must be eaten <em>today.</p></em>
-<ul>	<li>Croissant</ul>
 <h2>French Bakery</h2>
-<p>All goods must be eaten <em>today</em>.</p>
+<p>
+	All these must be eaten <em>today.
+</p></em>
+
+<ul>
+	<li>Baguettes	
+	<li>Croissants
+	<li>Pastries</li>
+</ul>
+```
+
+These are examples of incorrect syntax:
+```
+<h2>French Bakery</h2>
+<p>
+	All goods must be eaten <em>today</em>.
+</p>
 <ul>
 	<li>Baguettes</li>	
-<li>Pastries
+	<li>Croissants</li>
+	<li>Pastries</li>
 <ul>
-	<li>Croissant</li>	
-	<li>Mille-feuille</li>	
-	<li>Palmier</li>	
-	<li>Profiterole</li>	
-	</ul>	
-	</li>	
-	<li>Tarts</li>	
-	</ul> 	
-	missing </li>	
-	should be before </p>
 ```
 
 All HTML elements flow from the top to the bottom.
-Inline vs. Block elements
-An inline element continues along the same line as its neighboring elements and occupies as much space (width) as its content. i.e.: <a>, <b>, <em>, <img>, and <span>.
-A block element always appears on a new line; by default,  it’s as wide as its parent (containing) elements i.e.<section>,<article>, <h1>, <p>, <ul>, <li>, and <div>.
-
-Elements and Attributes
-```<a href="index.html">home</a>```
-Attributes provide additional information about the contents of an element
-appear with the opening tag of an element
-consist a name and a value, separated by an equals sign
-values must be wrapped in quotation marks
+Any whitespace (tabs or spaces) within the HTML file will have no effect on the rendered markdown; rather, it is a tool for writing readable code.
+Nested elements should be kept tabbed for readability: it will help you see where the opening and closing tags of elements.
 
 
-attribute name
-attribute value
-opening tag
+## Inline vs. Block elements
+There are two primary display formats for elements.
 
-Links
+An **inline element** continues along the same line as its neighboring elements and occupies as much space (width) as its content. i.e.: `<a>`, `<b>`, `<em>`, `<img>`, and `<span>`.
+
+A **block element** always appears on a new line; by default,  it’s as wide as its parent (containing) elements i.e.`<section>`,`<article>`, `<h1>`, `<p>`, `<ul>`, `<li>`, and `<div>`.
+
+
+## Elements and Attributes
+
+Attributes provide additional information about the contents of an element appear with the opening tag of an element. They consist of an attribute name and a value. Each element type has appropriate attributes. 
+
+`<a href="index.html">home</a>`
+
+### Anatomy
+- opening tag `<a` (in this case, the anchor tag)
+- attribute name `href` (the location / path to where the link takes you)
+- equals sign `=`
+- attribute value `"index.html"` 
+   - values must be wrapped in quotation marks
+- content `home` (the text that the user clicks on)
+
+## Links
+
+`<a href="https://www.google.com/">Google</a>`
+
 Use it to link to:
-```Local / Relative links: Other pages in your site <a href="about.html">learn more</a>```
-```Anchor links: Other locations within the same webpage <a href="#up">go back up</a>```
-```Absolute links: Other webpages outside your site <a href="https://www.google.com/">search ```stuff</a>
-```Any file for users to download <a href="docs/resume.pdf">view a PDF</a>```
-```<a href="https://www.google.com/">Google</a>```
-the location / path to where the link takes you
-tag for links
-the text that the user clicks on (the link text)
 
-A list of common HTML elements
-Basic elements
-```<html> ... </html>```
+**Local / Relative links**: Other pages in your site
+`<a href="about.html">learn more</a>`
 
-Document metadata
-```<head> ... </head>```
-```<title> ... </title>```
+**Anchor links**: Other locations within the same webpage 
+`<a href="#up">go back up</a>`
 
-Content sectioning
-```<header> ... </header>```
-```<nav> ... </nav>```
-```<section> ... </section>```
-```<footer> ... </footer>```
-```<h1> ... </h1>```
-```<h2> ... </h2>```
+**Absolute links**: Other webpages outside your site 
+`<a href="https://www.google.com/">search stuff</a>`
 
-Consult the Mozilla Developer Network for a list of common elements
-* these elements are self-closing and do not have opening/closing tag pairs. You may see them with or without the /
-Text content
-```<ul> ... </ul>```
-```<li> ... </li>```
-```<p> ... </p>```
-<br />*
+**Download links**: Any non-html file for users to download
+`<a href="docs/resume.pdf">view a PDF</a>`
 
-Flow content
-<img />*
 
-Inline text semantics
-```<em> ... </em>```
-```<strong> ... </strong> ```
+##  A list of common HTML elements
+
+### Basic elements
+`<html> ... </html>`
+
+### Document metadata
+`<head> ... </head>`
+
+`<title> ... </title>`
+
+### Content sectioning
+`<header> ... </header>`
+
+`<nav> ... </nav>`
+
+`<section> ... </section>`
+
+`<footer> ... </footer>`
+
+`<h1> ... </h1>`
+
+`<h2> ... </h2>`
+
+### Text content
+`<ul> ... </ul>`
+
+`<li> ... </li>`
+
+`<p> ... </p>`
+
+`<br /`*
+
+### Flow content
+`<img />`*
+
+### Inline text semantics
+`<em> ... </em>`
+
+`<strong> ... </strong> `
+
+\* these elements are self-closing and do not have opening/closing tag pairs. You may see them with or without the `/`
+
+[Read more](https://devdocs.io/html/)
+
