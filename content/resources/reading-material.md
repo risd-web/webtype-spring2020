@@ -5,6 +5,7 @@ draft: true
 ---
 
 
+
 ## Artist Websites
 > Aside from those working directly on digital culture – creating websites, apps, and videos meant to be experienced on a computer or mobile device – few artists today think about their websites as exhibition platforms, when in fact an artist’s website allows for an inordinate amount of freedom and experimentation to present that work to its best advantage to a wide audience. It is also a rare space in which artists can control the way their work is presented. *—Orit Gat*
 - [Orit Gat: Scroll, Skim Stare](http://oritgat.com/Scroll-Skim-Stare)

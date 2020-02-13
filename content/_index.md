@@ -12,6 +12,6 @@ This is the class website for WEB TYPE (RISD GRAPH-2313-01)
 - Syllabus
 - Class website
   - Resources
-- Setup
+- Setup	
 - Project 1
 - HTML / CSS Basics
