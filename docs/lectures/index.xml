@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lectures on Web Type</title>
-    <link>https://risd-web.github.io/lectures/</link>
+    <link>https://risd-web.github.io/webtype-spring2020/lectures/</link>
     <description>Recent content in Lectures on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://risd-web.github.io/lectures/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://risd-web.github.io/webtype-spring2020/lectures/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CSS</title>
-      <link>https://risd-web.github.io/lectures/02-css/</link>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/02-css/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://risd-web.github.io/lectures/02-css/</guid>
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/02-css/</guid>
       <description>Syntax, inheritance, the cascade, and selectors</description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>https://risd-web.github.io/lectures/01-html/</link>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://risd-web.github.io/lectures/01-html/</guid>
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</guid>
       <description>Semantic markup</description>
     </item>
     
     <item>
       <title>Web Type: Getting Started</title>
-      <link>https://risd-web.github.io/lectures/00-webtype/</link>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://risd-web.github.io/lectures/00-webtype/</guid>
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</guid>
       <description>This course is purposely named with shortened, less precise versions the words “web” and “type” to broaden our perspective on our explorations.
 Web could refer to websites, but also to the web infrastructure, to the technology and culture of the world wide web; the protocols that compose the fabric of our internet; the act of weaving a web.
 Type could refer to typography — the arrangement of letterforms — but also typefaces themselves, the quality of letterforms; to type, the act of typing, or writing, or coding.</description>

@@ -46,11 +46,15 @@ And also maybe: 🦆 🐸 🐧🦎🦢
 	- This will become part of the url for where upload your projects
 	- Avoid spaces
 * Review Git Version control or download [GitHub Mac client](https://desktop.github.com/)
+
+Github desktop is a program that helps you keep track of changes in your code and upload them to your repository.
 - See more on [Github Guides](https://guides.github.com/)
 
 ### Text Editor
 * Download [Sublime Text](https://www.sublimetext.com/3) or [Atom](https://atom.io/) or [Brackets](http://brackets.io/)
 
+
+### Tutorials
 <!-- * Get the free trial [Glyphs](https://glyphsapp.com/buy) (but don’t start it yet.) If you'd like to purchase it, checkout [student discounts](https://glyphsapp.com/buy/discount). -->
 * Free account at [Codecademy](https://www.codecademy.com/)
 
