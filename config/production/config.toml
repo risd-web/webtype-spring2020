@@ -1,2 +1,2 @@
-baseURL = "https://risd-web.github.io/webtype-spring2020/"
+baseURL = "https://risd-web.github.io/"
 publishDir = "docs"

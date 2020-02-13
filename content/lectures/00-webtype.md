@@ -1,5 +1,5 @@
 ---
-title: "Web Type"
+title: "Web Type: Getting Started"
 date: 2020-02-10
 reference:
  - title: "The World Wide Web Project"
@@ -13,8 +13,6 @@ reference:
 
  - title: "Net Art Anthology"
    link: "https://anthology.rhizome.org/"
- - title: "Cameron’s World"
-   link: "https://www.cameronsworld.net/"
  - title: "Olia Lialina: My Boyfriend Came Back From the War"
    link: "http://www.teleportacia.org/war/"
  - title: "Rafaël Rozendaal: Abstract Browsing"
@@ -36,8 +34,34 @@ Both are fundamental for communication: one capturing its visual form, the other
 
 And also maybe: 🦆 🐸 🐧🦎🦢
 
-## Web
+## Our Tools
 
+- This website is a work-in-progress
+- [Demos repository](https://github.com/risd-web/webtype-demo)
+
+### Github
+[GitHub](https://github.com/)is a web-based repository hosting service based on the Git version control and source code management system. GitHub allows individuals and teams of programmers to manage, share, store and make editable revisions to projects. We will be using Github’s code sharing and publishing service to store our class projects. 
+
+* A [GitHub](https://github.com/) account and make a repository for this class.
+	- This will become part of the url for where upload your projects
+	- Avoid spaces
+* Review Git Version control or download [GitHub Mac client](https://desktop.github.com/)
+- See more on [Github Guides](https://guides.github.com/)
+
+### Text Editor
+* Download [Sublime Text](https://www.sublimetext.com/3) or [Atom](https://atom.io/) or [Brackets](http://brackets.io/)
+
+<!-- * Get the free trial [Glyphs](https://glyphsapp.com/buy) (but don’t start it yet.) If you'd like to purchase it, checkout [student discounts](https://glyphsapp.com/buy/discount). -->
+* Free account at [Codecademy](https://www.codecademy.com/)
+
+### Browser
+* Assignments will be evaluated in [Chrome](https://www.google.com/chrome/) for its Inspector tools
+
+### Slack?
+* [Join Slack](https://join.slack.com/t/webtypeworkspace/shared_invite/enQtOTUxNDc5NzU5MDc5LWE0NzJkZWFmYTNjYTY3YjVmNDE5ZjU0NWU2MjFkNGI3OWE0NzM3YTUyZGM3MjZhMzdiNDA2MDkzZjNmZTcyZDk)
+
+
+## Web infrastructure
 
 Tim Berners-Lee, a scientist at CERN, launched [The World Wide Web Project](http://info.cern.ch/hypertext/WWW/TheProject.html) in 1989. The project was initially created to streamline distribution of information among scientists around the world. Berners-Lee devised the system of hypertext (or links.) This first website was dedicated to host information about the World Wide Web itself.
 
@@ -71,5 +95,4 @@ Back-end technologies are used to compile several sources of the website togethe
 
 In our class, we will be focusing on frontend languages to develop the skills needed to shape text within the browser.
 
-Let’s start with [HTML]().
 

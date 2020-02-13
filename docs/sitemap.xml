@@ -3,85 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/</loc>
+    <loc>https://risd-web.github.io/</loc>
     <lastmod>2020-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/lectures/02-css/</loc>
+    <loc>https://risd-web.github.io/lectures/02-css/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/lectures/</loc>
+    <loc>https://risd-web.github.io/lectures/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/resources/common-errors/</loc>
+    <loc>https://risd-web.github.io/resources/common-errors/</loc>
     <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</loc>
+    <loc>https://risd-web.github.io/lectures/01-html/</loc>
     <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/resources/</loc>
+    <loc>https://risd-web.github.io/resources/</loc>
     <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/resources/type-help/</loc>
+    <loc>https://risd-web.github.io/resources/type-help/</loc>
     <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/resources/links/</loc>
+    <loc>https://risd-web.github.io/resources/links/</loc>
     <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/resources/web-help/</loc>
+    <loc>https://risd-web.github.io/resources/web-help/</loc>
     <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</loc>
+    <loc>https://risd-web.github.io/lectures/00-webtype/</loc>
     <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/projects/project1/</loc>
+    <loc>https://risd-web.github.io/projects/project1/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/projects/</loc>
+    <loc>https://risd-web.github.io/projects/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/notes/draft/</loc>
-    <priority>0</priority>
+    <loc>https://risd-web.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/notes/notes1/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/notes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://risd-web.github.io/webtype-spring2020/tags/</loc>
+    <loc>https://risd-web.github.io/tags/</loc>
   </url>
   
 </urlset>
