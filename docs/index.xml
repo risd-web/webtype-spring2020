@@ -40,6 +40,15 @@ HTML  Are your HTML elements wrapped in open and close tags? Are your HTML eleme
     </item>
     
     <item>
+      <title>Syllabus</title>
+      <link>https://risd-web.github.io/webtype-spring2020/syllabus/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/syllabus/</guid>
+      <description>WEB TYPE (RISD GRAPH-2313-01) 3 credits Marie Otsuka (motsuka@risd.edu)   This course explores typography within the browser, considering the web not as a container but as a medium. We will develop typography that activates the capacities and conditions of websites. Projects will first respond our local browser conditions and different device environments, then expand to working with the remote network as source material. Critique and discussions will examine how publishing on the internet allows for a distinct form of engagement.</description>
+    </item>
+    
+    <item>
       <title>Type Help</title>
       <link>https://risd-web.github.io/webtype-spring2020/resources/type-help/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>

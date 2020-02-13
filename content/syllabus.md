@@ -2,7 +2,6 @@
 title: "Syllabus"
 date: "2020-02-10"
 menu: "main"
-draft: true
 ---
 
 * WEB TYPE (RISD GRAPH-2313-01)
