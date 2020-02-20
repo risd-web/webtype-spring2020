@@ -2,6 +2,7 @@
 title: "Syllabus"
 date: "2020-02-10"
 menu: "main"
+weight: 1
 ---
 
 * WEB TYPE (RISD GRAPH-2313-01)
@@ -13,7 +14,7 @@ menu: "main"
 ## Schedule
 * Thursdays, 1:10pm – 6:10pm
 * Design Center Room 407
-* Office Hours: Tuesday mornings, 10:30–12:00 at the Design Office (204 Westminster St.)
+* Office Hours: Tuesday mornings, 10:30am – 12:00pm at the Design Office (204 Westminster St.)
 
 ## Course objectives
 * use the browser as a platform for expression and experimentation
@@ -34,10 +35,10 @@ menu: "main"
 * We will have 4 projects over the course of the semester. 
 
 ## Readings
-Readings will be dispersed throughout the curriculum to inform and contextualize our work.
+Readings will be dispersed throughout the semester to inform and contextualize our work. Be prepared to respond, raise questions, and discuss the text during class.
 
 ## Show & Tell
-Every class, we will begin by sharing an interesting website we’ve come across over the past week.
+Every class, we will begin by sharing an interesting website or two we’ve each come across over the past week.
 
 ## Diversity
 It’s important to me that students from all diverse backgrounds and perspectives are well-served by this course, that students’ learning needs are addressed both in and out of class, and that the diversity students bring to this class are viewed as a resource, strength, and benefit.  I will strive to present materials and activities that challenge accepted canons and are respectful and representative of diversity: gender, sexual orientation, disability, age, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. Your suggestions about how to improve the value of diversity in this course are always encouraged and appreciated. Please let me know how I might improve the effectiveness of the course for you personally or for other students or student groups.
@@ -47,9 +48,7 @@ One unexcused absence and your letter grade drops by one, i.e. from A to a B. Tw
 
 ## Grading
 * 60% Execution of projects and exercises
-* 30% Participation in critiques, class discussions, and readings
-* 10% Presentation
-
+* 40% Participation in critiques, class discussions, readings, and weekly contributions
 
 
 

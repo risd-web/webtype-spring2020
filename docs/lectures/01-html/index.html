@@ -7,7 +7,10 @@
 	<title>HTML</title>
 	
 	
-	<link rel="stylesheet" href="/webtype-spring2020/css/style.css">
+
+	
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.23a55183f64a5854f8e5d7f02348ffa56cf79219acf8ba88765873986f655b8b.css">
+
 	<script
 	  src="https://code.jquery.com/jquery-3.4.1.min.js"
 	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -21,13 +24,15 @@
 	<nav>
 		<ul>
 			
-			<li><a href="/webtype-spring2020/lectures/">Lectures</a></li>
+			<li><a href="/webtype-spring2020/syllabus/">Syllabus</a></li>
 			
 			<li><a href="/webtype-spring2020/projects/">Projects</a></li>
 			
+			<li><a href="/webtype-spring2020/lectures/">Lectures</a></li>
+			
 			<li><a href="/webtype-spring2020/resources/">Resources</a></li>
 			
-			<li><a href="/webtype-spring2020/syllabus/">Syllabus</a></li>
+			<li><a href="/webtype-spring2020/colophon/">Colophon</a></li>
 			
 		</ul>
 	</nav>
@@ -38,9 +43,10 @@
 	<main>
 		<article>
 			<h1>HTML</h1>
-			<time>February 10, 2020</time>
+			<time>February 13, 2020</time>
 			<p>
 				<p><a href="https://github.com/risd-web/webtype-demos/">Demo files</a></p>
+<h2 id="hypertext-markup-language">HyperText Markup Language</h2>
 <p>HTML is the language of web pages interpreted by web browsers.</p>
 <ul>
 <li>HTML = <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</li>
@@ -52,7 +58,7 @@
 <li>As code, in your text editor.</li>
 <li>As an webpage, in your browser.</li>
 </ol>
-<h3 id="html-tag">HTML Tag</h3>
+<h2 id="html-tag">HTML Tag</h2>
 <p>Tags are used to mark-up content in HTML. It is always between two angled brackets.</p>
 <p><code>&lt;p&gt;</code></p>
 <h3 id="anatomy">Anatomy</h3>
@@ -61,7 +67,7 @@
 <li>Tag name <code>p</code></li>
 <li>Right-Angle Bracket <code>&gt;</code></li>
 </ul>
-<h3 id="html-element">HTML Element</h3>
+<h2 id="html-element">HTML Element</h2>
 <p>All content is surrounded  between opening and closing tags. A closing tag is indicated with a forward slash <code>/</code>. Most forms of markup require both. (<a href="https://web.archive.org/web/20060314044545/http://www.sewingandembroiderywarehouse.com/embtrb.htm">Here’s</a> what happens when you don’t close tags.)</p>
 <p><code>&lt;p&gt;lorem ipsum ...&lt;/p&gt;</code></p>
 <p><code>&lt;h1&gt;headline&lt;/h1&gt;</code></p>
@@ -72,11 +78,12 @@
 <li>closing tag <code>&lt;/h1&gt;</code></li>
 </ul>
 <h2 id="semantic-markup">Semantic Markup</h2>
+<p>Semantic: relating to meaning in language or logic</p>
+<p>Semantic markup establishes the hierarchy and structure of information. The latest version of html, html5, introduced several new elements (among other things) to improve how precisely a tag can describe the content it contains.</p>
 <ul>
-<li>Semantic: relating to meaning in language or logic
-Semantic markup establishes the hierarchy and structure of information. The latest version of html, html5, introduced several new elements (among other things) to improve how precisely a tag can describe the content it contains.</li>
+<li>Read more on how <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML">Semantic Markup is important for Web Accessibility</a></li>
 </ul>
-<p>※ Clicking around on this site, you might notice that you’ll see the underlying elements. But the best way to see this is to open up the Inspector.</p>
+<p>※ Clicking around on this site, you might notice that you’ll see the underlying HTML tags. But the best way to see this is to open up the Inspector.</p>
 <ul>
 <li>headings <code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code></li>
 <li>paragraph <code>p</code></li>
@@ -91,7 +98,7 @@ Semantic markup establishes the hierarchy and structure of information. The late
 <p>This is incorrect syntax:</p>
 <pre><code>&lt;h2&gt;French Bakery&lt;/h2&gt;
 &lt;p&gt;
-	All these must be eaten &lt;em&gt;today.
+	All goods must be eaten &lt;em&gt;today.
 &lt;/p&gt;&lt;/em&gt;
 
 &lt;ul&gt;
@@ -114,8 +121,36 @@ Any whitespace (tabs or spaces) within the HTML file will have no effect on the 
 Nested elements should be kept tabbed for readability: it will help you see where the opening and closing tags of elements.</p>
 <h2 id="inline-vs-block-elements">Inline vs. Block elements</h2>
 <p>There are two primary display formats for elements.</p>
+<div class="diagram">
+	<div class="line">
+	</div>
+	<div class="flex">
+		<span class="inline marked">
+		</span>
+		<span class="inline marked">
+		</span>
+		<span class="inline marked">
+		</span>
+	</div>
+	<div class="line">
+	</div>
+</div>
 <p>An <strong>inline element</strong> continues along the same line as its neighboring elements and occupies as much space (width) as its content. i.e.: <code>&lt;a&gt;</code>, <code>&lt;b&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;img&gt;</code>, and <code>&lt;span&gt;</code>.</p>
+<div class="diagram">
+	<div class="line">
+	</div>
+	<div class="line marked">
+	</div>
+	<div class="line">
+	</div>
+</div>
 <p>A <strong>block element</strong> always appears on a new line; by default,  it’s as wide as its parent (containing) elements i.e.<code>&lt;section&gt;</code>,<code>&lt;article&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;li&gt;</code>, and <code>&lt;div&gt;</code>.</p>
+<p>These are default <code>display</code> CSS properties for each element.</p>
+<p>We often use the generic <code>&lt;span&gt;</code> and <code>&lt;div&gt;</code> elements with <a href="https://risd-web.github.io/webtype-spring2020/lectures/02-css/#classes-and-ids">CSS classes</a> for formatting.</p>
+<ul>
+<li>to select in-line elements, such as text, we wrap them in a <code>span</code></li>
+<li>to group several elements together, we wrap them in a <code>div</code></li>
+</ul>
 <h2 id="elements-and-attributes">Elements and Attributes</h2>
 <p>Attributes provide additional information about the contents of an element appear with the opening tag of an element. They consist of an attribute name and a value. Each element type has appropriate attributes.</p>
 <p><code>&lt;a href=&quot;index.html&quot;&gt;home&lt;/a&gt;</code></p>
@@ -134,14 +169,16 @@ Nested elements should be kept tabbed for readability: it will help you see wher
 <h2 id="links">Links</h2>
 <p><code>&lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;</code></p>
 <p>Use it to link to:</p>
-<p><strong>Local / Relative links</strong>: Other pages in your site
-<code>&lt;a href=&quot;about.html&quot;&gt;learn more&lt;/a&gt;</code></p>
-<p><strong>Anchor links</strong>: Other locations within the same webpage
-<code>&lt;a href=&quot;#up&quot;&gt;go back up&lt;/a&gt;</code></p>
-<p><strong>Absolute links</strong>: Other webpages outside your site
-<code>&lt;a href=&quot;https://www.google.com/&quot;&gt;search stuff&lt;/a&gt;</code></p>
-<p><strong>Download links</strong>: Any non-html file for users to download
-<code>&lt;a href=&quot;docs/resume.pdf&quot;&gt;view a PDF&lt;/a&gt;</code></p>
+<ul>
+<li><strong>Local / Relative links</strong>: Other pages in your site
+<code>&lt;a href=&quot;about.html&quot;&gt;learn more&lt;/a&gt;</code></li>
+<li><strong>Anchor links</strong>: Other locations within the same webpage
+<code>&lt;a href=&quot;#up&quot;&gt;go back up&lt;/a&gt;</code></li>
+<li><strong>Absolute links</strong>: Other webpages outside your site
+<code>&lt;a href=&quot;https://www.google.com/&quot;&gt;search stuff&lt;/a&gt;</code></li>
+<li><strong>Download links</strong>: Any non-html file for users to download
+<code>&lt;a href=&quot;docs/resume.pdf&quot;&gt;view a PDF&lt;/a&gt;</code></li>
+</ul>
 <h2 id="a-list-of-common-html-elements">A list of common HTML elements</h2>
 <h3 id="basic-elements">Basic elements</h3>
 <p><code>&lt;html&gt; ... &lt;/html&gt;</code></p>
@@ -166,7 +203,10 @@ Nested elements should be kept tabbed for readability: it will help you see wher
 <p><code>&lt;em&gt; ... &lt;/em&gt;</code></p>
 <p><code>&lt;strong&gt; ... &lt;/strong&gt; </code></p>
 <p>* these elements are self-closing and do not have opening/closing tag pairs. You may see them with or without the <code>/</code></p>
-<p><a href="https://devdocs.io/html/">Read more</a></p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">A comprehensive list of HTML Elements</a></li>
+</ul>
 
 			</p>
 			

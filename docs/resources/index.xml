@@ -6,10 +6,20 @@
     <description>Recent content in Resources on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://risd-web.github.io/webtype-spring2020/resources/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Various types of sites</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/links/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/links/</guid>
+      <description>Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than to showcase exemplary samples of content or aesthetics.
+Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Google Fonts + Chinese Google Fonts + Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type + Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
+    </item>
     
     <item>
       <title>Common Errors</title>
@@ -28,17 +38,7 @@ HTML  Are your HTML elements wrapped in open and close tags? Are your HTML eleme
       
       <guid>https://risd-web.github.io/webtype-spring2020/resources/type-help/</guid>
       <description>Below are links to some resources for typefaces and typography.
-Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should you self-host Google Fonts?    Open Source  Open Foundry Future Fonts Use &amp;amp; Modify Libre Fonts by Womxn OSP Kitchen League of Movable Type Font Squirrel and webfont generator  Typography Reference  Typewolf Ellen Lupton&amp;rsquo;s Thinking with Type  Foundry Websites  Occupant Fonts Commercial Type Showcase Colophon Foundry Klim Type Grilli Type Ohno Type Sharp Type DJR Frere-Jones Type  Type technology tools and reference  Using @font-face typetura.</description>
-    </item>
-    
-    <item>
-      <title>Various types of sites</title>
-      <link>https://risd-web.github.io/webtype-spring2020/resources/links/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://risd-web.github.io/webtype-spring2020/resources/links/</guid>
-      <description>Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than showcase exemplary samples of content or aesthetics.
-Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Google Fonts + Chinese Google Fonts + Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type + Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
+Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should you self-host Google Fonts?    Open Source  Open Foundry Future Fonts Use &amp;amp; Modify Libre Fonts by Womxn OSP Kitchen League of Movable Type Font Squirrel and webfont generator  Typography Reference  Matthew Butterick’s Practical Typography Typewolf Ellen Lupton&amp;rsquo;s Thinking with Type  Foundry Websites  Occupant Fonts Commercial Type Showcase Colophon Foundry Klim Type Grilli Type Ohno Type Sharp Type DJR Frere-Jones Type  Type technology tools and reference  Using @font-face typetura.</description>
     </item>
     
     <item>

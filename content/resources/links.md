@@ -1,9 +1,10 @@
 ---
 title: "Various types of sites"
 date: 2020-02-10
+weight: 1
 ---
 
-Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than showcase exemplary samples of content or aesthetics.
+Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than to showcase exemplary samples of content or aesthetics.
 
 ## Reading collections
 - [The Avery Review](http://averyreview.com/)

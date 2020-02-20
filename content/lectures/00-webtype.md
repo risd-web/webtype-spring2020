@@ -1,6 +1,6 @@
 ---
 title: "Web Type: Getting Started"
-date: 2020-02-10
+date: 2020-02-13
 reference:
  - title: "The World Wide Web Project"
    link: "http://info.cern.ch/hypertext/WWW/TheProject.html"
@@ -30,28 +30,26 @@ This course is purposely named with shortened, less precise versions the words �
 
 *Type* could refer to typography — the arrangement of letterforms — but also typefaces themselves, the quality of letterforms; to type, the act of typing, or writing, or coding.
 
-Both are fundamental for communication: one capturing its visual form, the other a medium for its distribution. As designers, it is essential that we can critically create work that thrives at their intersection.
+Both are fundamental for communication: one a medium for its distribution, the other its foundational visual form. As designers, it is essential that we can critically create work that thrives at their intersection.
 
 And also maybe: 🦆 🐸 🐧🦎🦢
 
-## Our Tools
-
-- This website is a work-in-progress
-- [Demos repository](https://github.com/risd-web/webtype-demo)
+- This website is a [work-in-progress]({{< ref "/colophon.md" >}})
+- The [Demos repository](https://github.com/risd-web/webtype-demo) will contain the code used in in-class demos
 
 ### Github
-[GitHub](https://github.com/)is a web-based repository hosting service based on the Git version control and source code management system. GitHub allows individuals and teams of programmers to manage, share, store and make editable revisions to projects. We will be using Github’s code sharing and publishing service to store our class projects. 
+[GitHub](https://github.com/) is a web-based repository hosting service based on the Git version control and source code management system. GitHub allows individuals and teams of programmers to manage, share, store and make editable revisions to projects. We will be using Github’s code sharing and publishing service to store our class projects. 
 
 * A [GitHub](https://github.com/) account and make a repository for this class.
 	- This will become part of the url for where upload your projects
-	- Avoid spaces
-* Review Git Version control or download [GitHub Mac client](https://desktop.github.com/)
+	- Avoid spaces in the repository name
+* Review Git Version control or download [GitHub Desktop Mac client](https://desktop.github.com/)
 
-Github desktop is a program that helps you keep track of changes in your code and upload them to your repository.
+Github Desktop is a program that helps you keep track of changes in your code and upload them to your repository.
 - See more on [Github Guides](https://guides.github.com/)
 
 ### Text Editor
-* Download [Sublime Text](https://www.sublimetext.com/3) or [Atom](https://atom.io/) or [Brackets](http://brackets.io/)
+* Download [Sublime Text](https://www.sublimetext.com/3) / [Atom](https://atom.io/) / [Visual Studio Code](https://code.visualstudio.com/)
 
 
 ### Tutorials
@@ -61,17 +59,18 @@ Github desktop is a program that helps you keep track of changes in your code an
 ### Browser
 * Assignments will be evaluated in [Chrome](https://www.google.com/chrome/) for its Inspector tools
 
-### Slack?
+### Slack
 * [Join Slack](https://join.slack.com/t/webtypeworkspace/shared_invite/enQtOTUxNDc5NzU5MDc5LWE0NzJkZWFmYTNjYTY3YjVmNDE5ZjU0NWU2MjFkNGI3OWE0NzM3YTUyZGM3MjZhMzdiNDA2MDkzZjNmZTcyZDk)
 
 
+# The Web
 ## Web infrastructure
 
 Tim Berners-Lee, a scientist at CERN, launched [The World Wide Web Project](http://info.cern.ch/hypertext/WWW/TheProject.html) in 1989. The project was initially created to streamline distribution of information among scientists around the world. Berners-Lee devised the system of hypertext (or links.) This first website was dedicated to host information about the World Wide Web itself.
 
 The internet is a network of connected computers with the primary purpose to share information. It works as bunch of conversations between clients and servers.
-- *Web Client:* Browser (Google Chrome, Firefox, Safari, etc..)
-- *Web Server:* Internet-connected computers running server software, serving web documents as requested.  
+- **Web Client:** Browser (Google Chrome, Firefox, Safari, etc..)
+- **Web Server:** Internet-connected computers running server software, serving web documents as requested.  
 
 Despite [popular depictions](https://noahveltman.com/internet-shape/) of the internet as a massless, nebulous entity, it requires a massive physical infrastructure powered by  electrical energy, including data centers, servers, airconditioners, and [cables](https://www.nytimes.com/interactive/2019/03/10/technology/internet-cables-oceans.html).
 - [What’s Important About Underwater Internet Cables](https://www.theatlantic.com/technology/archive/2015/11/submarine-cables/414942/)
@@ -80,7 +79,7 @@ Despite [popular depictions](https://noahveltman.com/internet-shape/) of the int
 
 ## Web as medium
 
-From the begining stage of the web, [artists](https://anthology.rhizome.org/) embraced the browser as a platform. It nodes of [personal expression](https://www.cameronsworld.net/), or [abstract painting](http://www.abstractbrowsing.net/). Artist even used the [infrastracture of the web](http://xn--9l7a.com/)itself. 
+From the begining stage of the web, [artists](https://anthology.rhizome.org/) embraced the browser as a platform. It nodes of [personal expression](https://www.cameronsworld.net/), or [abstract painting](http://www.abstractbrowsing.net/). Artists could even used the [infrastracture of the web](http://xn--9l7a.com/) itself.
 
 It is in this spirit that we will engage in typographic explorations.
 

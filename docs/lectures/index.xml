@@ -6,24 +6,33 @@
     <description>Recent content in Lectures on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://risd-web.github.io/webtype-spring2020/lectures/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CSS</title>
+      <title>Layouts and Structure</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/03-layouts/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/03-layouts/</guid>
+      <description>Positioning, layouts, and responsive design</description>
+    </item>
+    
+    <item>
+      <title>CSS Basics</title>
       <link>https://risd-web.github.io/webtype-spring2020/lectures/02-css/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://risd-web.github.io/webtype-spring2020/lectures/02-css/</guid>
-      <description>Syntax, inheritance, the cascade, and selectors</description>
+      <description>Basic syntax, inheritance, the cascade, and selectors</description>
     </item>
     
     <item>
       <title>HTML</title>
       <link>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</guid>
       <description>Semantic markup</description>
@@ -32,7 +41,7 @@
     <item>
       <title>Web Type: Getting Started</title>
       <link>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</guid>
       <description>This course is purposely named with shortened, less precise versions the words “web” and “type” to broaden our perspective on our explorations.

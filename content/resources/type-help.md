@@ -21,6 +21,7 @@ Below are links to some resources for typefaces and typography.
 - [Font Squirrel](https://www.fontsquirrel.com/) and [webfont generator](http://www.fontsquirrel.com/tools/webfont-generator)
 
 ## Typography Reference
+- [Matthew Butterick’s Practical Typography](https://practicaltypography.com/)
 - [Typewolf](https://www.typewolf.com/)
 - [Ellen Lupton's Thinking with Type](http://thinkingwithtype.com/)
 

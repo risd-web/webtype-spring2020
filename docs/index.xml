@@ -12,12 +12,80 @@
     
     
     <item>
-      <title>CSS</title>
+      <title>Syllabus</title>
+      <link>https://risd-web.github.io/webtype-spring2020/syllabus/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/syllabus/</guid>
+      <description>WEB TYPE (RISD GRAPH-2313-01) 3 credits Marie Otsuka (motsuka@risd.edu)   This course explores typography within the browser, considering the web not as a container but as a medium. We will develop typography that activates the capacities and conditions of websites. Projects will first respond our local browser conditions and different device environments, then expand to working with the remote network as source material. Critique and discussions will examine how publishing on the internet allows for a distinct form of engagement.</description>
+    </item>
+    
+    <item>
+      <title>Various types of sites</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/links/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/links/</guid>
+      <description>Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than to showcase exemplary samples of content or aesthetics.
+Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Google Fonts + Chinese Google Fonts + Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type + Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
+    </item>
+    
+    <item>
+      <title>Colophon</title>
+      <link>https://risd-web.github.io/webtype-spring2020/colophon/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/colophon/</guid>
+      <description>This site is a work-in-progress It will evolve as we progress through our class.
+ Code for this site is available on Github It is compiled with the static site generator Hugo Current typeface is IBM Plex served via Google Fonts  V2 V1 February 13
+ basic semantic markup click-activated element reveals standard link styling and behavior browser typographic defaults  font-family: &#39;system-ui&#39;;    </description>
+    </item>
+    
+    <item>
+      <title>Layouts and Structure</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/03-layouts/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/03-layouts/</guid>
+      <description>Positioning, layouts, and responsive design</description>
+    </item>
+    
+    <item>
+      <title>CSS Basics</title>
       <link>https://risd-web.github.io/webtype-spring2020/lectures/02-css/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://risd-web.github.io/webtype-spring2020/lectures/02-css/</guid>
-      <description>Syntax, inheritance, the cascade, and selectors</description>
+      <description>Basic syntax, inheritance, the cascade, and selectors</description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</guid>
+      <description>Semantic markup</description>
+    </item>
+    
+    <item>
+      <title>Project 1: Website as ?</title>
+      <link>https://risd-web.github.io/webtype-spring2020/projects/project1/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/projects/project1/</guid>
+      <description>“My favorite aspect of websites is their duality: they’re both subject and object at once. In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own identity.</description>
+    </item>
+    
+    <item>
+      <title>Web Type: Getting Started</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</guid>
+      <description>This course is purposely named with shortened, less precise versions the words “web” and “type” to broaden our perspective on our explorations.
+Web could refer to websites, but also to the web infrastructure, to the technology and culture of the world wide web; the protocols that compose the fabric of our internet; the act of weaving a web.
+Type could refer to typography — the arrangement of letterforms — but also typefaces themselves, the quality of letterforms; to type, the act of typing, or writing, or coding.</description>
     </item>
     
     <item>
@@ -31,41 +99,13 @@ HTML  Are your HTML elements wrapped in open and close tags? Are your HTML eleme
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://risd-web.github.io/webtype-spring2020/lectures/01-html/</guid>
-      <description>Semantic markup</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>https://risd-web.github.io/webtype-spring2020/syllabus/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://risd-web.github.io/webtype-spring2020/syllabus/</guid>
-      <description>WEB TYPE (RISD GRAPH-2313-01) 3 credits Marie Otsuka (motsuka@risd.edu)   This course explores typography within the browser, considering the web not as a container but as a medium. We will develop typography that activates the capacities and conditions of websites. Projects will first respond our local browser conditions and different device environments, then expand to working with the remote network as source material. Critique and discussions will examine how publishing on the internet allows for a distinct form of engagement.</description>
-    </item>
-    
-    <item>
       <title>Type Help</title>
       <link>https://risd-web.github.io/webtype-spring2020/resources/type-help/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://risd-web.github.io/webtype-spring2020/resources/type-help/</guid>
       <description>Below are links to some resources for typefaces and typography.
-Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should you self-host Google Fonts?    Open Source  Open Foundry Future Fonts Use &amp;amp; Modify Libre Fonts by Womxn OSP Kitchen League of Movable Type Font Squirrel and webfont generator  Typography Reference  Typewolf Ellen Lupton&amp;rsquo;s Thinking with Type  Foundry Websites  Occupant Fonts Commercial Type Showcase Colophon Foundry Klim Type Grilli Type Ohno Type Sharp Type DJR Frere-Jones Type  Type technology tools and reference  Using @font-face typetura.</description>
-    </item>
-    
-    <item>
-      <title>Various types of sites</title>
-      <link>https://risd-web.github.io/webtype-spring2020/resources/links/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://risd-web.github.io/webtype-spring2020/resources/links/</guid>
-      <description>Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than showcase exemplary samples of content or aesthetics.
-Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Google Fonts + Chinese Google Fonts + Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type + Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
+Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should you self-host Google Fonts?    Open Source  Open Foundry Future Fonts Use &amp;amp; Modify Libre Fonts by Womxn OSP Kitchen League of Movable Type Font Squirrel and webfont generator  Typography Reference  Matthew Butterick’s Practical Typography Typewolf Ellen Lupton&amp;rsquo;s Thinking with Type  Foundry Websites  Occupant Fonts Commercial Type Showcase Colophon Foundry Klim Type Grilli Type Ohno Type Sharp Type DJR Frere-Jones Type  Type technology tools and reference  Using @font-face typetura.</description>
     </item>
     
     <item>
@@ -76,26 +116,6 @@ Reading collections  The Avery Review HTML Output Critical Atlas of the Internet
       <guid>https://risd-web.github.io/webtype-spring2020/resources/web-help/</guid>
       <description>Below are links to some resources for coding.
 Documentation  Mozilla Developer Network Devdocs  Guides  What is a URL? Folder Poetry Dealing with files What goes in your head Why Coding Style Matters on Smashing Magazine (with useful list of validators) Writing your Best Code: HTML/CSS coding best practices and list of resources Google developer documentation style guide Sublime Text unofficial documentation &amp;amp; keyboard shortcuts  HTML  About Semantic HTML elements Overview of newer HTML tags Mix Blend Mode Nth-Child Paragraph Formatting on the Web Character sets: HTML Entities and Character Codes  CSS  CSS inheritance Shay Howe&amp;rsquo;s Guides CSS Basics Codecademy A guide to centering things Layout tutorials CSS Tricks Simple Grid Approach Articles on A List Apart: Content-out Layout | The Infinite Grid | Fluid Grids Using Style Tiles  Media Queries &amp;amp; Responsive design  Responsive Web Design Responsive Design Media Queries 7 Habits of Highly Effective Media Queries mediaqueri.</description>
-    </item>
-    
-    <item>
-      <title>Web Type: Getting Started</title>
-      <link>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://risd-web.github.io/webtype-spring2020/lectures/00-webtype/</guid>
-      <description>This course is purposely named with shortened, less precise versions the words “web” and “type” to broaden our perspective on our explorations.
-Web could refer to websites, but also to the web infrastructure, to the technology and culture of the world wide web; the protocols that compose the fabric of our internet; the act of weaving a web.
-Type could refer to typography — the arrangement of letterforms — but also typefaces themselves, the quality of letterforms; to type, the act of typing, or writing, or coding.</description>
-    </item>
-    
-    <item>
-      <title>Project 1: Website as ?</title>
-      <link>https://risd-web.github.io/webtype-spring2020/projects/project1/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://risd-web.github.io/webtype-spring2020/projects/project1/</guid>
-      <description>My favorite aspect of websites is their duality: they’re both subject and object at once. In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own identity.</description>
     </item>
     
   </channel>

@@ -10,6 +10,7 @@
 				<li>
 					<a href="{{ .Permalink }}">{{ .Title }}</a>
 					<time>{{ .Date.Format "January 2, 2006" }}</time>
+					{{ with .Page.Params.summary}}<p>{{ . }}</p>{{ end }}
 				</li>
 			{{ end }}
 			</ul>

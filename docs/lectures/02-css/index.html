@@ -4,10 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>CSS</title>
+	<title>CSS Basics</title>
 	
 	
-	<link rel="stylesheet" href="/webtype-spring2020/css/style.css">
+
+	
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.23a55183f64a5854f8e5d7f02348ffa56cf79219acf8ba88765873986f655b8b.css">
+
 	<script
 	  src="https://code.jquery.com/jquery-3.4.1.min.js"
 	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -21,13 +24,15 @@
 	<nav>
 		<ul>
 			
-			<li><a href="/webtype-spring2020/lectures/">Lectures</a></li>
+			<li><a href="/webtype-spring2020/syllabus/">Syllabus</a></li>
 			
 			<li><a href="/webtype-spring2020/projects/">Projects</a></li>
 			
+			<li><a href="/webtype-spring2020/lectures/">Lectures</a></li>
+			
 			<li><a href="/webtype-spring2020/resources/">Resources</a></li>
 			
-			<li><a href="/webtype-spring2020/syllabus/">Syllabus</a></li>
+			<li><a href="/webtype-spring2020/colophon/">Colophon</a></li>
 			
 		</ul>
 	</nav>
@@ -37,17 +42,17 @@
 	
 	<main>
 		<article>
-			<h1>CSS</h1>
-			<time>February 12, 2020</time>
+			<h1>CSS Basics</h1>
+			<time>February 13, 2020</time>
 			<p>
 				<p>CSS is the language determining the look and feel of HTML elements.
 Every element in web design is a rectangular box styled with CSS.</p>
 <h2 id="cascading-stylesheets">Cascading Stylesheets</h2>
-<p>CSS = <strong>C</strong>ascading <strong>S</strong>tyle<strong>s</strong>heets
-CSS defines the form of a website’s content by listing rules for how elements should appear.</p>
+<p>CSS = <strong>C</strong>ascading <strong>S</strong>tyle<strong>s</strong>heets</p>
+<p>CSS defines the form of a website’s content by listing rules for how elements should appear.</p>
 <pre><code>p {
-	  color: blue;
-  }
+  color: blue;
+}
 </code></pre><h3 id="anatomy">Anatomy</h3>
 <ul>
 <li><strong>selector</strong> (targeted html element)  <code>p</code></li>
@@ -72,15 +77,15 @@ Second paragraph text.
 <p>Internal CSS is declared within the head of the document. Selectors apply to all instances of that page. This keeps the HTML markup clean and uncluttered. It’s much more efficient than inline styling, but not as effective as external stylesheets.</p>
 <pre><code>&lt;html&gt;
 &lt;head&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-p {
-color: blue;
-}
-&lt;/style&gt;
+	&lt;style type=&quot;text/css&quot;&gt;
+		p  {
+		 color: blue;
+		}
+	&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-	&lt;p&gt;First paragraph text.&lt;/p&gt;
-	&lt;p&gt;Second paragraph text.&lt;/p&gt;
+  &lt;p&gt;First paragraph text.&lt;/p&gt;
+  &lt;p&gt;Second paragraph text.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre><h2 id="external-css">External CSS</h2>
@@ -89,12 +94,12 @@ color: blue;
 <h2 id="inheritance">Inheritance</h2>
 <p>Inheritance refers to how children take on css properties of their parents if they don’t have that property specified. Not all css declarations are inherited.</p>
 <pre><code>div {
-color: blue;
-border: 1px solid gray;
+  color: blue;
+  border: 1px solid gray;
 }
 
 span {
-color: red;
+  color: red;
 }
 </code></pre><div>
 <h1>Cascading <span>Style</span> Sheets</h1>
@@ -112,13 +117,21 @@ color: red;
 <p>when rules within the same stylesheet conflict, the type of selector determines which has more weight</p>
 <h3 id="rule-order">Rule order</h3>
 <p>between style rules of identical weight, last one wins</p>
-<p>※ note: !important allows overrides to this hierarchy, but should be used sparingly</p>
+<p>※ note: the <code>!important</code> rule allows overrides to this hierarchy, but should be used sparingly</p>
 <h2 id="selectors">Selectors</h2>
 <p>By understanding inheritance and the cascade, we can write overarching rules that apply to most elements, then override the properties on individual elements. Selectors help tailor our rules to define specific elements. The more specific the selector, the higher its priority.</p>
-<p>We’ve already seen the type selector that matches element names.
-By separating selectors with commas, you can apply the same rule to multiple HTML elements.</p>
-<h2 id="classes-and-ids">Classes and IDs</h2>
-<p>By assigning a <strong>class</strong> to elements (with the class attribute) in your HTML, we can apply your rule to just elements that have that particular class. In your stylesheet, all class names are preceded by a period (<code>.</code>). Class and IDs names should not include spaces or weird characters.</p>
+<h3 id="element-selector">Element selector</h3>
+<p>We’ve already seen the type selector that matches element names.</p>
+<pre><code>h2 {
+	font-size: 3em;
+}
+</code></pre><h3 id="multiple-selection">Multiple selection</h3>
+<p>By separating selectors with commas, you can apply the same rule to multiple HTML elements.</p>
+<pre><code>h2, .introduction {
+	font-size: 3em;
+}
+</code></pre><h3 id="classes-and-ids">Classes and IDs</h3>
+<p>By assigning a <strong>class</strong> to elements (with the <code>class</code> attribute) in your HTML, we can apply your rule to just elements that have that particular class. In your stylesheet, all class names are preceded by a period (<code>.</code>).</p>
 <p>CSS</p>
 <pre><code>.highlight {
 	background: yellow;
@@ -128,15 +141,18 @@ By separating selectors with commas, you can apply the same rule to multiple HTM
 	font-weight: bold;
 }
 </code></pre><p>HTML</p>
-<pre><code>&lt;p id=&quot;demo&quot;&gt;This is Demo text&lt;/p&gt;
-&lt;p class=&quot;highlight&quot;&gt; Paragraph text 1&lt;/p&gt;
+<pre><code>&lt;p id=&quot;demo&quot;&gt;This is Demo text &lt;/p&gt;
+&lt;p class=&quot;highlight&quot;&gt; Paragraph text 1 &lt;/p&gt;
 &lt;p&gt; Paragraph text 2 &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li class=&quot;highlight&quot;&gt;List item 1 &lt;/li&gt;
-&lt;li&gt;List item 2&lt;/li&gt;
-&lt;li&gt;List item 3&lt;/li&gt;
+	&lt;li&gt;List item 2&lt;/li&gt;
+	&lt;li&gt;List item 3&lt;/li&gt;
 &lt;/ul&gt;
 </code></pre><p><strong>Ids</strong> work similarly to classes, but only one element may be given a particular id. You define id names by preceding them with a hash symbol (<code>#</code>)</p>
+<ul>
+<li>Class and IDs names should not include spaces or weird characters.</li>
+</ul>
 <h2 id="use-the-inspector">Use the Inspector</h2>
 <p>The element inspector is a great way to verify the CSS properties applied to your elements.
 When thinking about CSS properties, imagine that there is an invisible box around each HTML element.</p>
@@ -222,49 +238,199 @@ When thinking about CSS properties, imagine that there is an invisible box aroun
 <h2 id="typefaces">Typefaces</h2>
 <p>There are 3 primary sources of fonts from which you can choose:</p>
 <ul>
-<li>
-<p>System fonts: These are fonts installed on the computer. If you specify on a font that exists on your system, your website visitors must also have the font installed on their machine. There are several fonts known to be installed across Windows and Mac computers, such as Arial, Helvetica, Times New Roman, Georgia, Verdana. Choices are limited.</p>
-</li>
-<li>
-<p>Externally hosted webfonts: Google Fonts &amp; Adobe Fonts offer services with easy implementation.</p>
-</li>
-<li>
-<p>Self-hosted webfonts: if you upload your own font files, you can use the <code>@font-face</code> rule. <a href="http://www.fontsquirrel.com/tools/webfont-generator">Font Squirrel</a> has a web font generator that converts desktop fonts to web font formats, but you may not have the permissions.</p>
-</li>
+<li><strong>System fonts</strong>: These are fonts installed on the computer. If you specify on a font that exists on your system, your website visitors must also have the font installed on their machine. There are several fonts known to be installed across Windows and Mac computers, such as Arial, Helvetica, Times New Roman, Georgia, Verdana. Choices are limited.</li>
+<li><strong>Externally hosted webfonts</strong>: Google Fonts &amp; Adobe Fonts offer services with easy implementation — simply copy/paste the provided code.</li>
+<li><strong>Self-hosted webfonts</strong>: if you upload your own font files, you can use the <code>@font-face</code> rule. <a href="http://www.fontsquirrel.com/tools/webfont-generator">Font Squirrel</a> has a web font generator that converts desktop fonts to web font formats, but you may not have the permissions.</li>
 </ul>
-<h2 id="units">Units</h2>
-<p><strong>Pixels</strong> <code>px</code> are “absolute” measurements, relative to the resolution of the screen. The same type size will look larger when a screen has a resolution of 800x600 than it would when it is 1280x800.</p>
-<p><strong>Ems</strong> <code>em</code>, <strong>percentages</strong> <code>%</code>, and <strong>viewport units</strong> <code>vw</code> or <code>vh</code> are relative measurements. Ems refer to the current font size, relative to the inherited font size of the element. <code>%</code>s are  based on the length of same property of the parent element.  <code>vw</code> or <code>vh</code> are based on the window width or height, respectively.</p>
+<p>Read more on <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts">How to use custom fonts</a> on your website.</p>
+<h2 id="css-size-units">CSS Size Units</h2>
+<table>
+<thead>
+<tr>
+<th>unit</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>px</code></td>
+<td>absolute measurements, only relative to the resolution of the screen. The same type size will look larger when a screen has a resolution of 800x600 than it would when it is 1280x800.</td>
+</tr>
+<tr>
+<td><code>em</code></td>
+<td>ratio relative to the element’s immediate parent container</td>
+</tr>
+<tr>
+<td><code>rem</code></td>
+<td>ratio relative to the document root size</td>
+</tr>
+<tr>
+<td><code>%</code></td>
+<td>percentage ratio relative to the element’s immediate parent container, based on the size of same property of the parent element</td>
+</tr>
+<tr>
+<td><code>vw</code> or <code>vh</code></td>
+<td>1 viewport unit is 1% of the window width or line-height</td>
+</tr>
+</tbody>
+</table>
 <h2 id="the-box-model">The Box Model</h2>
 <p>The <a href="https://css-tricks.com/the-css-box-model/">box model</a> refers to how block-level elements can be controlled.</p>
 <p>Components of the box model</p>
 <ul>
-<li>margin</li>
-<li>border</li>
-<li>content</li>
-<li>width</li>
-<li>padding</li>
+<li>margin: the space around the element; between the element and its surrounding elementts</li>
+<li>border: a line surrounding the element width</li>
+<li>padding: the space between the content and the edge of the element (or border)</li>
+<li>content: the actual content / text within the element</li>
+<li>width: the width of the content*</li>
+<li>height: the height of the content*</li>
 </ul>
 <pre><code>.box {
-	width: 300px;
-	height: 200px;
-	border: 6px solid coral;
-	background: pink;
-	padding: 10px;
-	margin: 10px 20px 10px auto;
+  width: 300px;
+  height: 200px;
+  border: 6px solid coral;
+  background: pink;
+  padding: 10px;
+  margin: 10px 20px 10px auto;
 }
 </code></pre><div style="width: 300px; height: 200px; border: 6px solid coral; background: pink; padding: 10px; margin: 5px 20px 30px auto;">
 </div>
-<h3 id="box-model-adjustment">Box-Model Adjustment</h3>
-<p>If you found the box model (in which the padding and border are outside of the element width) to be unintuitive, you can use the box-sizing property. Setting this to border-box includes the padding and border width in the element width. When you set box-sizing: border-box; on an element, the padding and border of that element no longer increase its width. More on box-sizing.</p>
+<h3 id="box-model-adjustment">*Box-Model Adjustment</h3>
+<p>If you found the box model (in which the padding and border are outside of the element dimensions) to be unintuitive, you can use the <code>box-sizing</code> property. Setting this to <code>border-box</code> includes the padding and border width in the element width. So when you set <code>box-sizing: border-box;</code> on an element, the padding and border of that element no longer increase its width or height. More on box-sizing.</p>
 <p><code>box-sizing: border-box;</code></p>
 <h3 id="a-note-on-collapsing-margins">A note on collapsing margins</h3>
-<p>Collapsing margins happen in 2 cases.</p>
+<p>Collapsing margins happen in 2 cases:</p>
 <ul>
 <li>When two vertical margins come in contact with one another. If one margin is greater than the other, then that margin overrides the other, leaving one margin.</li>
 <li>Collapsing margins also occur when the margin of a child element crosses the margin of its parent.</li>
 </ul>
 <p>See examples of <a href="https://css-tricks.com/what-you-should-know-about-collapsing-margins/">collapsed margins</a></p>
+<h2 id="advanced-selectors">Advanced Selectors</h2>
+<p>You could also use the structure of HTML to select elements in CSS. These include:</p>
+<h3 id="relationship-selectors">Relationship Selectors</h3>
+<table>
+<thead>
+<tr>
+<th>Selector</th>
+<th>Description</th>
+<th>Sample Syntax</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>child <code>&gt;</code></td>
+<td>matches an element that is a direct child of another</td>
+<td><code>li&gt;a</code></td>
+</tr>
+<tr>
+<td>descendant <code> </code></td>
+<td>matches an element that is a descendent of another, not just a direct child</td>
+<td><code>p a</code></td>
+</tr>
+<tr>
+<td>adjacent sibling selector <code>+</code></td>
+<td>matches only the specified element that immediately follows the former specified element</td>
+<td><code>h1+p</code></td>
+</tr>
+<tr>
+<td>general sibling selector <code>~</code></td>
+<td>matches the second element only if it is preceded by the first, and both share a common parent</td>
+<td><code>h1~p</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="attribute-selectors">Attribute Selectors</h3>
+<p>If you want to select elements based on their attributes, you can use an attribute selector.</p>
+<table>
+<thead>
+<tr>
+<th>Selector</th>
+<th>Description</th>
+<th>Sample Syntax</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>existence <code>[attr]</code></td>
+<td>matches a specific attribute (regardless of value)</td>
+<td><code>a[target]</code></td>
+</tr>
+<tr>
+<td>equality <code>[attr=&quot;value&quot;]</code></td>
+<td>matches a specific attribute with a specific value (needs to match exactly)</td>
+<td><code>a[target=&quot;_blank&quot;]</code></td>
+</tr>
+<tr>
+<td>substring <code>[attr*=&quot;value&quot;]</code></td>
+<td>matches a specific attribute whose value contains a specific substring (the specified string of letters appears somewhere in the value)</td>
+<td><code>img[alt*=&quot;art&quot;]</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>See full list of <a href="https://css-tricks.com/almanac/selectors/a/attribute/">attribute selectors</a>.</li>
+</ul>
+<p>Note: <code>h1#page-title</code> and <code>h1[id=&quot;page-title&quot;]</code> are both selectors using the <code>id</code> attribute. But the latter is more specific; with conflicting rules, the latter will override the former.</p>
+<h3 id="pseudo-classes">Pseudo-classes</h3>
+<p>A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected.
+The most popular use of pseudo selectors are in links. Browsers typically show text links in blue with an underline text decoration; visited links are purple. To customize this, you can target those elements using pseudo-classes, denoted by a <code>:</code> after the element.</p>
+<pre><code>a:link {
+  color: red;
+  text-decoration: underline;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+a:active {
+  color: blue;
+  text-decoration: underline;
+} 
+
+</code></pre><h3 id="structural-pseudo-classes">Structural Pseudo-classes</h3>
+<p>You can use pseudo selectors to target specific children of parent elements.</p>
+<table>
+<thead>
+<tr>
+<th>Selector</th>
+<th>Description</th>
+<th>Sample Syntax</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First child <code>element:first-child</code></td>
+<td>matches the first child element, regardless of type, in a parent element</td>
+<td><code>li:first-child</code></td>
+</tr>
+<tr>
+<td>Last child <code>element:last-child</code></td>
+<td>matches the last child element, regardless of type, in a parent element</td>
+<td><code>li:last-child</code></td>
+</tr>
+<tr>
+<td>Nth child <code>element:nth-child(_)</code></td>
+<td>matches a child element in relation to its position within the parent element — accepts numerals, formulas, and keywords</td>
+<td><code>li:nth-child(2)</code></td>
+</tr>
+</tbody>
+</table>
+<p>We might use it to style alternate rows in a table:</p>
+<pre><code>tr:nth-child(even) {
+  background: #EEE;
+}
+</code></pre><h3 id="pseudo-elements">Pseudo-elements</h3>
+<p>Pseudo-elements allow you to style specific parts of an element or generate content around an element.</p>
+<pre><code>p.note::before {
+  content: &quot;Note: &quot;;
+  font-weight: bold;
+}
+</code></pre><ul>
+<li>More on pseudo-elements and <a href="https://css-tricks.com/pseudo-element-roundup/">things you can do with them</a>.</li>
+</ul>
 
 			</p>
 			
