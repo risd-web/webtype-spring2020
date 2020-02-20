@@ -282,18 +282,22 @@ The following CSS properties and values may be useful for scalable designs.
 CSS Grid allows you to define the column-row structure for all of your content. By declaring  `display: grid` on a container element, child elements need to be defined where they align to on the grid.
 - [Learn CSS Grid](https://learncssgrid.com/)
 - Read more on [CSS Grid properties](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- Tutorial: [Flexbox Froggy](https://cssgridgarden.com/)
+- Tutorial: [CSS Grid Garden](https://cssgridgarden.com/)
 
 ```
 <div class="container">
-  <div class="cell">
-    stuff
-  </div>
   <div class="cell item">
-    stuff
+    .item
   </div>
   <div class="cell">
-    stuff
+  </div>
+  <div class="cell">
+  </div>
+  <div class="cell">
+  </div>
+  <div class="cell">
+  </div>
+  <div class="cell">
   </div>
 </div>
 ```
