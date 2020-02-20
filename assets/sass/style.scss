@@ -81,7 +81,10 @@ article{
 		font-style: italic;
 	}
 
-	p, ul, ol, pre{
+	p+p{
+		margin-top: 1em;
+	}
+	ul, ol, pre{
 		margin-bottom: 1em;
 	}
 	li ul{

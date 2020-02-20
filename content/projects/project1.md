@@ -46,7 +46,7 @@ Possible writing forms:
 - refine the typography and layout structure
 - consider the overarching information architecture 
 - make it responsive
-- publish by Feburary 27
+- publish your page within your repository by Feburary 27
 
 
 ### Supporting Tutorials
@@ -56,3 +56,4 @@ Possible writing forms:
 - [Learn Layout](https://learnlayout.com/)
 - [Flexbox Froggy](http://flexboxfroggy.com/)
 - [CSS Grid](http://cssgridgarden.com/)
+- Publishing your site via [Github Pages](https://pages.github.com/)

@@ -2,8 +2,17 @@
 title: "Layouts and Structure"
 date: 2020-02-19
 summary: "Positioning, layouts, and responsive design"
-reference: 
-
+reference:
+ - title: "Dedesign The Web"
+   link: "http://dedesigntheweb.com/2.html"
+ - title: "Trans Books"
+   link: "https://transbooks.center/2017/"
+ - title: "Untitled Sans"
+   link: "http://untitledsans.com/"
+ - title: "RISD.edu"
+   link: "https://www.risd.edu/"
+ - title: "Digital Strategies in Genre-Defining Magazines"
+   link: "https://digital-strategies.ma-ad.ch/interview/interview-with-dan-michaelson/"
 ---
 
 ## Normal Flow
@@ -181,9 +190,10 @@ When positioining elements, the containing block / parent is your positioning co
 
 
 ## Overflow
+```visible | hidden | scroll | auto | inherit```
+
 Overflow accounts for when your content doesn’t fit within the container and specifies how the text overflows.
 
-```visible | hidden | scroll | auto | inherit```
 
 
 ```
