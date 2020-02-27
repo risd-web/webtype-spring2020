@@ -16,6 +16,8 @@ Below are links to some resources for typefaces and typography.
 - [Future Fonts](https://www.futurefonts.xyz/)
 - [Use & Modify](http://usemodify.com/)
 - [Libre Fonts by Womxn](https://www.design-research.be/by-womxn/)
+- [Velvetyne](http://velvetyne.fr/)
+- [Collletttivo](http://collletttivo.it/)
 - [OSP Kitchen](http://osp.kitchen/)
 - [League of Movable Type](https://www.theleagueofmoveabletype.com/manifesto)
 - [Font Squirrel](https://www.fontsquirrel.com/) and [webfont generator](http://www.fontsquirrel.com/tools/webfont-generator)
@@ -35,6 +37,7 @@ Below are links to some resources for typefaces and typography.
 - [Ohno Type](https://ohnotype.co/)
 - [Sharp Type](https://sharptype.co/)
 - [DJR](https://djr.com/)
+- [Vocal Type](https://www.vocaltype.co/)
 - [Frere-Jones Type](https://frerejones.com/)
 
 

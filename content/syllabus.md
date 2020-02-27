@@ -35,7 +35,7 @@ weight: 1
 * We will have 4 projects over the course of the semester. 
 
 ## Readings
-Readings will be dispersed throughout the semester to inform and contextualize our work. Be prepared to respond, raise questions, and discuss the text during class.
+Readings will be dispersed throughout the semester to inform and contextualize our work with each project. Be prepared to respond, raise questions, and discuss the text during class.
 
 ## Show & Tell
 Every class, we will begin by sharing an interesting website or two we’ve each come across over the past week.

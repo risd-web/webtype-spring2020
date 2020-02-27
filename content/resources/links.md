@@ -36,6 +36,7 @@ Below are links to webtype-type sites. The purpose here is to document a variety
 ## Sites for Typefaces
 - [Fem Type](http://www.femtype.com/)
 - [Untitled Sans](http://untitledsans.com/)
+- [Hypertext](https://hypertext.futurefonts.xyz/)
 - [Google Fonts + Chinese](https://googlefonts.github.io/chinese/#tc-About-20200212)
 - [Google Fonts + Korean](https://googlefonts.github.io/korean/)
 - [Temporary State](http://typefaces.temporarystate.net/preview/Manege)

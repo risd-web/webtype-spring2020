@@ -6,7 +6,7 @@
     <description>Recent content on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://risd-web.github.io/webtype-spring2020/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,7 +27,7 @@
       
       <guid>https://risd-web.github.io/webtype-spring2020/resources/links/</guid>
       <description>Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than to showcase exemplary samples of content or aesthetics.
-Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Google Fonts + Chinese Google Fonts + Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type + Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
+Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Hypertext Google Fonts + Chinese Google Fonts + Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type + Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
     </item>
     
     <item>
@@ -37,8 +37,29 @@ Reading collections  The Avery Review HTML Output Critical Atlas of the Internet
       
       <guid>https://risd-web.github.io/webtype-spring2020/colophon/</guid>
       <description>This site is a work-in-progress It will evolve as we progress through our class.
- Code for this site is available on Github It is compiled with the static site generator Hugo Current typeface is IBM Plex served via Google Fonts  V2 V1 February 13
- basic semantic markup click-activated element reveals standard link styling and behavior browser typographic defaults  font-family: &#39;system-ui&#39;;    </description>
+ Code for this site is available on Github It is compiled with the static site generator Hugo  V2 February 26
+ typeface changed to IBM Plex served via Google Fonts add basic css styling, media queries for responsive layouts  single breakpoint @ 800px    V1 February 13
+ use basic semantic markup use standard link styling and behavior use browser typographic defaults  font-family: &#39;system-ui&#39;;   add click-activated element reveals add aside section for reference websites on each page  </description>
+    </item>
+    
+    <item>
+      <title>Project 2 &amp; 3: Typeface as a Medium</title>
+      <link>https://risd-web.github.io/webtype-spring2020/projects/project2/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/projects/project2/</guid>
+      <description>”But in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.” – Keller Eastering
+ Reading:  Keller Easterling: Medium Design (Excerpt) Typotheque: Typeface as Programme  Project 2: Create a variable font, considering the axes of variation as a medium. With this format, you are not only designing the visual instances of letterforms — you are designing the relationship with the typographer (or anyone who uses the font.</description>
+    </item>
+    
+    <item>
+      <title>The 5Es Experience Framework</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/experience-framework/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/experience-framework/</guid>
+      <description>The “5Es of Experience Design” provides a framework to curate and design experiential work. It helps us consider some guiding questions:
+ How would you like people to move through the experience? How can you attract them and keep them engaged?   Entice  How are visitors invited to participate? How are they invited to the space in the first place?   Enter  What is the threshold moment where a visitor transitions from their world to yours?</description>
     </item>
     
     <item>
@@ -105,7 +126,7 @@ HTML  Are your HTML elements wrapped in open and close tags? Are your HTML eleme
       
       <guid>https://risd-web.github.io/webtype-spring2020/resources/type-help/</guid>
       <description>Below are links to some resources for typefaces and typography.
-Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should you self-host Google Fonts?    Open Source  Open Foundry Future Fonts Use &amp;amp; Modify Libre Fonts by Womxn OSP Kitchen League of Movable Type Font Squirrel and webfont generator  Typography Reference  Matthew Butterick’s Practical Typography Typewolf Ellen Lupton&amp;rsquo;s Thinking with Type  Foundry Websites  Occupant Fonts Commercial Type Showcase Colophon Foundry Klim Type Grilli Type Ohno Type Sharp Type DJR Frere-Jones Type  Type technology tools and reference  Using @font-face typetura.</description>
+Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should you self-host Google Fonts?    Open Source  Open Foundry Future Fonts Use &amp;amp; Modify Libre Fonts by Womxn Velvetyne Collletttivo OSP Kitchen League of Movable Type Font Squirrel and webfont generator  Typography Reference  Matthew Butterick’s Practical Typography Typewolf Ellen Lupton&amp;rsquo;s Thinking with Type  Foundry Websites  Occupant Fonts Commercial Type Showcase Colophon Foundry Klim Type Grilli Type Ohno Type Sharp Type DJR Vocal Type Frere-Jones Type  Type technology tools and reference  Using @font-face typetura.</description>
     </item>
     
     <item>
@@ -116,6 +137,17 @@ Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should y
       <guid>https://risd-web.github.io/webtype-spring2020/resources/web-help/</guid>
       <description>Below are links to some resources for coding.
 Documentation  Mozilla Developer Network Devdocs  Guides  What is a URL? Folder Poetry Dealing with files What goes in your head Why Coding Style Matters on Smashing Magazine (with useful list of validators) Writing your Best Code: HTML/CSS coding best practices and list of resources Google developer documentation style guide Sublime Text unofficial documentation &amp;amp; keyboard shortcuts  HTML  About Semantic HTML elements Overview of newer HTML tags Mix Blend Mode Nth-Child Paragraph Formatting on the Web Character sets: HTML Entities and Character Codes  CSS  CSS inheritance Shay Howe&amp;rsquo;s Guides CSS Basics Codecademy A guide to centering things Layout tutorials CSS Tricks Simple Grid Approach Articles on A List Apart: Content-out Layout | The Infinite Grid | Fluid Grids Using Style Tiles  Media Queries &amp;amp; Responsive design  Responsive Web Design Responsive Design Media Queries 7 Habits of Highly Effective Media Queries mediaqueri.</description>
+    </item>
+    
+    <item>
+      <title>HTML Terms</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/html-terms/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/html-terms/</guid>
+      <description>Tag: a tag is used for creating an element, which consists of the name of an HTML element in angle brackets. (i.e. &amp;lt;p&amp;gt; for paragraph.)
+  Element: An element is a part of a webpage. A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag. (i.e. &amp;lt;h1 class=&amp;quot;news&amp;quot;&amp;gt; Heading &amp;lt;/h1&amp;gt;)
+  Attribute: An attribute extends a tag, changing its behavior or providing metadata.</description>
     </item>
     
   </channel>

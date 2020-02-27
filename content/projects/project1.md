@@ -4,6 +4,8 @@ date: "2020-02-13"
 reference:
  - title: "Mindy Seu: Cyberfeminist Index"
    link: "https://docs.google.com/spreadsheets/d/1q_ZlbZhstBTfnZL4QP11ebivXgsvrf8shuG-QX146nw/edit#gid=1949020646"
+ - title: "Emmet Williams/Mindy Seu: Sweethearts"
+   link: "http://www.sweetheartsweetheart.com/index.html"
  - title: "Doc Searls and David Weinberger: New Clues"
    link: "https://www.wired.com/story/internet-under-fire-gets-new-manifesto/"
  - title: "Shiraz Gallab: Headgear"
@@ -14,8 +16,10 @@ reference:
 
 
 > “My favorite aspect of websites is their duality: they’re both subject and object at once. In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own identity.”
+– Laurel Schwulst
 
-- Read [Laurel Schwulst: My website is a shifting house next to a river of knowledge. What could yours be?](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)
+### Reading:
+- [Laurel Schwulst: My website is a shifting house next to a river of knowledge. What could yours be?](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)
 
 
 Choose an original text and consider your relationship to it. What typographic form can manifest this relationship? Imagine a metaphor for this site: website as _____? 

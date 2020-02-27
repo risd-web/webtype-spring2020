@@ -9,19 +9,20 @@ weight: 10
 
 It will evolve as we progress through our class.
 
-
 - Code for this site is available on [Github](https://github.com/risd-web/webtype-spring2020/)
 - It is compiled with the static site generator [Hugo](https://gohugo.io/) 
-- Current typeface is [IBM Plex](https://www.ibm.com/plex/) served via [Google Fonts](https://fonts.google.com/)
 
 ## V2
-
+<time>February 26</time>
+- typeface changed to [IBM Plex](https://www.ibm.com/plex/) served via [Google Fonts](https://fonts.google.com/)
+- add basic css styling, media queries for responsive layouts
+	- single breakpoint @ 800px
 
 ## V1
 <time>February 13</time>
-- basic semantic markup
-- click-activated element reveals 
-- standard link styling and behavior
-- browser typographic defaults
+- use basic semantic markup
+- use standard link styling and behavior
+- use browser typographic defaults
 	- `font-family: 'system-ui';`
-
+- add click-activated element reveals 
+- add `aside` section for reference websites on each page

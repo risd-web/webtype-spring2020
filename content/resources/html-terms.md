@@ -1,7 +1,6 @@
 ---
 title: "HTML Terms"
 date: 2020-02-02
-draft: true
 ---
 
 * **Tag:** a tag is used for creating an element, which consists of the name of an HTML element in angle brackets. (i.e. `<p>` for paragraph.)
