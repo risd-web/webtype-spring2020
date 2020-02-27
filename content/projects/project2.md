@@ -25,7 +25,7 @@ reference:
 ---
 
 
-> ”But in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.”
+> “But in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.”
 – Keller Eastering
 
 ### Reading:

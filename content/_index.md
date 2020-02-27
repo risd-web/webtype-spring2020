@@ -31,5 +31,5 @@ This is the class website for WEB TYPE (RISD GRAPH-2313-01)
   - Resources
 - Setup	
 - Project 1 introduction
-- Lecture: [Intro]({{< ref "/lectures/00-webtype.md" >}}), [HTML]({{< ref "/lectures/01-html.md" >}}) and [CSS Basics]({{< ref "/lectures/02-css.md" >}}))
+- Lecture: [Intro]({{< ref "/lectures/00-webtype.md" >}}), [HTML]({{< ref "/lectures/01-html.md" >}}) and [CSS Basics]({{< ref "/lectures/02-css.md" >}})
 
