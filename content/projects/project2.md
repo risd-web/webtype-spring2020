@@ -39,13 +39,18 @@ Is it user input — what kind of input? Or an external text or data source? Con
 
 ## Week 1
 
-* define your typographic concept(s)
-* determine the scope of your font
-	* you might work from an existing design — something you’ve designed in the past 
-	* if starting a new design, consider limiting your character set
-* articulate the axes for variation as an intentional design space
-* develop several sketches or approaches
-  * begin with the control characters: H, O, D, n, o, p.
+- define your typographic concept(s)
+- determine the scope of your font
+	- you might work from an existing design — something you’ve designed in the past 
+	- if starting a new design, consider limiting your character set
+- articulate the *axis for variation* as an intentional design space
+- develop several sketches or approaches
+  - begin with the control characters: H, O, D, n, o, p.
+  - These characters provide the “DNA” of a typeface: its straight shapes, its curved shapes, and the combination of the two.
+  - When drawing letters, you will be designing both the black and white shapes: the positive space as well as the negative space both within the counters of the letters and the space formed between the letters. 
+  *Pay careful attention to these inside/outside shapes.*
+
+
 
 ## Week 2
 
@@ -65,14 +70,21 @@ Is it user input — what kind of input? Or an external text or data source? Con
 * finalize website specimen
 
 
-### Supporting Links
+### Glyphs Links
 - [Glyphs: Creating a Variable Font](https://glyphsapp.com/tutorials/creating-a-variable-font)
 - [Glyphs App](https://glyphsapp.com/tutorials)
 - [Glyphs Forum](https://forum.glyphsapp.com/)
+
+### Testing
+- [Font Goggles](https://github.com/justvanrossum/fontgoggles/releases/tag/v1.1)
 - [Axis Praxis](https://www.axis-praxis.org/specimens/__DEFAULT__")
 - [Dinamo Gauntlet](https://dinamodarkroom.com/gauntlet/)
+
+### Implementing Variable Fonts on Websites
 - [MDN Variable Fonts Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
 - [One File, Many Options: Using Variable Fonts on the Web](https://css-tricks.com/one-file-many-options-using-variable-fonts-web/)
+
+### General APIs
 - [Data.gov APIs](https://www.data.gov/developers/apis)
 - [API List](https://apilist.fun/)
 

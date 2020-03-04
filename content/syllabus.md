@@ -9,7 +9,7 @@ weight: 1
 * 3 credits
 * Marie Otsuka (motsuka@risd.edu)
 
-> This course explores typography within the browser, considering the web not as a container but as a medium. We will develop typography that activates the capacities and conditions of websites. Projects will first respond our local browser conditions and different device environments, then expand to working with the remote network as source material. Critique and discussions will examine how publishing on the internet allows for a distinct form of engagement. Technical instruction includes basic web languages such as HTML, CSS, and JavaScript, as well as type design technology such as variable fonts. Background in coding is recommended but not required. 
+This course explores typography within the browser, considering the web not as a container but as a medium. We will develop typography that activates the capacities and conditions of websites. Projects will first respond our local browser conditions and different device environments, then expand to working with the remote network as source material. Critique and discussions will examine how publishing on the internet entails a distinct form of engagement and experience. Technical instruction includes basic web languages such as HTML, CSS, and JavaScript, as well as type design technology such as variable fonts. Background in coding is recommended but not required. 
 
 ## Schedule
 * Thursdays, 1:10pm – 6:10pm

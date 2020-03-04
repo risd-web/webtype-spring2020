@@ -17,7 +17,7 @@
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://risd-web.github.io/webtype-spring2020/syllabus/</guid>
-      <description>WEB TYPE (RISD GRAPH-2313-01) 3 credits Marie Otsuka (motsuka@risd.edu)   This course explores typography within the browser, considering the web not as a container but as a medium. We will develop typography that activates the capacities and conditions of websites. Projects will first respond our local browser conditions and different device environments, then expand to working with the remote network as source material. Critique and discussions will examine how publishing on the internet allows for a distinct form of engagement.</description>
+      <description>WEB TYPE (RISD GRAPH-2313-01) 3 credits Marie Otsuka (motsuka@risd.edu)  This course explores typography within the browser, considering the web not as a container but as a medium. We will develop typography that activates the capacities and conditions of websites. Projects will first respond our local browser conditions and different device environments, then expand to working with the remote network as source material. Critique and discussions will examine how publishing on the internet entails a distinct form of engagement and experience.</description>
     </item>
     
     <item>
@@ -36,10 +36,18 @@ Reading collections  The Avery Review HTML Output Critical Atlas of the Internet
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://risd-web.github.io/webtype-spring2020/colophon/</guid>
-      <description>This site is a work-in-progress It will evolve as we progress through our class.
- Code for this site is available on Github It is compiled with the static site generator Hugo  V2 February 26
- typeface changed to IBM Plex served via Google Fonts add basic css styling, media queries for responsive layouts  single breakpoint @ 800px    V1 February 13
- use basic semantic markup use standard link styling and behavior use browser typographic defaults  font-family: &#39;system-ui&#39;;   add click-activated element reveals add aside section for reference websites on each page  </description>
+      <description>This site is a work-in-progress The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
+ Full code for this site is available on Github It is compiled with the static site generator Hugo  V3 March 4
+ typeface changed to variable font Magmatic and Dispatch Mono for code updated colors that work better with type  V2 February 26</description>
+    </item>
+    
+    <item>
+      <title>Type Design Basics</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/04-typedesign/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/04-typedesign/</guid>
+      <description>Introduction to Glyphs</description>
     </item>
     
     <item>

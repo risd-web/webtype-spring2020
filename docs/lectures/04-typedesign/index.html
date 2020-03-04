@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Type Design Basics</title>
+	
+	
+
+	
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.b18db65e09a6a353667b1196b33498e0192dd9407e91c2d86673b8264c77827f.css">
+
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+	<script src="/webtype-spring2020/js/script.js"></script>
+</head>
+<body>
+	<header>
+	<a href="https://risd-web.github.io/webtype-spring2020/" class="home">Web Type</a>
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/webtype-spring2020/syllabus/">Syllabus</a></li>
+			
+			<li><a href="/webtype-spring2020/projects/">Projects</a></li>
+			
+			<li><a href="/webtype-spring2020/lectures/">Lectures</a></li>
+			
+			<li><a href="/webtype-spring2020/resources/">Resources</a></li>
+			
+			<li><a href="/webtype-spring2020/colophon/">Colophon</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Type Design Basics</h1>
+			<time>February 27, 2020</time>
+
+			
+			<p><a href="https://github.com/risd-web/webtype-demos/tree/master/03-variable-font">Demo Glyphs file</a></p>
+<p>For our variable font project, we will be using <a href="https://glyphsapp.com/">Glyphs</a>.
+Please download the full version and use the free trial for purposes of this class.
+If you find that you would like to continue drawing beyond the span of this project, there are discounted student licenses that Glyphs provides.
+Glyphs has some robust <a href="https://glyphsapp.com/tutorials">tutorials</a> as well as an active <a href="https://forum.glyphsapp.com/">forum</a>, which may be useful in your research.</p>
+<p>Below are some key terms we will be using in type design.
+Begin with the Glyphs tutorial on <a href="https://glyphsapp.com/tutorials/multiple-masters-part-1-setting-up-masters">Multiple Masters</a>.</p>
+<ul>
+<li>
+<p><strong>Design Space</strong>: The range of design variations belonging to one type family.</p>
+</li>
+<li>
+<p><strong>Master</strong>: A set of drawn characters. Every typeface needs to have at least one master. When drawing a typeface, you are usually drawing a master.</p>
+<ul>
+<li>The number of masters will determine the <strong>design space</strong> of the typeface.</li>
+</ul>
+</li>
+<li>
+<p><strong>Instance</strong>: A specified slice within the design space of the typeface.</p>
+<ul>
+<li>Masters are usually also instances, but not necessarily.</li>
+<li>The type designer determines how many instances will be interpolated from the given masters.</li>
+</ul>
+</li>
+<li>
+<p><strong>Interpolation</strong>: The process of programmatically generating instances in-between masters. In order for a glyph to interpolate, it needs have <a href="https://glyphsapp.com/tutorials/multiple-masters-part-2-keeping-your-outlines-compatible">compatible outlines</a>, which means satisfying the following conditions.</p>
+<ul>
+<li><strong>number of paths</strong>: all masters have the same amount of paths, nodes and handles, as well as components</li>
+<li><strong>path order</strong>: all components, paths, nodes and handles are in the same order across all masters.
+<ul>
+<li><strong>within a path</strong>: Make sure the <em>triangular node</em>, which marks the first node, is in the same location for each path across masters. I recommend choosing a specific corner to be consistent (for example, the node that is that the bottom left of the glyph.) To change the first node, right click the node and select <em>Make Node First</em>.</li>
+<li><strong>within a glyph</strong>: Make sure the order of the paths are in the same order. Go to <em>Filter</em> &gt; <em>Fix compatibility</em> to view the order of your shapes.</li>
+</ul>
+</li>
+<li><strong>anchors</strong>: all masters have the same set of anchors (Anchors are used to generate diacritic marks. We will not be using anchors for the scope of our project.)</li>
+</ul>
+</li>
+<li>
+<p><strong>Node</strong>: Any specified point of your glyph. Nodes can be either on-curve or off-curve.</p>
+<ul>
+<li><strong>Oncurve</strong>: A node along the path.</li>
+<li><strong>Offcurve</strong>: A node off the edge of a path, serving as an endpoint of a handle connected to an oncurve node.</li>
+</ul>
+</li>
+</ul>
+
+			
+			
+		</article>
+		<aside>
+	
+		<figure class="link-preview">
+			 <iframe class="preview" type="text/html" src="https://glyphsapp.com/" frameborder="0">
+	 		</iframe>
+		    <figcaption><a href="https://glyphsapp.com/">Glyphs</a></figcaption>
+		</figure>
+	
+		<figure class="link-preview">
+			 <iframe class="preview" type="text/html" src="https://typetr.typenetwork.com/assets_content/uploads/NoordizijCube12.gif" frameborder="0">
+	 		</iframe>
+		    <figcaption><a href="https://typetr.typenetwork.com/assets_content/uploads/NoordizijCube12.gif">Noordizij Cube</a></figcaption>
+		</figure>
+	
+		<figure class="link-preview">
+			 <iframe class="preview" type="text/html" src="http://www.insideparagraphs.com/" frameborder="0">
+	 		</iframe>
+		    <figcaption><a href="http://www.insideparagraphs.com/">Inside Paragraphs</a></figcaption>
+		</figure>
+	
+</aside>
+	</main>
+
+	
+</body>
+</html>

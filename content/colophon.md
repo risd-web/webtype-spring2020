@@ -5,12 +5,18 @@ menu: "main"
 weight: 10
 ---
 
-## This site is a work-in-progress
+### This site is a work-in-progress
 
-It will evolve as we progress through our class.
+The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
 
-- Code for this site is available on [Github](https://github.com/risd-web/webtype-spring2020/)
+- Full code for this site is available on [Github](https://github.com/risd-web/webtype-spring2020/)
 - It is compiled with the static site generator [Hugo](https://gohugo.io/) 
+
+## V3
+<time>March 4</time>
+- typeface changed to variable font [Magmatic](https://occupantfonts.com/fonts/magmatic/) and [Dispatch Mono](https://occupantfonts.com/fonts/dispatch-mono/) for code
+- updated colors that work better with type
+
 
 ## V2
 <time>February 26</time>

@@ -1,6 +1,6 @@
 ---
 title: "Variation"
-date: 2020-02-26
+date: 2020-03-04
 summary: "Variable Fonts, part one"
 reference:
  - title: "Jörg Piringer: Unicode"
