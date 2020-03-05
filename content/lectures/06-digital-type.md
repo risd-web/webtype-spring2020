@@ -24,14 +24,14 @@ reference:
 # A Brief history
 
 
-## The evolving defintion of a family
+## The evolving concept of a type family
 - 1500s Venetian type paired [Roman & Italic letterforms](https://abagond.files.wordpress.com/2007/10/aldine.jpg?w=201&zoom=2") styles — Aldus Manutius is known for his [work in typography]("https://www.prepressure.com/images/Hypnerotomachia-Poliphili-trophy-Roman-arms.jpg")
 - 1900s Bold weight is [paired for emphasis](https://en.wikipedia.org/wiki/Clarendon_(typeface)#/media/File:Fann_Street_Foundry_Clarendon_image_with_text_for_emphasis.jpg)
 - Superfamilies designed for specific purposes, i.e. [Cheltenham, 1903](http://idsgn.org/posts/know-your-type-cheltenham/)
 - Series designed as variations on a theme, i.e. [Univers, 1957](https://archive.org/details/ATFFoundryUniversDebernyPeignotIP1968/page/n9/mode/2up)
+- Concept of [Metafont, 1982](http://visiblelanguagejournal.com/issue/61/article/748)
 - [The Stroke, 1985](https://www.typotheque.com/books/the_stroke) and the [Noordizj Cube](https://typetr.typenetwork.com/news/article/The-Gerrit-Noordzij-Cube) and a [digitized demo](https://www.axis-praxis.org/playground/noordzij-cube/)
 is a theoretical model that indicated how a designer could think about shapes, the degrees of change: a **design space**.
-
 
 ## The evolution of digital technology
 - Bi Sheng in China invents “movable type” in 1040 from a material similar to porcelain. Wang Zhen is credited with the introduction of wooden movable type, a more durable option, around 1297.
