@@ -36,7 +36,7 @@ Begin with the Glyphs tutorial on [Multiple Masters](https://glyphsapp.com/tutor
   - **Offcurve**: A node off the edge of a path, serving as an endpoint of a handle connected to an oncurve node.
 
 ## Interpolation
-In order for a glyph to interpolate across masters, it needs have [compatible outlines](https://glyphsapp.com/tutorials/multiple-masters-part-2-keeping-your-outlines-compatible), which means satisfying the following conditions.
+In order for a glyph to interpolate across masters, it needs [compatible outlines](https://glyphsapp.com/tutorials/multiple-masters-part-2-keeping-your-outlines-compatible), which means satisfying the following conditions.
   - **number of paths**: all masters have the same amount of paths, nodes and handles, as well as components
   - **path order**: all components, paths, nodes and handles are in the same order across all masters. 
     - **within a path**: Make sure the *triangular node*, which marks the first node, is in the same location for each path across masters. I recommend choosing a specific corner to be consistent (for example, the node that is that the bottom left of the glyph.) To change the first node, right click the node and select *Make Node First*. 
