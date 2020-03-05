@@ -1,15 +1,7 @@
 ---
 title: "Type Design Basics"
 date: 2020-02-27
-summary: "Introduction to Glyphs"
-reference: 
- - title: "Glyphs"
-   link: "https://glyphsapp.com/"
- - title: "Noordizij Cube"
-   link: "https://typetr.typenetwork.com/assets_content/uploads/NoordizijCube12.gif"
- - title: "Inside Paragraphs"
-   link: "http://www.insideparagraphs.com/"
-
+summary: "Introduction to Terminology and Glyphs"
 ---
 
 [Demo Glyphs file](https://github.com/risd-web/webtype-demos/tree/master/03-variable-font)
