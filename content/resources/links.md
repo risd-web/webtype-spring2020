@@ -37,8 +37,8 @@ Below are links to webtype-type sites. The purpose here is to document a variety
 - [Fem Type](http://www.femtype.com/)
 - [Untitled Sans](http://untitledsans.com/)
 - [Hypertext](https://hypertext.futurefonts.xyz/)
-- [Google Fonts + Chinese](https://googlefonts.github.io/chinese/#tc-About-20200212)
-- [Google Fonts + Korean](https://googlefonts.github.io/korean/)
+- [Google Fonts and Chinese](https://googlefonts.github.io/chinese/#tc-About-20200212)
+- [Google Fonts and Korean](https://googlefonts.github.io/korean/)
 - [Temporary State](http://typefaces.temporarystate.net/preview/Manege)
 - [Alfatype](http://www.alfatypefonts.com/)
 - [Gimlet](https://djr.com/gimlet-xray/)
@@ -65,7 +65,7 @@ Below are links to webtype-type sites. The purpose here is to document a variety
 - [Metaflop](https://www.metaflop.com/modulator)
 - [Universal Sans](https://universalsans.com/)
 
-## Type + Audio
+## Type and Audio
 - [Secousse Radio](http://secousse.tv/) 
 - [Laurel Halo](http://www.laurelhalo.com/)
 - [Truth and Quantity](http://truth-and-quantity.com/)

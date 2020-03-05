@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Letterforms over time</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/06-digital-type/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/06-digital-type/</guid>
+      <description>How we came to variable fonts</description>
+    </item>
+    
+    <item>
+      <title>Change over time</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/05-variation/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/05-variation/</guid>
+      <description>CSS transitions and animations</description>
+    </item>
+    
+    <item>
       <title>Type Design Basics</title>
       <link>https://risd-web.github.io/webtype-spring2020/lectures/04-typedesign/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>

@@ -9,7 +9,7 @@
 	
 
 	
-	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.10e0f316d05e14390764c94e3b244b944beeac2bedf5ff0b577bc77367dce852.css">
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.0400d7ee1dd5d5d6a620f86c37e770850bf610a227446d0488c3f7b9c4587429.css">
 
 	<script
 	  src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -43,18 +43,15 @@
 	<main>
 		<article>
 			<h1>CSS Basics</h1>
-			<time>February 13, 2020</time>
-
-			
-			<p>CSS is the language determining the look and feel of HTML elements.
+			<time>February 13, 2020</time><p>CSS is the language determining the look and feel of HTML elements.
 Every element in web design is a rectangular box styled with CSS.</p>
-<h2 id="cascading-stylesheets">Cascading Stylesheets</h2>
+<h2><a id="cascading-stylesheets" class="anchor" ariaLabel="Anchor"></a> Cascading Stylesheets</h2>
 <p>CSS = <strong>C</strong>ascading <strong>S</strong>tyle<strong>s</strong>heets</p>
 <p>CSS defines the form of a website’s content by listing rules for how elements should appear.</p>
 <pre><code>p {
   color: blue;
 }
-</code></pre><h3 id="anatomy">Anatomy</h3>
+</code></pre><h3><a id="anatomy" class="anchor" ariaLabel="Anchor"></a> Anatomy</h3>
 <ul>
 <li><strong>selector</strong> (targeted html element)  <code>p</code></li>
 <li>opening curly brackets <code>{</code></li>
@@ -68,13 +65,13 @@ Every element in web design is a rectangular box styled with CSS.</p>
 </li>
 <li>closing curly brackets <code>}</code></li>
 </ul>
-<h2 id="inline-css">Inline CSS</h2>
+<h2><a id="inline-css" class="anchor" ariaLabel="Anchor"></a> Inline CSS</h2>
 <p>Inline styles are specified as an attribute inside of an individual HTML element with the syntax style=&quot;property: value;&rdquo; and applies only to that element. This is the least desirable way, as it can be inefficient and lead to inconsistencies.</p>
 <p><code>&lt;p style= &quot;color: blue;&quot;&gt; First paragraph text. &lt;/p&gt;</code>
 <code>&lt;p&gt; Second paragraph text. &lt;/p&gt;</code></p>
 <p style= "color: blue;">First paragraph text.</p>
 Second paragraph text.
-<h2 id="internal-css">Internal CSS</h2>
+<h2><a id="internal-css" class="anchor" ariaLabel="Anchor"></a> Internal CSS</h2>
 <p>Internal CSS is declared within the head of the document. Selectors apply to all instances of that page. This keeps the HTML markup clean and uncluttered. It’s much more efficient than inline styling, but not as effective as external stylesheets.</p>
 <pre><code>&lt;html&gt;
 &lt;head&gt;
@@ -89,10 +86,10 @@ Second paragraph text.
   &lt;p&gt;Second paragraph text.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre><h2 id="external-css">External CSS</h2>
+</code></pre><h2><a id="external-css" class="anchor" ariaLabel="Anchor"></a> External CSS</h2>
 <p>External CSS keeps all css declarations in a separate document that gets pulled into the webpage with  <code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles.css&quot;&gt;</code></p>
 <p>Selectors apply to <em>all instances of elements in all webpages that use the same stylesheet</em>. This method is the ideal method of formatting your site, since it ensures consistency across pages. It also keeps things flexible: by changing one property in the external stylesheet, all instances could be easily changed.</p>
-<h2 id="inheritance">Inheritance</h2>
+<h2><a id="inheritance" class="anchor" ariaLabel="Anchor"></a> Inheritance</h2>
 <p>Inheritance refers to how children take on css properties of their parents if they don’t have that property specified. Not all css declarations are inherited.</p>
 <pre><code>div {
   color: blue;
@@ -105,33 +102,33 @@ span {
 </code></pre><div>
 <h1>Cascading <span>Style</span> Sheets</h1>
 </div>
-<h2 id="the-cascade">The Cascade</h2>
+<h2><a id="the-cascade" class="anchor" ariaLabel="Anchor"></a> The Cascade</h2>
 <p>Cascade refers to the way the stylesheet processes and assigns weights to rules that apply to the same element, ultimately determining which properties will modify a given element.</p>
-<h3 id="origin">Origin</h3>
+<h3><a id="origin" class="anchor" ariaLabel="Anchor"></a> Origin</h3>
 <p>Stylesheets may come from 3 different sources, processed in the following order</p>
 <ol>
 <li><strong>User agent:</strong> The browser’s default style sheet.</li>
 <li><strong>User:</strong> Such as the user’s browser options.</li>
 <li><strong>Author:</strong> This is the CSS provided by the page (whether inline, embedded or external.) Inline &gt; Internal &gt; External</li>
 </ol>
-<h3 id="specificity">Specificity</h3>
+<h3><a id="specificity" class="anchor" ariaLabel="Anchor"></a> Specificity</h3>
 <p>when rules within the same stylesheet conflict, the type of selector determines which has more weight</p>
-<h3 id="rule-order">Rule order</h3>
+<h3><a id="rule-order" class="anchor" ariaLabel="Anchor"></a> Rule order</h3>
 <p>between style rules of identical weight, last one wins</p>
 <p>※ note: the <code>!important</code> rule allows overrides to this hierarchy, but should be used sparingly</p>
-<h2 id="selectors">Selectors</h2>
+<h2><a id="selectors" class="anchor" ariaLabel="Anchor"></a> Selectors</h2>
 <p>By understanding inheritance and the cascade, we can write overarching rules that apply to most elements, then override the properties on individual elements. Selectors help tailor our rules to define specific elements. The more specific the selector, the higher its priority.</p>
-<h3 id="element-selector">Element selector</h3>
+<h3><a id="element-selector" class="anchor" ariaLabel="Anchor"></a> Element selector</h3>
 <p>We’ve already seen the type selector that matches element names.</p>
 <pre><code>h2 {
 	font-size: 3em;
 }
-</code></pre><h3 id="multiple-selection">Multiple selection</h3>
+</code></pre><h3><a id="multiple-selection" class="anchor" ariaLabel="Anchor"></a> Multiple selection</h3>
 <p>By separating selectors with commas, you can apply the same rule to multiple HTML elements.</p>
 <pre><code>h2, .introduction {
 	font-size: 3em;
 }
-</code></pre><h3 id="classes-and-ids">Classes and IDs</h3>
+</code></pre><h3><a id="classes-and-ids" class="anchor" ariaLabel="Anchor"></a> Classes and IDs</h3>
 <p>By assigning a <strong>class</strong> to elements (with the <code>class</code> attribute) in your HTML, we can apply your rule to just elements that have that particular class. In your stylesheet, all class names are preceded by a period (<code>.</code>).</p>
 <p>CSS</p>
 <pre><code>.highlight {
@@ -154,12 +151,12 @@ span {
 <ul>
 <li>Class and IDs names should not include spaces or weird characters.</li>
 </ul>
-<h2 id="use-the-inspector">Use the Inspector</h2>
+<h2><a id="use-the-inspector" class="anchor" ariaLabel="Anchor"></a> Use the Inspector</h2>
 <p>The element inspector is a great way to verify the CSS properties applied to your elements.
 When thinking about CSS properties, imagine that there is an invisible box around each HTML element.</p>
-<h2 id="understanding-css-properties">Understanding CSS Properties</h2>
+<h2><a id="understanding-css-properties" class="anchor" ariaLabel="Anchor"></a> Understanding CSS Properties</h2>
 <p>Color, text, and the box model</p>
-<h3 id="color">Color</h3>
+<h3><a id="color" class="anchor" ariaLabel="Anchor"></a> Color</h3>
 <p>Color can be specified in various formats. You can inspect color codes by using the color picker in your dev tools (inspector.)</p>
 <table>
 <thead>
@@ -188,7 +185,7 @@ When thinking about CSS properties, imagine that there is an invisible box aroun
 </tbody>
 </table>
 <p>※ note: the <code>color</code> css property only specifies the foreground text-color of elements. Use <code>background-color</code> to specify the color of your entire element area.</p>
-<h2 id="text">Text</h2>
+<h2><a id="text" class="anchor" ariaLabel="Anchor"></a> Text</h2>
 <p>Some common text-styling properties:</p>
 <table>
 <thead>
@@ -236,7 +233,7 @@ When thinking about CSS properties, imagine that there is an invisible box aroun
 </tr>
 </tbody>
 </table>
-<h2 id="typefaces">Typefaces</h2>
+<h2><a id="typefaces" class="anchor" ariaLabel="Anchor"></a> Typefaces</h2>
 <p>There are 3 primary sources of fonts from which you can choose:</p>
 <ul>
 <li><strong>System fonts</strong>: These are fonts installed on the computer. If you specify on a font that exists on your system, your website visitors must also have the font installed on their machine. There are several fonts known to be installed across Windows and Mac computers, such as Arial, Helvetica, Times New Roman, Georgia, Verdana. Choices are limited.</li>
@@ -244,7 +241,7 @@ When thinking about CSS properties, imagine that there is an invisible box aroun
 <li><strong>Self-hosted webfonts</strong>: if you upload your own font files, you can use the <code>@font-face</code> rule. <a href="http://www.fontsquirrel.com/tools/webfont-generator">Font Squirrel</a> has a web font generator that converts desktop fonts to web font formats, but you may not have the permissions.</li>
 </ul>
 <p>Read more on <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts">How to use custom fonts</a> on your website.</p>
-<h2 id="css-size-units">CSS Size Units</h2>
+<h2><a id="css-size-units" class="anchor" ariaLabel="Anchor"></a> CSS Size Units</h2>
 <table>
 <thead>
 <tr>
@@ -275,7 +272,7 @@ When thinking about CSS properties, imagine that there is an invisible box aroun
 </tr>
 </tbody>
 </table>
-<h2 id="the-box-model">The Box Model</h2>
+<h2><a id="the-box-model" class="anchor" ariaLabel="Anchor"></a> The Box Model</h2>
 <p>The <a href="https://css-tricks.com/the-css-box-model/">box model</a> refers to how block-level elements can be controlled.</p>
 <p>Components of the box model</p>
 <ul>
@@ -296,19 +293,19 @@ When thinking about CSS properties, imagine that there is an invisible box aroun
 }
 </code></pre><div style="width: 300px; height: 200px; border: 6px solid coral; background: pink; padding: 10px; margin: 5px 20px 30px auto;">
 </div>
-<h3 id="box-model-adjustment">*Box-Model Adjustment</h3>
+<h3><a id="box-model-adjustment" class="anchor" ariaLabel="Anchor"></a> Box-Model Adjustment</h3>
 <p>If you found the box model (in which the padding and border are outside of the element dimensions) to be unintuitive, you can use the <code>box-sizing</code> property. Setting this to <code>border-box</code> includes the padding and border width in the element width. So when you set <code>box-sizing: border-box;</code> on an element, the padding and border of that element no longer increase its width or height. More on box-sizing.</p>
 <p><code>box-sizing: border-box;</code></p>
-<h3 id="a-note-on-collapsing-margins">A note on collapsing margins</h3>
-<p>Collapsing margins happen in 2 cases:</p>
+<h3><a id="collapsing-margins" class="anchor" ariaLabel="Anchor"></a> Collapsing margins</h3>
+<p>Collapsing margins, where two margins cancel out each other,  happens in 2 cases:</p>
 <ul>
 <li>When two vertical margins come in contact with one another. If one margin is greater than the other, then that margin overrides the other, leaving one margin.</li>
 <li>Collapsing margins also occur when the margin of a child element crosses the margin of its parent.</li>
 </ul>
 <p>See examples of <a href="https://css-tricks.com/what-you-should-know-about-collapsing-margins/">collapsed margins</a></p>
-<h2 id="advanced-selectors">Advanced Selectors</h2>
+<h2><a id="advanced-selectors" class="anchor" ariaLabel="Anchor"></a> Advanced Selectors</h2>
 <p>You could also use the structure of HTML to select elements in CSS. These include:</p>
-<h3 id="relationship-selectors">Relationship Selectors</h3>
+<h3><a id="relationship-selectors" class="anchor" ariaLabel="Anchor"></a> Relationship Selectors</h3>
 <table>
 <thead>
 <tr>
@@ -340,7 +337,7 @@ When thinking about CSS properties, imagine that there is an invisible box aroun
 </tr>
 </tbody>
 </table>
-<h3 id="attribute-selectors">Attribute Selectors</h3>
+<h3><a id="attribute-selectors" class="anchor" ariaLabel="Anchor"></a> Attribute Selectors</h3>
 <p>If you want to select elements based on their attributes, you can use an attribute selector.</p>
 <table>
 <thead>
@@ -372,7 +369,7 @@ When thinking about CSS properties, imagine that there is an invisible box aroun
 <li>See full list of <a href="https://css-tricks.com/almanac/selectors/a/attribute/">attribute selectors</a>.</li>
 </ul>
 <p>Note: <code>h1#page-title</code> and <code>h1[id=&quot;page-title&quot;]</code> are both selectors using the <code>id</code> attribute. But the latter is more specific; with conflicting rules, the latter will override the former.</p>
-<h3 id="pseudo-classes">Pseudo-classes</h3>
+<h3><a id="pseudo-classes" class="anchor" ariaLabel="Anchor"></a> Pseudo-classes</h3>
 <p>A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected.
 The most popular use of pseudo selectors are in links. Browsers typically show text links in blue with an underline text decoration; visited links are purple. To customize this, you can target those elements using pseudo-classes, denoted by a <code>:</code> after the element.</p>
 <pre><code>a:link {
@@ -391,7 +388,7 @@ a:active {
   text-decoration: underline;
 } 
 
-</code></pre><h3 id="structural-pseudo-classes">Structural Pseudo-classes</h3>
+</code></pre><h3><a id="structural-pseudo-classes" class="anchor" ariaLabel="Anchor"></a> Structural Pseudo-classes</h3>
 <p>You can use pseudo selectors to target specific children of parent elements.</p>
 <table>
 <thead>
@@ -423,7 +420,7 @@ a:active {
 <pre><code>tr:nth-child(even) {
   background: #EEE;
 }
-</code></pre><h3 id="pseudo-elements">Pseudo-elements</h3>
+</code></pre><h3><a id="pseudo-elements" class="anchor" ariaLabel="Anchor"></a> Pseudo-elements</h3>
 <p>Pseudo-elements allow you to style specific parts of an element or generate content around an element.</p>
 <pre><code>p.note::before {
   content: &quot;Note: &quot;;
@@ -432,11 +429,60 @@ a:active {
 </code></pre><ul>
 <li>More on pseudo-elements and <a href="https://css-tricks.com/pseudo-element-roundup/">things you can do with them</a>.</li>
 </ul>
-
-			
-			
-		</article>
+</article>
 		<aside>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#cascading-stylesheets">Cascading Stylesheets</a>
+      <ul>
+        <li><a href="#anatomy">Anatomy</a></li>
+      </ul>
+    </li>
+    <li><a href="#inline-css">Inline CSS</a></li>
+    <li><a href="#internal-css">Internal CSS</a></li>
+    <li><a href="#external-css">External CSS</a></li>
+    <li><a href="#inheritance">Inheritance</a></li>
+    <li><a href="#the-cascade">The Cascade</a>
+      <ul>
+        <li><a href="#origin">Origin</a></li>
+        <li><a href="#specificity">Specificity</a></li>
+        <li><a href="#rule-order">Rule order</a></li>
+      </ul>
+    </li>
+    <li><a href="#selectors">Selectors</a>
+      <ul>
+        <li><a href="#element-selector">Element selector</a></li>
+        <li><a href="#multiple-selection">Multiple selection</a></li>
+        <li><a href="#classes-and-ids">Classes and IDs</a></li>
+      </ul>
+    </li>
+    <li><a href="#use-the-inspector">Use the Inspector</a></li>
+    <li><a href="#understanding-css-properties">Understanding CSS Properties</a>
+      <ul>
+        <li><a href="#color">Color</a></li>
+      </ul>
+    </li>
+    <li><a href="#text">Text</a></li>
+    <li><a href="#typefaces">Typefaces</a></li>
+    <li><a href="#css-size-units">CSS Size Units</a></li>
+    <li><a href="#the-box-model">The Box Model</a>
+      <ul>
+        <li><a href="#box-model-adjustment">Box-Model Adjustment</a></li>
+        <li><a href="#collapsing-margins">Collapsing margins</a></li>
+      </ul>
+    </li>
+    <li><a href="#advanced-selectors">Advanced Selectors</a>
+      <ul>
+        <li><a href="#relationship-selectors">Relationship Selectors</a></li>
+        <li><a href="#attribute-selectors">Attribute Selectors</a></li>
+        <li><a href="#pseudo-classes">Pseudo-classes</a></li>
+        <li><a href="#structural-pseudo-classes">Structural Pseudo-classes</a></li>
+        <li><a href="#pseudo-elements">Pseudo-elements</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+	
 	
 		<figure class="link-preview">
 			 <iframe class="preview" type="text/html" src="https://miro.medium.com/max/1000/1*X8t46W-iH2VGgYOB5aG1nA.jpeg" frameborder="0">

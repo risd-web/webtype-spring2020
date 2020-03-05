@@ -5,9 +5,7 @@ menu: "main"
 weight: 10
 ---
 
-### This site is a work-in-progress
-
-The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
+*This site is a work-in-progress.* The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
 
 - Full code for this site is available on [Github](https://github.com/risd-web/webtype-spring2020/)
 - It is compiled with the static site generator [Hugo](https://gohugo.io/) 

@@ -9,7 +9,7 @@
 	
 
 	
-	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.10e0f316d05e14390764c94e3b244b944beeac2bedf5ff0b577bc77367dce852.css">
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.0400d7ee1dd5d5d6a620f86c37e770850bf610a227446d0488c3f7b9c4587429.css">
 
 	<script
 	  src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -43,35 +43,37 @@
 	<main>
 		<article>
 			<h1>Type Design Basics</h1>
-			<time>February 27, 2020</time>
-
-			
-			<p><a href="https://github.com/risd-web/webtype-demos/tree/master/03-variable-font">Demo Glyphs file</a></p>
+			<time>February 27, 2020</time><p><a href="https://github.com/risd-web/webtype-demos/tree/master/03-variable-font">Demo Glyphs file</a></p>
 <p>For our variable font project, we will be using <a href="https://glyphsapp.com/">Glyphs</a>.
 Please download the full version and use the free trial for purposes of this class.
 If you find that you would like to continue drawing beyond the span of this project, there are discounted student licenses that Glyphs provides.
 Glyphs has some robust <a href="https://glyphsapp.com/tutorials">tutorials</a> as well as an active <a href="https://forum.glyphsapp.com/">forum</a>, which may be useful in your research.</p>
 <p>Below are some key terms we will be using in type design.
 Begin with the Glyphs tutorial on <a href="https://glyphsapp.com/tutorials/multiple-masters-part-1-setting-up-masters">Multiple Masters</a>.</p>
+<h2><a id="terms" class="anchor" ariaLabel="Anchor"></a> Terms</h2>
 <ul>
-<li>
-<p><strong>Design Space</strong>: The range of design variations belonging to one type family.</p>
-</li>
-<li>
-<p><strong>Master</strong>: A set of drawn characters. Every typeface needs to have at least one master. When drawing a typeface, you are usually drawing a master.</p>
+<li><strong>Design Space</strong>: The range of design variations belonging to one type family.</li>
+<li><strong>Master</strong>: A set of drawn characters. Every typeface needs to have at least one master. When drawing a typeface, you are usually drawing a master.
 <ul>
 <li>The number of masters will determine the <strong>design space</strong> of the typeface.</li>
 </ul>
 </li>
-<li>
-<p><strong>Instance</strong>: A specified slice within the design space of the typeface.</p>
+<li><strong>Instance</strong>: A specified slice within the design space of the typeface.
 <ul>
 <li>Masters are usually also instances, but not necessarily.</li>
 <li>The type designer determines how many instances will be interpolated from the given masters.</li>
 </ul>
 </li>
-<li>
-<p><strong>Interpolation</strong>: The process of programmatically generating instances in-between masters. In order for a glyph to interpolate, it needs have <a href="https://glyphsapp.com/tutorials/multiple-masters-part-2-keeping-your-outlines-compatible">compatible outlines</a>, which means satisfying the following conditions.</p>
+<li><strong>Interpolation</strong>: The process of programmatically generating instances in-between masters.</li>
+<li><strong>Node</strong>: Any specified point of your glyph. Nodes can be either on-curve or off-curve.
+<ul>
+<li><strong>Oncurve</strong>: A node along the path.</li>
+<li><strong>Offcurve</strong>: A node off the edge of a path, serving as an endpoint of a handle connected to an oncurve node.</li>
+</ul>
+</li>
+</ul>
+<h2><a id="interpolation" class="anchor" ariaLabel="Anchor"></a> Interpolation</h2>
+<p>In order for a glyph to interpolate across masters, it needs have <a href="https://glyphsapp.com/tutorials/multiple-masters-part-2-keeping-your-outlines-compatible">compatible outlines</a>, which means satisfying the following conditions.</p>
 <ul>
 <li><strong>number of paths</strong>: all masters have the same amount of paths, nodes and handles, as well as components</li>
 <li><strong>path order</strong>: all components, paths, nodes and handles are in the same order across all masters.
@@ -82,20 +84,15 @@ Begin with the Glyphs tutorial on <a href="https://glyphsapp.com/tutorials/multi
 </li>
 <li><strong>anchors</strong>: all masters have the same set of anchors (Anchors are used to generate diacritic marks. We will not be using anchors for the scope of our project.)</li>
 </ul>
-</li>
-<li>
-<p><strong>Node</strong>: Any specified point of your glyph. Nodes can be either on-curve or off-curve.</p>
-<ul>
-<li><strong>Oncurve</strong>: A node along the path.</li>
-<li><strong>Offcurve</strong>: A node off the edge of a path, serving as an endpoint of a handle connected to an oncurve node.</li>
-</ul>
-</li>
-</ul>
-
-			
-			
-		</article>
+</article>
 		<aside>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#terms">Terms</a></li>
+    <li><a href="#interpolation">Interpolation</a></li>
+  </ul>
+</nav>
+	
 	
 		<figure class="link-preview">
 			 <iframe class="preview" type="text/html" src="https://glyphsapp.com/" frameborder="0">

@@ -61,7 +61,7 @@ Semantic markup establishes the hierarchy and structure of information. The late
 - lists `ul`, `ol`, `dl`
 
 You can see the HTML and structure of any webpage by opening your Inspector tool on your browser. 
-- Inspect (⌘+Option+I or ⌘+Shift+C) displays the HTML structure and styles that the browser determined from the source file. You can also hover over elements to see what they correspond to on your screen. ** The inspector is your best tool when developing websites because it bridges the gap between your intentions with your code + how the browser renders it. **
+- Inspect (⌘–Option–I or ⌘–Shift–C) displays the HTML structure and styles that the browser determined from the source file. You can also hover over elements to see what they correspond to on your screen. ** The inspector is your best tool when developing websites because it bridges the gap between your intentions with your code and how the browser renders it. **
 
 ## Nested structures
 An element nested within another is called a child element. Conversely, an element containing another is called its parent. A child element must be closed before its parent element. 

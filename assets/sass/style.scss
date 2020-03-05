@@ -58,6 +58,7 @@ header{
 	margin-left: 35vw;
 	padding-top: .5em;
 	padding-left: 1.5em;
+	background: white;
 
 	.home{
 		margin-right: 1em;
@@ -89,6 +90,7 @@ aside{
 	left: 0;
 	height: 100vh;
 	box-shadow: 5px 0px 5px -2px var(--secondcolor);
+	z-index: 100;
 }
 
 .index-list li{
@@ -98,15 +100,29 @@ aside{
 	}
 }
 
+nav#TableOfContents{
+	display: block;
+	margin: 1.75em;
+	ul{
+		border-left: 1px solid var(--thirdcolor);
+		padding-left: 0.5em;
+		margin-bottom: .5em;
+	}
+	li{
+		display: block;
+		ul{
+			margin-left: 1em;
+			border-bottom: 0;
+		}
+	}
+}
+
 article{
 	padding: 1.5em;
 	margin-right: 1em;
 	max-width: 40em;
 	position: relative;
-}
 
-
-article{
 
 	h1{
 		font-weight: normal;
@@ -114,6 +130,11 @@ article{
 		font-size: 2em;
 		margin-top: 2em;
 		line-height: 1.1;
+	}
+
+	.anchor{
+		position: relative;
+		top: -100px;
 	}
 
 	time{
@@ -124,13 +145,20 @@ article{
 	h2, h3, h4, h5, h6 {
 		font-variation-settings: 'wght' 550,'wdth' 700;
 		text-transform: uppercase;
-		margin-top: 3em;
 		font-size: 1.05em;
 		letter-spacing: 0.04em;
 	}
 
+	h2{
+		margin-top: 3em;
+	}
+	h3{
+		margin-top: 1em;
+	}
+
 	strong {
 		background: var(--code-bgcolor);
+		font-weight: normal;
 	}
 
 	em {
@@ -160,7 +188,10 @@ article{
 		p{
 			display: inline;
 		}
+	}
 
+	li time+p{
+		display: block;
 	}
 
 	ul, ol{
@@ -168,7 +199,6 @@ article{
 	}
 
 	ul{
-		margin-top: 1em;
 		list-style-type: none;
 		li{
 			text-indent: -.5em;
@@ -192,10 +222,10 @@ article{
 	}
 }
 
-.highlight{
-	background: #e8e8e8;
-	padding: 8px 1em;
-}
+// .highlight{
+// 	background: #e8e8e8;
+// 	padding: 8px 1em;
+// }
 
 pre {
 	background: var(--code-bgcolor);
@@ -208,7 +238,9 @@ code{
 	font-style: normal;
 	background: var(--code-bgcolor);
 }
-
+p code{
+	font-size: 1em;
+}
 table{
 	margin: 1em 0;
 }
@@ -292,8 +324,18 @@ td:first-child{
 	margin-bottom: .5em;
 }
 
+.dotted{
+	background: transparent;
+	border: 1px dashed var(--maincolor);
+}
 .marked{
-	background: blue;
+	background: var(--maincolor);
+}
+
+@keyframes changecolor {
+	0% {background-color: blue; } 
+	50% {background-color: yellow; color: rgba(200,155,20,0.8); }
+	100%{background-color: green; }
 }
 
 @media only screen and (max-width: 1100px) {

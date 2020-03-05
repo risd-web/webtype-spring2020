@@ -27,7 +27,7 @@
       
       <guid>https://risd-web.github.io/webtype-spring2020/resources/links/</guid>
       <description>Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than to showcase exemplary samples of content or aesthetics.
-Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Hypertext Google Fonts + Chinese Google Fonts + Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type + Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
+Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Ryder Ripps  Sites for Typefaces  Fem Type Untitled Sans Hypertext Google Fonts and Chinese Google Fonts and Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type and Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
     </item>
     
     <item>
@@ -36,9 +36,27 @@ Reading collections  The Avery Review HTML Output Critical Atlas of the Internet
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://risd-web.github.io/webtype-spring2020/colophon/</guid>
-      <description>This site is a work-in-progress The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
+      <description>This site is a work-in-progress. The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
  Full code for this site is available on Github It is compiled with the static site generator Hugo  V3 March 4
  typeface changed to variable font Magmatic and Dispatch Mono for code updated colors that work better with type  V2 February 26</description>
+    </item>
+    
+    <item>
+      <title>Letterforms over time</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/06-digital-type/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/06-digital-type/</guid>
+      <description>How we came to variable fonts</description>
+    </item>
+    
+    <item>
+      <title>Change over time</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/05-variation/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/05-variation/</guid>
+      <description>CSS transitions and animations</description>
     </item>
     
     <item>

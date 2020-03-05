@@ -9,7 +9,7 @@
 	
 
 	
-	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.10e0f316d05e14390764c94e3b244b944beeac2bedf5ff0b577bc77367dce852.css">
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.0400d7ee1dd5d5d6a620f86c37e770850bf610a227446d0488c3f7b9c4587429.css">
 
 	<script
 	  src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -43,13 +43,9 @@
 	<main>
 		<article>
 			<h1>Layouts and Structure</h1>
-			<time>February 19, 2020</time>
-
-			
-			<h2 id="normal-flow">Normal Flow</h2>
+			<time>February 19, 2020</time><h2><a id="normal-flow" class="anchor" ariaLabel="Anchor"></a> Normal Flow</h2>
 <p>With HTML, the normal flow is a top-to-bottom rendering of the elements.</p>
 <p>Every block-level element appears on a new line, causing each item to appear lower down the page than the previous one. <em>Inline elements appear adjacent to each other.</em></p>
-<h3 id="the-code-for-the-above-text">The code for the above text:</h3>
 <pre><code>&lt;h1&gt;Normal Flow&lt;/h1&gt;
 &lt;p&gt;
   With HTML, the normal flow is a top-to-bottom rendering of the html file.
@@ -60,7 +56,7 @@
 </code></pre><ul>
 <li>This depends on the default <code>display</code> property of each element. Review: <a href="https://risd-web.github.io/webtype-spring2020/lectures/01-html/#inline-vs-block-elements">Inline vs. Block Elements</a></li>
 </ul>
-<h2 id="change-the-display-properity">Change the Display properity</h2>
+<h2><a id="change-the-display-properity" class="anchor" ariaLabel="Anchor"></a> Change the Display properity</h2>
 <p>Any element’s display property can be changed by overriding the default behavior with CSS.</p>
 <p>For example, <code>&lt;div&gt;</code> elements by default have the property <code>display: block;</code>, for example, but this can be adjusted by adding <code>display: inline</code> and specifying a <code>width</code> property for <code>div</code> in CSS.</p>
 <ul>
@@ -73,10 +69,10 @@
 </li>
 <li>There are <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">other possible properties</a> for <code>display</code>.</li>
 </ul>
-<h1 id="positioning">Positioning</h1>
+<h1><a id="positioning" class="anchor" ariaLabel="Anchor"></a> Positioning</h1>
 <p><code>static | relative | absolute | fixed</code></p>
 <p>Positioning allows you to control the layout of a page using the position property. Positioning allows you to establish elements independent of the normal flow. By default, all elements have a <code>position: static</code> CSS property which gives them their normal flow.</p>
-<h2 id="relative-positioning">Relative Positioning</h2>
+<h2><a id="relative-positioning" class="anchor" ariaLabel="Anchor"></a> Relative Positioning</h2>
 <p>This offsets an element from the position it would be in normal flow, shifting it to the top, right, bottom, or left of where it would have been placed. This does not affect the position of surrounding elements; they stay in the position they would be in in normal flow.</p>
 <pre><code>&lt;div&gt;...&lt;/div&gt;
 &lt;div class=&quot;example&quot;&gt;...&lt;/div&gt;
@@ -94,7 +90,7 @@
   left: 100px;"></div>
   <div class="line"></div>
 </div>
-<h2 id="absolute-positioning">Absolute Positioning</h2>
+<h2><a id="absolute-positioning" class="anchor" ariaLabel="Anchor"></a> Absolute Positioning</h2>
 <p>The element’s box is completely removed from the flow of the document and positioned with respect to its <a href="#the-container">containing block</a>, which may be another element in the document or the initial containing block. Whatever space the element might have occupied in the normal document flow is closed up, as though the element did not exist.</p>
 <pre><code>&lt;div&gt;...&lt;/div&gt;
 &lt;div class=&quot;example&quot;&gt;...&lt;/div&gt;
@@ -113,7 +109,7 @@
   width: 60%; "></div>
   <div class="line"></div>
 </div>
-<h2 id="fixed-positioning">Fixed Positioning</h2>
+<h2><a id="fixed-positioning" class="anchor" ariaLabel="Anchor"></a> Fixed Positioning</h2>
 <p>The element’s box behaves as though it were set to absolute, but its containing block is the viewport.
 Viewport =  boundaries of browser window
 This means that fixed position elements don’t move if the page is scrolled.</p>
@@ -134,7 +130,7 @@ This means that fixed position elements don’t move if the page is scrolled.</p
   width: 40px; "></div>
   <div class="line"></div>
 </div>
-<h3 id="z-index">Z-index</h3>
+<h3><a id="z-index" class="anchor" ariaLabel="Anchor"></a> Z-index</h3>
 <p>The <code>z-index</code> value specifies the stack order of an element for any non-standard positioned elements. This is similar to how layers work in Photoshop.</p>
 <p>An element with a bigger number is always in front of an element with a smaller number.</p>
 <p>The default is 0. It is good to use intervals of 10 in case additional elements need to be placed in between.</p>
@@ -166,7 +162,7 @@ This means that fixed position elements don’t move if the page is scrolled.</p
   <div class="square marked" style="display: inline-block; position: relative; top: 40px; left:-40px; z-index: 10;"></div>
   <div class="square" style="display: inline-block; position: relative; top: 80px; left:-80px;"></div>
 </div>
-<h2 id="the-container">The Container</h2>
+<h2><a id="the-container" class="anchor" ariaLabel="Anchor"></a> The Container</h2>
 <p>When positioining elements, the containing block / parent is your positioning context or reference point.</p>
 <ul>
 <li>Elements can be visually positioned outside of their containing block, but still operate with the same parent-childe relationship.</li>
@@ -179,7 +175,7 @@ This means that fixed position elements don’t move if the page is scrolled.</p
 </ul>
 </li>
 </ul>
-<h2 id="overflow">Overflow</h2>
+<h2><a id="overflow" class="anchor" ariaLabel="Anchor"></a> Overflow</h2>
 <p><code>visible | hidden | scroll | auto | inherit</code></p>
 <p>Overflow accounts for when your content doesn’t fit within the container and specifies how the text overflows.</p>
 <pre><code>&lt;div class=&quot;container&quot;&gt;
@@ -189,7 +185,7 @@ This means that fixed position elements don’t move if the page is scrolled.</p
 &lt;/div&gt;
 </code></pre><pre><code>.container {
   overflow: hidden; 
-  height: 99px;
+  height: 80px;
 }
 
 .line {
@@ -197,17 +193,17 @@ This means that fixed position elements don’t move if the page is scrolled.</p
   background: #e6e6e6;
   margin-bottom: .5em;
 }
-</code></pre><div class="diagram" style="overflow: hidden; height: 66px;">
+</code></pre><div class="diagram" style="overflow: hidden; height: 80px;">
   <div class="line"></div>
   <div class="line"></div>
   <div class="line"></div>
 </div>
-<h1 id="hierarchy--structure">Hierarchy &amp; Structure</h1>
+<h1><a id="hierarchy--structure" class="anchor" ariaLabel="Anchor"></a> Hierarchy &amp; Structure</h1>
 <p>Visual hierarchy is the order in which the eye perceives what it sees. This order is created by visual contrast between forms in a perceptual field.</p>
 <ul>
 <li>Read more about typography and visual hierarchy with <a href="http://thinkingwithtype.com/text/#line-spacing">Ellen Lupton: Thinking with Type</a></li>
 </ul>
-<h2 id="content-types">Content Types</h2>
+<h2><a id="content-types" class="anchor" ariaLabel="Anchor"></a> Content Types</h2>
 <p><em>Structure within a chunk of content:</em> the typographic organization of repeating groups of text. In order to structure your typography, we can begin to identify what categories of content there are.</p>
 <ul>
 <li>What types of content tend to be chunked together?</li>
@@ -215,14 +211,14 @@ This means that fixed position elements don’t move if the page is scrolled.</p
 <li>How can this pattern be abstracted and reused?</li>
 <li>Read more about <a href="https://superfriendlydesign.systems/articles/content-display-patterns/">Content Display Patterns</a></li>
 </ul>
-<h2 id="wireframes">Wireframes</h2>
+<h2><a id="wireframes" class="anchor" ariaLabel="Anchor"></a> Wireframes</h2>
 <p><em>Structure within a page:</em> the visual organization of display patterns laid out within a webpage. Different types of pages will have diffent skeletons.</p>
-<h2 id="sitemap">Sitemap</h2>
+<h2><a id="sitemap" class="anchor" ariaLabel="Anchor"></a> Sitemap</h2>
 <p><em>Structure within a website:</em> the organization of sections of content within a website.</p>
 <ul>
 <li>All of these structures will inform your HTML markup, or how the elements are nested within another.</li>
 </ul>
-<h1 id="responsive-design">Responsive Design</h1>
+<h1><a id="responsive-design" class="anchor" ariaLabel="Anchor"></a> Responsive Design</h1>
 <p>Responsive web design refers to the ability of websites to adapt the presentation of content to a range of devices and media.</p>
 <p>Responsive design involves:</p>
 <ul>
@@ -232,20 +228,51 @@ This means that fixed position elements don’t move if the page is scrolled.</p
 <li>fluid images</li>
 <li>media queries</li>
 </ul>
-<h3 id="meta-tag">Meta tag</h3>
+<h2><a id="meta-tag" class="anchor" ariaLabel="Anchor"></a> Meta tag</h2>
 <p>Insert this meta tag within the <code>&lt;head&gt;&lt;/head&gt;</code> of all your html pages.
 This ensures that the browser will register the physical width of the device’s screen as its screen width.</p>
 <pre><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-</code></pre><h3 id="fluid-layout">Fluid layout</h3>
-<p>The following CSS properties and values may be useful for scalable designs.</p>
-<h3 id="relative-unit-widths">Relative Unit Widths</h3>
+</code></pre><h2><a id="fluid-layout" class="anchor" ariaLabel="Anchor"></a> Fluid layout</h2>
+<p>A fluid layout often has:</p>
 <ul>
-<li>container element (usually the document body) fills the entire screen size</li>
+<li>a container element that fills the entire screen size</li>
 <li>the container element responds to adjustments in browser widths</li>
 <li>widths of the columns nested within the container adjust accordingly</li>
 <li>Review the relative <a href="https://risd-web.github.io/webtype-spring2020/lectures/02-css/#css-size-units">CSS Units</a></li>
 </ul>
-<h2 id="css-grid">CSS Grid</h2>
+<p>The following CSS relative units may be useful for scalable designs.</p>
+<table>
+<thead>
+<tr>
+<th>unit</th>
+<th>description</th>
+<th>example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rem</td>
+<td>font size of the root element (html)</td>
+<td><code>font-size: 2rem;</code></td>
+</tr>
+<tr>
+<td>em</td>
+<td>font size of parent element</td>
+<td><code>font-size: 2em;</code></td>
+</tr>
+<tr>
+<td>vw</td>
+<td>1% of viewport’s width</td>
+<td><code>width: 100vw;</code></td>
+</tr>
+<tr>
+<td>vh</td>
+<td>1% viewport’s height</td>
+<td><code>height: 100vh;</code></td>
+</tr>
+</tbody>
+</table>
+<h2><a id="css-grid" class="anchor" ariaLabel="Anchor"></a> CSS Grid</h2>
 <p>CSS Grid allows you to define the column-row structure for all of your content. By declaring  <code>display: grid</code> on a container element, child elements need to be defined where they align to on the grid.</p>
 <ul>
 <li><a href="https://learncssgrid.com/">Learn CSS Grid</a></li>
@@ -293,7 +320,7 @@ This ensures that the browser will register the physical width of the device’s
   <div class="line" style="height: auto;">
   </div>
 </div>
-<h2 id="flexbox-model">Flexbox model</h2>
+<h2><a id="flexbox-model" class="anchor" ariaLabel="Anchor"></a> Flexbox model</h2>
 <p>Flex box is a popular method for creating “flexible” columns of containers. By declaring <code>display: flex</code> on a container element, child elements could be made to shrink or expand according to specified properties.</p>
 <ul>
 <li>See <a href="http://learnlayout.com/flexbox.html">how it works</a></li>
@@ -335,14 +362,14 @@ This ensures that the browser will register the physical width of the device’s
 <ul>
 <li>container element still is set to fill the entire document width and has the property <code>display: flex; </code></li>
 <li>elements within the container will automatically scale to fit the available width, unless specified</li>
-<li>advantage: can combine a fixed-width column and a responsive, scalable column (instead of having both be percentage-based)</li>
+<li>advantage: you can combine a fixed-width column and a responsive, scalable column (instead of having both be percentage-based)</li>
 </ul>
-<h3 id="grid-vs-flexbox">Grid vs. Flexbox</h3>
+<h3><a id="grid-vs-flexbox" class="anchor" ariaLabel="Anchor"></a> Grid vs. Flexbox</h3>
 <ul>
 <li>CSS Grid is better used for defining larger content areas</li>
 <li>CSS Flexbox is better suited for organizing chunks within those areas</li>
 </ul>
-<h3 id="fluid-images">Fluid Images</h3>
+<h2><a id="fluid-images" class="anchor" ariaLabel="Anchor"></a> Fluid Images</h2>
 <p>Any embedded assets, such as images, videos, etc will need to scale appropriately.</p>
 <p>Usually, the image container has defined width. The image itself then has <code>max-width: 100%;</code> to scale down if its container resizes, but would never scale up to be larger than its original size.</p>
 <pre><code>&lt;div class=&quot;container&quot;&gt;
@@ -355,13 +382,13 @@ This ensures that the browser will register the physical width of the device’s
 .figure img {
   width: 100%;
 }
-</code></pre><h3 id="retina-displays">Retina displays</h3>
+</code></pre><h3><a id="retina-displays" class="anchor" ariaLabel="Anchor"></a> Retina displays</h3>
 <ul>
 <li>72dpi (dots  / inch, in this case pixels) used to be the standard for screen resolutions. But now with the introduction of mobile devices and retina screens, screen resolutions may be much higher.</li>
 <li>In order to have your images appear crisp on retina screens, you will need to provide higher resolution images (at least 2x large.) Many website prepare multiple versions of the same image so that those on a smaller screen (and a slower connection) will not need to download the higher-res image.</li>
 <li>Read more on various solutions to work with <a href="https://www.smashingmagazine.com/2012/08/towards-retina-web/">retina images</a>.</li>
 </ul>
-<h3 id="media-queries">Media queries</h3>
+<h2><a id="media-queries" class="anchor" ariaLabel="Anchor"></a> Media queries</h2>
 <p>Media queries are the crux of responsive design. They define the <strong>breakpoints</strong> at which different CSS rules are applied. <strong>Any CSS rule can be adjusted within the media queries.</strong></p>
 <p>You can approach this in two ways.</p>
 <ol>
@@ -376,7 +403,7 @@ This ensures that the browser will register the physical width of the device’s
 <li>Block-level containers are rearranged according to the DOM (HTML structure)</li>
 <li>Breakpoints determine the browser widths at which your containers will rearrange into a single column</li>
 <li>Some text may be shortened or omitted on the mobile website</li>
-<li>See an example of <a href="https://codepen.io/chriscoyier/pen/yCeax">flexbox + media queries</a></li>
+<li>See an example of <a href="https://codepen.io/chriscoyier/pen/yCeax">flexbox and media queries</a></li>
 </ul>
 <pre><code>@media screen and (max-width: 480px){ 
   .container{
@@ -384,11 +411,50 @@ This ensures that the browser will register the physical width of the device’s
   }
 } 
 </code></pre><p>Note: nested brackets</p>
-
-			
-			
-		</article>
+</article>
 		<aside>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#normal-flow">Normal Flow</a></li>
+    <li><a href="#change-the-display-properity">Change the Display properity</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#relative-positioning">Relative Positioning</a></li>
+    <li><a href="#absolute-positioning">Absolute Positioning</a></li>
+    <li><a href="#fixed-positioning">Fixed Positioning</a>
+      <ul>
+        <li><a href="#z-index">Z-index</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-container">The Container</a></li>
+    <li><a href="#overflow">Overflow</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#content-types">Content Types</a></li>
+    <li><a href="#wireframes">Wireframes</a></li>
+    <li><a href="#sitemap">Sitemap</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#meta-tag">Meta tag</a></li>
+    <li><a href="#fluid-layout">Fluid layout</a></li>
+    <li><a href="#css-grid">CSS Grid</a></li>
+    <li><a href="#flexbox-model">Flexbox model</a>
+      <ul>
+        <li><a href="#grid-vs-flexbox">Grid vs. Flexbox</a></li>
+      </ul>
+    </li>
+    <li><a href="#fluid-images">Fluid Images</a>
+      <ul>
+        <li><a href="#retina-displays">Retina displays</a></li>
+      </ul>
+    </li>
+    <li><a href="#media-queries">Media queries</a></li>
+  </ul>
+</nav>
+	
 	
 		<figure class="link-preview">
 			 <iframe class="preview" type="text/html" src="http://dedesigntheweb.com/2.html" frameborder="0">

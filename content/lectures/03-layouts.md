@@ -21,7 +21,6 @@ With HTML, the normal flow is a top-to-bottom rendering of the elements.
 
 Every block-level element appears on a new line, causing each item to appear lower down the page than the previous one. *Inline elements appear adjacent to each other.* 
 
-### The code for the above text:
 ```
 <h1>Normal Flow</h1>
 <p>
@@ -207,7 +206,7 @@ Overflow accounts for when your content doesn’t fit within the container and s
 ```
 .container {
   overflow: hidden; 
-  height: 99px;
+  height: 80px;
 }
 
 .line {
@@ -217,7 +216,7 @@ Overflow accounts for when your content doesn’t fit within the container and s
 }
 ```
 
-<div class="diagram" style="overflow: hidden; height: 66px;">
+<div class="diagram" style="overflow: hidden; height: 80px;">
   <div class="line"></div>
   <div class="line"></div>
   <div class="line"></div>
@@ -257,7 +256,7 @@ Responsive design involves:
 - fluid images
 - media queries
 
-### Meta tag
+## Meta tag
 
 Insert this meta tag within the `<head></head>` of all your html pages.
 This ensures that the browser will register the physical width of the device’s screen as its screen width.
@@ -266,18 +265,24 @@ This ensures that the browser will register the physical width of the device’s
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-### Fluid layout
+## Fluid layout
 
-The following CSS properties and values may be useful for scalable designs.
-
-### Relative Unit Widths
-
-- container element (usually the document body) fills the entire screen size 
+A fluid layout often has: 
+- a container element that fills the entire screen size 
 - the container element responds to adjustments in browser widths
 - widths of the columns nested within the container adjust accordingly
 - Review the relative [CSS Units]({{<ref "02-css.md#css-size-units">}}) 
 
-  
+The following CSS relative units may be useful for scalable designs.
+
+|unit|description|example|
+|---|---|---|
+|rem|font size of the root element (html)| `font-size: 2rem;`|
+|em|font size of parent element| `font-size: 2em;`|
+|vw|1% of viewport’s width| `width: 100vw;`|
+|vh |1% viewport’s height| `height: 100vh;`|
+
+
 ## CSS Grid
 CSS Grid allows you to define the column-row structure for all of your content. By declaring  `display: grid` on a container element, child elements need to be defined where they align to on the grid.
 - [Learn CSS Grid](https://learncssgrid.com/)
@@ -385,14 +390,14 @@ Flex box is a popular method for creating “flexible” columns of containers. 
 
 - container element still is set to fill the entire document width and has the property `display: flex; `
 - elements within the container will automatically scale to fit the available width, unless specified
-- advantage: can combine a fixed-width column and a responsive, scalable column (instead of having both be percentage-based)
+- advantage: you can combine a fixed-width column and a responsive, scalable column (instead of having both be percentage-based)
 
 ### Grid vs. Flexbox
 - CSS Grid is better used for defining larger content areas
 - CSS Flexbox is better suited for organizing chunks within those areas
 
 
-### Fluid Images
+## Fluid Images
 Any embedded assets, such as images, videos, etc will need to scale appropriately. 
 
 Usually, the image container has defined width. The image itself then has `max-width: 100%;` to scale down if its container resizes, but would never scale up to be larger than its original size.
@@ -420,8 +425,7 @@ Usually, the image container has defined width. The image itself then has `max-w
 - Read more on various solutions to work with [retina images](https://www.smashingmagazine.com/2012/08/towards-retina-web/).
 
 
-
-### Media queries
+## Media queries
 Media queries are the crux of responsive design. They define the **breakpoints** at which different CSS rules are applied. **Any CSS rule can be adjusted within the media queries.**
 
 You can approach this in two ways.
@@ -432,7 +436,7 @@ You can approach this in two ways.
 - Block-level containers are rearranged according to the DOM (HTML structure)
 - Breakpoints determine the browser widths at which your containers will rearrange into a single column
 - Some text may be shortened or omitted on the mobile website
-- See an example of [flexbox + media queries](https://codepen.io/chriscoyier/pen/yCeax)
+- See an example of [flexbox and media queries](https://codepen.io/chriscoyier/pen/yCeax)
 
 
 ```

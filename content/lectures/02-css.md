@@ -249,14 +249,14 @@ Components of the box model
 </div>
 
 
-### \*Box-Model Adjustment
+### Box-Model Adjustment
 
 If you found the box model (in which the padding and border are outside of the element dimensions) to be unintuitive, you can use the `box-sizing` property. Setting this to `border-box` includes the padding and border width in the element width. So when you set `box-sizing: border-box;` on an element, the padding and border of that element no longer increase its width or height. More on box-sizing.
 	
 `box-sizing: border-box;`
 
-### A note on collapsing margins
-Collapsing margins happen in 2 cases:
+### Collapsing margins
+Collapsing margins, where two margins cancel out each other,  happens in 2 cases:
 
 - When two vertical margins come in contact with one another. If one margin is greater than the other, then that margin overrides the other, leaving one margin.
 -  Collapsing margins also occur when the margin of a child element crosses the margin of its parent. 
