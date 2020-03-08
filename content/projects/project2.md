@@ -28,14 +28,18 @@ reference:
 > “But in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.”
 – Keller Eastering
 
-### Reading:
+### Reading
 - [Keller Easterling: Medium Design (Excerpt)](https://strelkamag.com/en/article/keller-easterling-medium-design)
 - [Typotheque: Typeface as Programme](https://www.typotheque.com/articles/typeface_as_programme)
 
-Project 2: Create a variable font, considering the axes of variation as a medium. With this format, you are not only designing the visual instances of letterforms — you are designing the relationship with the typographer (or anyone who uses the font.) What power and possibilities are you granting with your variable font? If you can choose [any kind of axes](https://v-fonts.com/) for variation, what is the significance of that choice?
+### Project 2
 
-Project 3: Create a typographic website for your typeface, as a specimen that responds to specific conditions enabled by the web.
-Is it user input — what kind of input? Or an external text or data source? Consider a website that isn’t simply ”about” the typeface but one that showcases interesting uses of the font and its variations.
+Create a variable font, considering the axes of variation as a medium. With this format, you are not only designing the visual instances of letterforms — you are designing the relationship with the typographer (or anyone who uses the font.) What power and possibilities are you granting with your variable font? If you can choose [any kind of axes](https://v-fonts.com/) for variation, what is the significance of that choice?
+
+### Project 3
+
+Create a typographic website for your typeface, as a specimen that responds to specific conditions enabled by the web. 
+
 
 ## Week 1
 
@@ -54,15 +58,23 @@ Is it user input — what kind of input? Or an external text or data source? Con
 
 ## Week 2
 
-* complete basic character set
-* begin developing concept for font-in-use specimen
-  - what should it *respond* to?
-* plan and sketch website designs
+* complete basic character set 
+* begin developing website for font-in-use specimen
+* consider the following questions for your typeface:
+  - how does the font take advantage of its mode of construction?
+  - how can not only the shapes of the letters, but the actual transformation itself become part of your concept?
+  - how can your typeface demonstrate a commentary; a point of view?
+* condsider the following questions for your website:
+  - how is your axis of variation activated by the web?
+  - what should it respond to?
+    - is it user input? a browser width change? external data? time? sound?
+    - what is the significance of this “response” in combination with the text that we see?
 
 ## Week 3
 
 * refine typeface
-* develop prototype for your website specimen
+* refine website
+
 
 ## Week 4
 

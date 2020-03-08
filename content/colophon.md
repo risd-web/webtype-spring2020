@@ -12,8 +12,9 @@ weight: 10
 
 ## V3
 <time>March 4</time>
-- typeface changed to variable font [Magmatic](https://occupantfonts.com/fonts/magmatic/) and [Dispatch Mono](https://occupantfonts.com/fonts/dispatch-mono/) for code
-- updated colors that work better with type
+- change typeface to variable font [Magmatic](https://occupantfonts.com/fonts/magmatic/) and [Dispatch Mono](https://occupantfonts.com/fonts/dispatch-mono/) for code
+- update colors that work better with type
+- add subnavigation anchors to sidebar
 
 
 ## V2

@@ -17,7 +17,7 @@ reference:
    link: "https://player.vimeo.com/video/36132600"
 ---
 
-> “By writing directly into a mechanical form rather than a manuscript (as we’re doing right now) the writer would be working closer to the nature of the multiplied result, and through an increasing awareness and gradual mastery of the form’s new limitations and possibilities \*the writing itself would evolve;\* the shorter the distance between the raw material of words and their processed output, the more entwined the content and form from the outset. This line of thinking was more famously expounded by Benjamin in his 1936 essay “The Work of Art in the Age of Mechanical Reproduction,” which more broadly argues that an authentic, pertinent art is the result of engagement with the latest technological innovations.” — [Dexter Sinister: Letter & Spirit](http://www.servinglibrary.org/journal/3/letter-and-spirit)
+> “By writing directly into a mechanical form rather than a manuscript (as we’re doing right now) the writer would be working closer to the nature of the multiplied result, and through an increasing awareness and gradual mastery of the form’s new limitations and possibilities \*the writing itself would evolve;\* the shorter the distance between the raw material of words and their processed output, the more entwined the content and form from the outset. This line of thinking was more famously expounded by Benjamin in his 1936 essay ‘The Work of Art in the Age of Mechanical Reproduction,’ which more broadly argues that an authentic, pertinent art is the result of engagement with the latest technological innovations.” — [Dexter Sinister: Letter & Spirit](http://www.servinglibrary.org/journal/3/letter-and-spirit)
 
 
 

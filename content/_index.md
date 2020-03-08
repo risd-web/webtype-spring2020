@@ -9,10 +9,9 @@ This is the class website for WEB TYPE (RISD GRAPH-2313-01)
 ## Class 4
 <time>March 5</time>
 - Show & Tell quick post
-- Workshop: Letter shapes
+- Workshop: Cutout letter shapes
 - Lecture: Digital Type Design
 - Individual meetings
-  - Review Project 1 feedback
   - Progress on Variable Font
 
 ## Class 3
@@ -28,7 +27,7 @@ This is the class website for WEB TYPE (RISD GRAPH-2313-01)
 <time>February 20</time>
 - Show & Tell
 - Lecture: [Layout and Structure]({{< ref "/lectures/03-layouts.md" >}})
-- Print to Web, ”markup” exercise & responsive design practice
+- Print to Web, “markup” exercise & responsive design practice
 - Project 1 progress crit (small groups)
 
 

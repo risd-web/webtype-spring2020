@@ -17,6 +17,11 @@ HTML is the language of web pages interpreted by web browsers.
 - HTML defines web content by organizing text comprised of a series of nested tags
 - HTML can be created with any simple text editor.
 
+- **content, HTML**
+- form, CSS
+- behavior, JavaScript
+
+
 An `.html` file has 2 forms:
 1. As code, in your text editor.
 2. As an webpage, in your browser.
