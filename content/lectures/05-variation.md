@@ -12,7 +12,7 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.
 
 `transform-origin` specifies the origin point of the transformation performed. This can be specified in multiple forms, including keywords, `%` values, and `px`. It is at the center of the element by default.
 
-```
+```CSS
 .example {
   transform: rotate(-10deg);
   transform-origin: bottom left;
@@ -29,9 +29,8 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.
 ### Rotate
 `rotate()` Rotates the div clockwise or counter-clockwise(-), specified in degrees (deg).
 
-```
-
-.example2 {
+```CSS
+.rotate {
   transform: rotate(30deg);
 }
 ```
@@ -47,8 +46,9 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.
 
 ### 2D Translate
 `translate()` moves an element sideways, up, or down. This can be specified in any length unit.
-```
-.example{
+
+```CSS
+.translate{
   transform: translate(40px, 20px);
 }
 ```
@@ -63,12 +63,12 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.
 ### Scale
 `scale()` stretches an element horizontally and/or vertically. Scale values are unitless. This also applies to the font-size, padding, height, and width of an element.
 
-```
-.example1 {
+```CSS
+.scale-preserve-ratio {
   transform: scale(.7);
 }
 
-.example2 {
+.scale-xy {
   transform: scale(.5, 1.5);
 }
 ```
@@ -91,12 +91,10 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.
 ### Skew
 `skew()` stretches an element horizontally and/or vertically. Skews are defined in degrees. Contained elements, such as text, will also be skewed.
 
-```
-
-.example {
+```CSS
+.skew {
   transform: skew(10deg,30deg);
 }
-
 ```
 
 <div class="diagram" style="height: 150px">
@@ -112,8 +110,8 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.
 Multiple transforms can be applied to the same element with a space in between. (Note: you cannot declare transforms separately; the latter will override the former.) Transforms are applied in the order they are declared.
 [More on transforms](https://learn.shayhowe.com/advanced-html-css/css-transforms/) including perspectival / 3D effects.
 
-```
-.example {
+```CSS
+.combined-example {
   transform: scale(.3, 1.2) rotate(30deg) skewY(-15deg) translate(50px, 20%);
 }
 ```
@@ -159,7 +157,7 @@ Animations consist of *two separate sets* of CSS declarations:
     background-color: yellow;
     color: rgba(200,155,20,0.8);
   }
-  100%{
+  100% {
     background-color: green;
   }
 }
@@ -170,6 +168,9 @@ Animations consist of *two separate sets* of CSS declarations:
 ```
 <div id="animated div" style="padding: 1em; margin: 1em; animation: changecolor 3.5s linear 0.2s 3 alternate;">
   Animation Demo
+</div>
+<div class="button" id="animation-demo">
+  Run
 </div>
 
 - `changecolor` is the identifier — your name for the animation. This must match the name used to declare animation properties

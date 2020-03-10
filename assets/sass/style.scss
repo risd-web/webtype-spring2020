@@ -128,7 +128,7 @@ article{
 		font-weight: normal;
 		font-variation-settings: 'wght' 550,'wdth' 600;
 		font-size: 2em;
-		margin-top: 2em;
+		margin-top: 1em;
 		line-height: 1.1;
 	}
 
@@ -237,10 +237,30 @@ code{
 	font-size: .8em;
 	font-style: normal;
 	background: var(--code-bgcolor);
+	.kd, .k{
+		color: var(--secondcolor);
+	}
+	.o{
+		color: var(--thirdcolor);
+	}
+	.p{
+		color: rgb(150,150,150);
+	}
+	.s1, .s2{
+		color: rgb(85,85,85);
+	}
+	.c1{
+		color: rgb(175, 160, 80);
+	}
 }
 p code{
 	font-size: .95em;
 }
+
+// syntax highlighting
+
+
+
 table{
 	margin: 1em 0;
 }

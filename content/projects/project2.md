@@ -96,6 +96,10 @@ Create a typographic website for your typeface, as a specimen that responds to s
 - [MDN Variable Fonts Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
 - [One File, Many Options: Using Variable Fonts on the Web](https://css-tricks.com/one-file-many-options-using-variable-fonts-web/)
 
+### Supporting Tutorials
+- [Codecademy JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
+- [Eloquent Javascript](https://eloquentjavascript.net/)
+
 ### General APIs
 - [Data.gov APIs](https://www.data.gov/developers/apis)
 - [API List](https://apilist.fun/)
