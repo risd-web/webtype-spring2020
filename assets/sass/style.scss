@@ -314,6 +314,33 @@ td:first-child{
 	}
 }
 
+// Dark mode styles
+
+#dark-mode{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid var(--maincolor);
+	position: fixed;
+	right: 10px;
+	top: 15px;
+	&:hover{
+		background: var(--maincolor);
+		cursor: pointer;
+	}
+}
+
+
+body.dark{
+	background: rgb(30, 30, 40);
+	header{
+		background: rgb(30, 30, 40);
+	}
+
+	.element{
+		background: rgb(30, 30, 40);
+	}
+}
 
 // Classes for inline illustrations
 
@@ -358,6 +385,9 @@ td:first-child{
 	50% {background-color: yellow; color: rgba(200,155,20,0.8); }
 	100%{background-color: green; }
 }
+
+
+
 
 @media only screen and (max-width: 1100px) {
 	nav ul{

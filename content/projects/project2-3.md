@@ -64,7 +64,7 @@ Create a typographic website for your typeface, as a specimen that responds to s
   - how does the font take advantage of its mode of construction?
   - how can not only the shapes of the letters, but the actual transformation itself become part of your concept?
   - how can your typeface demonstrate a commentary; a point of view?
-* condsider the following questions for your website:
+* consider the following questions for your website:
   - how is your axis of variation activated by the web?
   - what should it respond to?
     - is it user input? a browser width change? external data? time? sound?
@@ -72,14 +72,20 @@ Create a typographic website for your typeface, as a specimen that responds to s
 
 ## Week 3
 
-* refine typeface
-* refine website
-
+* refine and finalize typeface
+  - are there other variants to consider
+* flesh out your website specimen
+  - what is the journey created through the website?
+  - how can you showcase different components of your typeface?
+  - what typeface are you pairing with your typeface? (since most of you are drawing display faces, select a text face to match your font.)
+* design the responsive version
+  - use `@media` queries to make a mobile-friendly version
+  - how does your typography adapt to the smaller screen?
+* consider expanding what and how you’re curating your content: use JavaScript, JSON, or APIs to enhance the use of your typeface on the web
 
 ## Week 4
 
-* finalize typeface
-* finalize website specimen
+
 
 
 ### Glyphs Links

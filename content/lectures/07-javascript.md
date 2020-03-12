@@ -1,9 +1,10 @@
 ---
 title: "JavaScript"
-date: 2020-03-07
+date: 2020-03-10
 summary: "Writing instructions"
 reference:
-draft: true
+  - title: "SolvingSol"
+    link: "https://solvingsol.com/"
 ---
 
 Unlike HTML and CSS, Javascript is a programming language and can perform all sorts of actions. JavaScript is list of instructions to be interpreted and executed by your computer, either by a browser or other JavaScript interpreter (in the command line.) 
@@ -21,7 +22,7 @@ Javascript can add interactivity to a page by manipulating the DOM (Document Obj
 
 
 ## Setup
-Like CSS, JavaScript can be included within your `html` file as well as linked as an external file.
+Like CSS, JavaScript can be included within the `<head></head>` your `html` file as well as linked as an external file. It can also be included at the bottom of your document, right before the closing `</body>` tag.
 
 ```HTML
 <!-- Internal JavaScript -->
@@ -179,7 +180,7 @@ let count = 5; //assigns 5 to the variable count
 count = count + 3; // updates the count variable by adding 3 to itself. count is now 8. 
 ```
 
-There is a shorthand for variables to assign new values to itself.
+There is a shorthand for variables to cumulatively assign new values to itself.
 ```JS
 count += 3; // same as count = count + 3
 count ++; // same as count += 1, or count = count + 1
@@ -207,12 +208,12 @@ Logical operators combine multiple conditions
 
 |operator|description|
 |---|---|
-|`&&`| logical AND `3 < 5 && 2 > 9 //evaluates to false`
-|`||`| logical OR `3 < 5 || 2 > 9 //evaluates to true`
+|`&&`| logical AND <br> `3 < 5 && 2 > 9 // evaluates to false`
+|`||`| logical OR <br> `3 < 5 || 2 > 9 // evaluates to true`
 
 
 ## Conditionals
-Conditionals allow you to declare different actions based on different conditions. You can use simple If/Then/Else logic to define your scenarios.
+Conditionals allow you to declare different actions based on different conditions. You can use If `if` / Then `else if` / Else `else` logic to define your scenarios.
 ```JS
 let x = 2
 if (x === 2) {
@@ -226,18 +227,102 @@ else {
 }
 ```
 
-
-
 ## Functions
+A function is a set of actions to be performed. These can include built-in functions, like `console.log` or `alert`, or you can define your own function. Most functions are groups of other functions.
+
+After declaring a function, you can execute its statements by calling the function. While it’s possible to call a function before it’s declared, it’s best practice to declare your functions before you call them.
+
+```JS
+// define custom function we called sayHi. This only defines the function and does not execute it.
+function sayHi() { 		
+  console.log("Hi!");  // native function console.log
+  alert("Hi");  // native function alert
+}
+
+//call (execute) the sayHi function
+sayHi();			
+
+````
+
+### Parameters and arguments
+A function may need inputs to process its statements. These inputs are known as *parameters* and are used as variables in the function’s statements — you can give them whatever name is appropriate. *Arguments* are inputs passed into the function when it is called. When you expect a function to provide an answer or output, it’s know as the *return value*. 
+
+The above function can be re-written to be more general.
+```JS
+//sets up "something" as a parameter.
+function saySomething(something) { 	
+  console.log(something);	
+  alert(something);					
+}
+
+//call saySomething function via the function name and parentheses (). 
+saySomething("Hi"); // executes the same statements as above
+```
+
+You can also define multiple arguments
+```JS
+//define function with parameters width and height
+function getArea(width, height) {
+   return width*height;
+}
+
+//call getArea function with arguments 3 and 5
+getArea(3, 5); //returns 15
+
+```
+
 ## Loops
+For loops allow you to run a function by specifying the number of iterations you want it to repeat; it uses a counter as its condition to run.
 
-## The Document Object
+```JS
+// logs "Hello" in the console 5 times
+for(var i = 0; i < 5; i++){ // i is the index, or the count value of the loop. It start at 0 and will increment (i++) every iteration, untill it’s no longer < 10.
+	console.log(i, "Hello"); 
+}
+```
 
-JavaScript works with objects, which are containers for named values (properties and methods.) The most important object in JavaScript is the Document Object. It represents an HTML web page. 
+Expected output in Console
+```
+0 Hello
+1 Hello
+2 Hello
+3 Hello
+4 Hello
+```
+
+## Objects, properties, and methods
+
+Objects are containers for named values, which could *properties* or *methods*.
+*Properties* are data (see data types above) associated to the particular object, and *Methods* are specific functions for ane object; both are accessible as *key*s of the object. Below are two examples of JavaScript objects. 
+
+### The Document Object
+
+The most important object in JavaScript is the Document Object: it represents an HTML web page. 
 - *Properties* describe characteristics of the current web page (such as the title of the page).
 - *Methods* perform tasks associated with the document currently loaded in the browser (such as getting information from a specified element or adding new content).
 - *Events*, such as a user clicking or tapping on an element, can be used as triggers for methods
 
+We will use the [jQuery](https://jquery.com/) library to navigate and manipulate the DOM.
 
 
+### The Math Object
+There is a `Math` object in JavaScript can be used to work with numbers, and it comes with several *methods*. The outputs of these can be scaled to your desired range.
+
+|method|description|
+|---|---|
+|`Math.random()`|generates a number [0, 1) that is, from 0 (inclusive) up to but not including 1 (exclusive).|
+|`Math.floor()`|returns the largest integer less than or equal to a given number|
+|`parseInt()`|converts its first argument to a string, parses it, and returns an integer or NaN (not a number.)|
+
+
+```JS
+// get a random integer between 2 numbers, including the min and max.
+function getRandomNumber(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min; 
+}
+
+getRandomNumber(0, 5); // returns a random number: 0, 1, 2, 3, 4, or 5.
+```
 

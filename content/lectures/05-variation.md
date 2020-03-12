@@ -166,12 +166,14 @@ Animations consist of *two separate sets* of CSS declarations:
   animation: changecolor 3.5s linear 0.2s 3 alternate;
 }
 ```
-<div id="animated div" style="padding: 1em; margin: 1em; animation: changecolor 3.5s linear 0.2s 3 alternate;">
-  Animation Demo
-</div>
 <div class="button" id="animation-demo">
   Run
 </div>
+
+<div id="animated div" style="padding: 1em; margin: 1em; animation: changecolor 3.5s linear 0.2s 3 alternate;">
+  Animation Demo
+</div>
+
 
 - `changecolor` is the identifier — your name for the animation. This must match the name used to declare animation properties
 - The nested brackets, or keyframes are the timestamps / waypoints in the animation. You can use `from`,`to`, `%` to specify these points.

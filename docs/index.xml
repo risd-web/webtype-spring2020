@@ -42,6 +42,24 @@ Reading collections  The Avery Review HTML Output Critical Atlas of the Internet
     </item>
     
     <item>
+      <title>jQuery and JSON</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/08-jquery/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/08-jquery/</guid>
+      <description>Objects in JavaScript</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/07-javascript/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/07-javascript/</guid>
+      <description>Writing instructions</description>
+    </item>
+    
+    <item>
       <title>Letterforms over time</title>
       <link>https://risd-web.github.io/webtype-spring2020/lectures/06-digital-type/</link>
       <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
@@ -70,10 +88,10 @@ Reading collections  The Avery Review HTML Output Critical Atlas of the Internet
     
     <item>
       <title>Project 2 &amp; 3: Typeface as a Medium</title>
-      <link>https://risd-web.github.io/webtype-spring2020/projects/project2/</link>
+      <link>https://risd-web.github.io/webtype-spring2020/projects/project2-3/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://risd-web.github.io/webtype-spring2020/projects/project2/</guid>
+      <guid>https://risd-web.github.io/webtype-spring2020/projects/project2-3/</guid>
       <description>“But in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.” – Keller Eastering
  Reading  Keller Easterling: Medium Design (Excerpt) Typotheque: Typeface as Programme  Project 2 Create a variable font, considering the axes of variation as a medium. With this format, you are not only designing the visual instances of letterforms — you are designing the relationship with the typographer (or anyone who uses the font.</description>
     </item>

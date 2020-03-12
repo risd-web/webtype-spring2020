@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>jQuery and JSON</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/08-jquery/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/08-jquery/</guid>
+      <description>Objects in JavaScript</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://risd-web.github.io/webtype-spring2020/lectures/07-javascript/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/lectures/07-javascript/</guid>
+      <description>Writing instructions</description>
+    </item>
+    
+    <item>
       <title>Letterforms over time</title>
       <link>https://risd-web.github.io/webtype-spring2020/lectures/06-digital-type/</link>
       <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>

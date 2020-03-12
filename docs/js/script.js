@@ -1,7 +1,7 @@
 $(function(){
 	console.log('script loaded');
 
-	$(document).on("click","body", function(event){
+	$("main").on("click", function(event){
 		if ($(event.target).hasClass('element')){
 			$(event.target).remove();
 		}else{
@@ -16,10 +16,13 @@ $(function(){
 			  	 top:y-20, 
 			  	 left:x-20,
 			 	}).removeAttr('id');;
-
 		}
-	  
 	});
+
+	$("#dark-mode").click(function(){
+		$('body').toggleClass('dark');
+	});
+
 
 	$(window).resize(function() {
 		console.log('resize');

@@ -9,7 +9,7 @@
 	
 
 	
-	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.bb1d03d7316750f29768b11296e11973ac72d05fce324d6f1c23a8f6efef9b12.css">
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.b4492f0e823104446f8cb9e0c0cc63a16821e55579f8980b7b37dd4f4ff176a8.css">
 
 	<script
 	  src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -37,6 +37,8 @@
 		</ul>
 	</nav>
 	
+	<div id="dark-mode">
+	</div>
 </header>
 
 	
@@ -48,11 +50,11 @@
 For 2dimensional transforms, the x-value is declared first, then the y-value.</p>
 <h3><a id="transform-origin" class="anchor" ariaLabel="Anchor"></a> Transform Origin</h3>
 <p><code>transform-origin</code> specifies the origin point of the transformation performed. This can be specified in multiple forms, including keywords, <code>%</code> values, and <code>px</code>. It is at the center of the element by default.</p>
-<pre><code>.example {
-  transform: rotate(-10deg);
-  transform-origin: bottom left;
-}
-</code></pre><div class="diagram" style="height: 150px">
+<div class="highlight"><pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="p">.</span><span class="nc">example</span> <span class="p">{</span>
+  <span class="k">transform</span><span class="p">:</span> <span class="nb">rotate</span><span class="p">(</span><span class="mi">-10</span><span class="kt">deg</span><span class="p">)</span><span class="p">;</span>
+  <span class="k">transform-origin</span><span class="p">:</span> <span class="kc">bottom</span> <span class="kc">left</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="diagram" style="height: 150px">
 <div class="square dotted" style="position: absolute;">
 </div>
 <div class="square marked" style="position: absolute; transform: rotate(-10deg); transform-origin: bottom left;">
@@ -60,11 +62,10 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.</p
 </div>
 <h3><a id="rotate" class="anchor" ariaLabel="Anchor"></a> Rotate</h3>
 <p><code>rotate()</code> Rotates the div clockwise or counter-clockwise(-), specified in degrees (deg).</p>
-<pre><code>
-.example2 {
-  transform: rotate(30deg);
-}
-</code></pre><div class="diagram" style="height: 150px">
+<div class="highlight"><pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="p">.</span><span class="nc">rotate</span> <span class="p">{</span>
+  <span class="k">transform</span><span class="p">:</span> <span class="nb">rotate</span><span class="p">(</span><span class="mi">30</span><span class="kt">deg</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="diagram" style="height: 150px">
 <div class="square dotted" style="position: absolute;">
 </div>
 <div class="square marked" style="position: absolute; transform: rotate(30deg); ">
@@ -72,10 +73,10 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.</p
 </div>
 <h3><a id="2d-translate" class="anchor" ariaLabel="Anchor"></a> 2D Translate</h3>
 <p><code>translate()</code> moves an element sideways, up, or down. This can be specified in any length unit.</p>
-<pre><code>.example{
-  transform: translate(40px, 20px);
-}
-</code></pre><div class="diagram" style="height: 150px">
+<div class="highlight"><pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="p">.</span><span class="nc">translate</span><span class="p">{</span>
+  <span class="k">transform</span><span class="p">:</span> <span class="nb">translate</span><span class="p">(</span><span class="mi">40</span><span class="kt">px</span><span class="p">,</span> <span class="mi">20</span><span class="kt">px</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="diagram" style="height: 150px">
 <div class="square dotted" style="position: absolute;">
 </div>
 <div class="square marked" style="position: absolute; transform: translate(40px, 20px);">
@@ -83,14 +84,14 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.</p
 </div>
 <h3><a id="scale" class="anchor" ariaLabel="Anchor"></a> Scale</h3>
 <p><code>scale()</code> stretches an element horizontally and/or vertically. Scale values are unitless. This also applies to the font-size, padding, height, and width of an element.</p>
-<pre><code>.example1 {
-  transform: scale(.7);
-}
+<div class="highlight"><pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="p">.</span><span class="nc">scale-preserve-ratio</span> <span class="p">{</span>
+  <span class="k">transform</span><span class="p">:</span> <span class="nb">scale</span><span class="p">(</span><span class="mf">.7</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span>
 
-.example2 {
-  transform: scale(.5, 1.5);
-}
-</code></pre><div class="diagram" style="height: 150px">
+<span class="p">.</span><span class="nc">scale-xy</span> <span class="p">{</span>
+  <span class="k">transform</span><span class="p">:</span> <span class="nb">scale</span><span class="p">(</span><span class="mf">.5</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="diagram" style="height: 150px">
 <div class="square dotted" style="position: absolute;">
 </div>
 <div class="square marked" style="position: absolute; transform: scale(.7);">
@@ -104,12 +105,10 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.</p
 </div>
 <h3><a id="skew" class="anchor" ariaLabel="Anchor"></a> Skew</h3>
 <p><code>skew()</code> stretches an element horizontally and/or vertically. Skews are defined in degrees. Contained elements, such as text, will also be skewed.</p>
-<pre><code>
-.example {
-  transform: skew(10deg,30deg);
-}
-
-</code></pre><div class="diagram" style="height: 150px">
+<div class="highlight"><pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="p">.</span><span class="nc">skew</span> <span class="p">{</span>
+  <span class="k">transform</span><span class="p">:</span> <span class="nf">skew</span><span class="p">(</span><span class="mi">10</span><span class="kt">deg</span><span class="p">,</span><span class="mi">30</span><span class="kt">deg</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="diagram" style="height: 150px">
 <div class="square dotted" style="position: absolute;">
 </div>
 <div class="square marked" style="position: absolute; transform: skew(10deg,30deg);">
@@ -118,10 +117,10 @@ For 2dimensional transforms, the x-value is declared first, then the y-value.</p
 <h3><a id="combining-transforms" class="anchor" ariaLabel="Anchor"></a> Combining transforms</h3>
 <p>Multiple transforms can be applied to the same element with a space in between. (Note: you cannot declare transforms separately; the latter will override the former.) Transforms are applied in the order they are declared.
 <a href="https://learn.shayhowe.com/advanced-html-css/css-transforms/">More on transforms</a> including perspectival / 3D effects.</p>
-<pre><code>.example {
-  transform: scale(.3, 1.2) rotate(30deg) skewY(-15deg) translate(50px, 20%);
-}
-</code></pre><div class="diagram" style="height: 150px">
+<div class="highlight"><pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="p">.</span><span class="nc">combined-example</span> <span class="p">{</span>
+  <span class="k">transform</span><span class="p">:</span> <span class="nb">scale</span><span class="p">(</span><span class="mf">.3</span><span class="p">,</span> <span class="mf">1.2</span><span class="p">)</span> <span class="nb">rotate</span><span class="p">(</span><span class="mi">30</span><span class="kt">deg</span><span class="p">)</span> <span class="nb">skewY</span><span class="p">(</span><span class="mi">-15</span><span class="kt">deg</span><span class="p">)</span> <span class="nb">translate</span><span class="p">(</span><span class="mi">50</span><span class="kt">px</span><span class="p">,</span> <span class="mi">20</span><span class="kt">%</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="diagram" style="height: 150px">
 <div class="square dotted" style="position: absolute;">
 </div>
 <div class="square marked" style="position: absolute; transform: scale(.3, 1.2) rotate(30deg) skewY(-15deg) translate(50px, 20%);">
@@ -178,7 +177,7 @@ Animations consist of <em>two separate sets</em> of CSS declarations:</p>
     <span class="k">background-color</span><span class="p">:</span> <span class="kc">yellow</span><span class="p">;</span>
     <span class="k">color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="mi">155</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mf">0.8</span><span class="p">)</span><span class="p">;</span>
   <span class="p">}</span>
-  <span class="nt">100</span><span class="o">%</span><span class="p">{</span>
+  <span class="nt">100</span><span class="o">%</span> <span class="p">{</span>
     <span class="k">background-color</span><span class="p">:</span> <span class="kc">green</span><span class="p">;</span>
   <span class="p">}</span>
 <span class="p">}</span>
@@ -186,7 +185,10 @@ Animations consist of <em>two separate sets</em> of CSS declarations:</p>
 <span class="p">#</span><span class="nn">animated-div</span><span class="p">{</span>
   <span class="k">animation</span><span class="p">:</span> <span class="n">changecolor</span> <span class="mf">3.5</span><span class="kt">s</span> <span class="kc">linear</span> <span class="mf">0.2</span><span class="kt">s</span> <span class="mi">3</span> <span class="kc">alternate</span><span class="p">;</span>
 <span class="p">}</span>
-</code></pre></div><div id="animated div" style="padding: 1em; margin: 1em; animation: changecolor 3.5s linear 0.2s 3 alternate;">
+</code></pre></div><div class="button" id="animation-demo">
+  Run
+</div>
+<div id="animated div" style="padding: 1em; margin: 1em; animation: changecolor 3.5s linear 0.2s 3 alternate;">
   Animation Demo
 </div>
 <ul>
