@@ -6,6 +6,17 @@ date: 2020-02-26
 # Index
 This is the class website for WEB TYPE (RISD GRAPH-2313-01)
 
+## Update
+Amidst the rapidly evolving public health crisis, I know a lot of you are adjusting to a lot of changes and uncertainty.
+I’d like to emphasize that this class should not add to the stress — we are switching to a Pass / No Credit system, and as we work towards one more final project, I hope you could take this on as an escape from the anxiety and an opportunity to exercise a creative practice as a way to continue to move forward. 
+
+I’ll continue to hold office hours virtually, splitting for different time zones as follows. Please [sign up here](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit?usp=sharing) to schedule an appointment.
+* Tuesday mornings: 10:30am—11:30am EST
+* Wednesday evenings: 8:00pm—9:00pm EST
+
+Once I am able to hear from all students, I will post an update on the logistics of our remote meetings.
+
+
 ## Class 5
 <time>March 12</time>
 - Housekeeping / Check-in

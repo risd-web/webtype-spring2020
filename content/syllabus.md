@@ -12,9 +12,9 @@ weight: 1
 This course explores typography within the browser, considering the web not as a container but as a medium. We will develop typography that activates the capacities and conditions of websites. Projects will first respond our local browser conditions and different device environments, then expand to working with the remote network as source material. Critique and discussions will examine how publishing on the internet entails a distinct form of engagement and experience. Technical instruction includes basic web languages such as HTML, CSS, and JavaScript, as well as type design technology such as variable fonts. Background in coding is recommended but not required. 
 
 ## Schedule
-* Thursdays, 1:10pm – 6:10pm
-* Design Center Room 407
-* Office Hours: Tuesday mornings, 10:30am – 12:00pm at the Design Office (204 Westminster St.)
+* ~~Thursdays, 1:10pm – 6:10pm~~
+* ~~Design Center Room 407~~
+* Office Hours: Tuesday mornings, 10:30am – 12:00pm ~~at the Design Office (204 Westminster St.)~~
 
 ## Course objectives
 * use the browser as a platform for expression and experimentation
@@ -47,8 +47,11 @@ It’s important to me that students from all diverse backgrounds and perspectiv
 One unexcused absence and your letter grade drops by one, i.e. from A to a B. Two unexcused absences and you will be dropped from the course. Two late arrivals without prior arrangements equals one unexcused absence. Students who have been absent are expected to have their work completed the class session following their return. To obtain an excused absence, you must both write the instructor in advance and bring in medical documentation. See also: [RISD's Attendance Policy](http://policies.risd.edu/academic/class-attendance/)
 
 ## Grading
-* 60% Execution of projects and exercises
-* 40% Participation in critiques, class discussions, readings, and weekly contributions
+* ~~60% Execution of projects and exercises~~
+* ~~40% Participation in critiques, class discussions, readings, and weekly contributions~~
 
-
+**Due to the transition to remote learning, we will be switching to a *Pass/No Credit* final grading this course.** To pass the course, students are expected to: 
+* Complete all assignments to the best of their ability 
+* Attend and participate in small-group and 1-on-1 meetings 
+* Communicate any changes or concerns
 

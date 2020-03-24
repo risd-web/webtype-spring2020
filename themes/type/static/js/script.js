@@ -1,7 +1,7 @@
 $(function(){
-	console.log('script loaded');
 
 	$("main").on("click", function(event){
+
 		if ($(event.target).hasClass('element')){
 			$(event.target).remove();
 		}else{
@@ -9,13 +9,14 @@ $(function(){
 			var x = event.pageX;
 			var y = event.pageY;
 
-			console.log(element);
+			// console.log(element);
 			var sticker = '<div class="element" id="added">'+ element +'</div>';
 			$('main').append(sticker);
+			
 			$('#added').css({
 			  	 top:y-20, 
 			  	 left:x-20,
-			 	}).removeAttr('id');;
+			 }).removeAttr('id');
 		}
 	});
 
@@ -24,11 +25,11 @@ $(function(){
 	});
 
 
-	$(window).resize(function() {
-		console.log('resize');
-	 	$('.element').each(function(){
-	 		$(this).remove();
-	 	});
-	});
+	// $(window).resize(function() {
+	// 	console.log('resize');
+	//  	$('.element').each(function(){
+	//  		$(this).remove();
+	//  	});
+	// });
 
 });
