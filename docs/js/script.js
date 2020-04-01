@@ -25,11 +25,10 @@ $(function(){
 	});
 
 
-	// $(window).resize(function() {
-	// 	console.log('resize');
-	//  	$('.element').each(function(){
-	//  		$(this).remove();
-	//  	});
-	// });
+	$(window).resize(function() {
+	 	$('.element').each(function(){
+	 		$(this).remove();
+	 	});
+	});
 
 });

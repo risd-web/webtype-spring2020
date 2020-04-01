@@ -1,27 +1,9 @@
 ---
-title: "Project 2 & 3: Typeface as a Medium"
-date: 2020-02-26
+title: "Project 4: Webzine"
+date: 2020-03-31
+draft: true
 reference: 
- - title: "DJR: Input"
-   link: "https://input.fontbureau.com/preview/?size=14&language=python&theme=solarized-dark&family=InputSans&width=300&weight=300&line-height=1.2&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&customize=please"
- - title: "DJR: Fit"
-   link: "https://djr.com/fit/"
- - title: "David Berlow: Decovar"
-   link: "https://www.typenetwork.com/brochure/decovar-a-decorative-variable-font-by-david-berlow#?skelID=SA&skel=0.82&termID=TA&term=1"
- - title: "Arrow Type: Recursive"
-   link: "https://www.recursive.design/"
- - title: "Gen Ramirez: Entorno"
-   link: "https://www.typemedia2018.com/gen"
- - title: "Andrew Johnson: AR Optical Typography"
-   link: "https://www.aetherpoint.com/casestudy/AR-optical-typography/"
- - title: "Kontrapunkt: Goertek"
-   link: "https://www.kontrapunkt.com/work/goertek/"
- - title: "Variable Color Fonts, how do they work?"
-   link: "https://www.typearture.com/howdotheywork/"
- - title: "Frida Medrano: Variable Fonts and Responsive Identity design"
-   link: "https://theblog.adobe.com/heres-why-you-should-be-thinking-about-responsive-logo-design/"
- - title: "Sarah Gephart: Hypothetical Hack"
-   link: "http://mgmtdesign.com/digressions/home/type-and-gender/hypothetical-hack/"
+
 ---
 
 
@@ -31,6 +13,7 @@ reference:
 ### Reading
 - [Keller Easterling: Medium Design (Excerpt)](https://strelkamag.com/en/article/keller-easterling-medium-design)
 - [Typotheque: Typeface as Programme](https://www.typotheque.com/articles/typeface_as_programme)
+
 
 ### Project 2
 
@@ -77,22 +60,15 @@ Create a typographic website for your typeface, as a specimen that responds to s
 * flesh out your website specimen
   - what is the journey created through the website?
   - how can you showcase different components of your typeface?
-  - what typeface are you pairing with your typeface? (since most of you are drawing display faces, you may want to consider selecting a text face to match your font)
+  - what typeface are you pairing with your typeface? (since most of you are drawing display faces, select a text face to match your font.)
 * design the responsive version
   - use `@media` queries to make a mobile-friendly version
   - how does your typography adapt to the smaller screen?
-* consider expanding what and how you’re curating your content: use JavaScript, JSON and / or APIs to enhance the experience of your typeface on the web
+* consider expanding what and how you’re curating your content: use JavaScript, JSON, or APIs to enhance the use of your typeface on the web
 
 ## Week 4
-* refine website specimen
-  - what kind of experience are you taking your visitor through with your website?
-  - how does each design choice — typesize, color, motion — align with the concept?
-  - finalize interactivity of the website — what is intuitive vs. what requires instructions?
-  - finalize typographic details
-  - finalize responsive behavior
-  - consider a page or footer that contextualizes the project ("about section")
-* ~~Final Crit: March 19~~
-* Final Crit: April 2
+
+
 
 
 ### Glyphs Links
@@ -111,7 +87,6 @@ Create a typographic website for your typeface, as a specimen that responds to s
 
 ### Supporting Tutorials
 - [Codecademy JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
-- [Codecademy jQuery](https://www.codecademy.com/learn/learn-jquery) (Students can sign up for a PRO account for free!)
 - [Eloquent Javascript](https://eloquentjavascript.net/)
 
 ### General APIs

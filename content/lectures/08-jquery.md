@@ -9,6 +9,9 @@ reference:
     link: "https://apilist.fun/"
 ---
 
+* [In-class demo files](https://github.com/risd-web/webtype-demos/tree/master/04-javascript)
+* See also [Code Lab example](https://github.com/RISD-Code-Lab/cl-spring2020/tree/master/session-04)
+
 ## jQuery
 
 jQuery is an easier way to write JavaScript: it is a JavaScript Library (think “plugin”) — a library of pre-written JavaScript which allows for easier development of JavaScript-based applications. jQuery is basically JavaScript, but it takes a lot of common tasks that require many lines of JavaScript code to process, and wraps them into *methods* that you can call with a single line of code.
