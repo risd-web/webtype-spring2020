@@ -10,13 +10,11 @@ This is the class website for WEB TYPE (RISD GRAPH-2313-01)
 Amidst the rapidly evolving public health crisis, I know a lot of you are adjusting to a lot of changes and uncertainty. I’d like to emphasize that this class should not add to the stress — we are switching to a Pass / No Credit system, and as we work towards one more final project, I hope you could take this on as an escape from the anxiety and an opportunity to use a creative practice as a way to move forward. 
 
 I’ll continue to hold office hours virtually, splitting for different time zones. Please [sign up here](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit?usp=sharing) to schedule an appointment.
-* Tuesday mornings: 10:30am—11:30am EST
-* Wednesday evenings: 8:00pm—8:30pm EST
 
 We will continue our meetings remotely.
-For those who are on the east / west coast, let’s meet at 1pm EST Thursday; for those across the globe, let’s meet at 8:30pm EST on Wednesday.
+For those who are on the east / west coast, let’s meet at 1:00pm EST Thursday; for those across the globe, let’s meet at 8:30pm EST on Wednesday.
 
-We’ll be holding the meeting on [Zoom](https://risd.zoom.us/j/8072945194).
+We’ll be holding the meeting on [Zoom](https://risd.zoom.us/j/8072945194). If you haven’t used Zoom before, please try clicking the link and loading the app prior to the class.
 
 
 ## Class 6
