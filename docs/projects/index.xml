@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Index</title>
+      <link>https://risd-web.github.io/webtype-spring2020/projects/collection/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/projects/collection/</guid>
+      <description>Documentation Develop a single webpage that provides a link to each project you’ve completed this semester. This index page will serve as a homepage for this class. You might also include exercises or alternate drafts that you experimented before developing the final version of your website. As you organize / reorganize your Github repository, make sure to double check that all links, including assets such as fonts and images, are properly linked.</description>
+    </item>
+    
+    <item>
       <title>Project 2 &amp; 3: Typeface as a Medium</title>
       <link>https://risd-web.github.io/webtype-spring2020/projects/project2-3/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>

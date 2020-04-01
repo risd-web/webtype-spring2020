@@ -1,95 +1,79 @@
 ---
-title: "Project 4: Webzine"
-date: 2020-03-31
+title: "Project 4: Editorial"
+date: 2020-03-30
 draft: true
 reference: 
-
+  - title: "for/with/in"
+    link: "http://htmloutput.risd.gd/"
+  - title: "The Critical Atlas of Internet"
+    link: "https://louisedrulhe.fr/internet-atlas/"
+  - title: "Untold Stories"
+    link: "http://www.untold-stories.net/"
+  - title: "Illumiating Radioactivity"
+    link: "https://illuminating-radioactivity.com/"
+  - title: "The Creative Independent"
+    link: "https://thecreativeindependent.com/"
+  - title: "Studio Otto"
+    link: "https://studio-otto.com/"
 ---
 
 
-> “But in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.”
-– Keller Eastering
+The next phase is our final project — the goal is to engage in editorial design on the web, developing a collection of texts as as a publication. Below are several directions on how you might go about doing this.
 
-### Reading
-- [Keller Easterling: Medium Design (Excerpt)](https://strelkamag.com/en/article/keller-easterling-medium-design)
-- [Typotheque: Typeface as Programme](https://www.typotheque.com/articles/typeface_as_programme)
+General requirements:
 
-
-### Project 2
-
-Create a variable font, considering the axes of variation as a medium. With this format, you are not only designing the visual instances of letterforms — you are designing the relationship with the typographer (or anyone who uses the font.) What power and possibilities are you granting with your variable font? If you can choose [any kind of axes](https://v-fonts.com/) for variation, what is the significance of that choice?
-
-### Project 3
-
-Create a typographic website for your typeface, as a specimen that responds to specific conditions enabled by the web. 
+- Typeset at least 12 longform articles
+- Design at least 2 types of article layouts, in addition to the homepage
+- Consider what kind of viewing modes are available for 
+- Consider the relationship between images & words
+- Experiment with how we navigate from one article to another
+- Develop a robust typographic system, paying careful attention to typographic hierarchy
 
 
-## Week 1
+## a) Web Publication / Anthology
+Consider a current area of research. Collect at least 12 full-length articles around this topic. Use the website as a way to organize a large amount of content.
 
-- define your typographic concept(s)
-- determine the scope of your font
-	- you might work from an existing design — something you’ve designed in the past 
-	- if starting a new design, consider limiting your character set
-- articulate the *axis for variation* as an intentional design space
-- develop several sketches or approaches
-  - begin with the control characters: H, O, D, n, o, p.
-  - These characters provide the “DNA” of a typeface: its straight shapes, its curved shapes, and the combination of the two.
-  - When drawing letters, you will be designing both the black and white shapes: the positive space as well as the negative space both within the counters of the letters and the space formed between the letters. 
-  *Pay careful attention to these inside/outside shapes.*
+- You might also consider a Project 1 as a starting point for this project; consider what additional texts to collect / generate to develop a full publication.
+
+- Considering our limited direct library access, Anastasiia Raina and James Goggin has collected a large library of [readings to browse](https://drive.google.com/drive/folders/1EtAYaHu31TZs-NalYJovUMusFSQxm7Vc) on Google Drive.
+
+- If you are stuck on collecting content, you could go through a Wikipedia chain: follow a series of 12 wikipedia links to typeset within your website. (Random fact: if you keep clicking the first linked word, [you’ll end up on “philosophy”](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy))
 
 
+## b) Open Letters
+Consider your website as an outlet to the world around you. Create website as a way to document your day-to-day experience admist the current pandemic crisis. What images did you see? What articles did you read? What’s been on your mind? What questions do you have?
 
-## Week 2
+Use this project to write HTML as a daily practice: the length of each post might range from just a few sentences to a full-length essay, but there should be at least one entry every day.
 
-* complete basic character set 
-* begin developing website for font-in-use specimen
-* consider the following questions for your typeface:
-  - how does the font take advantage of its mode of construction?
-  - how can not only the shapes of the letters, but the actual transformation itself become part of your concept?
-  - how can your typeface demonstrate a commentary; a point of view?
-* consider the following questions for your website:
-  - how is your axis of variation activated by the web?
-  - what should it respond to?
-    - is it user input? a browser width change? external data? time? sound?
-    - what is the significance of this “response” in combination with the text that we see?
+As your content grows, develop the design and framework that contains all of your documentation. How does your website evolve over time?
 
-## Week 3
+- Possible adaption: consider this as a public exchange between one other student, in which you both are pushing to the same website / Github repository. Alternate between days that you push and publish to the repository to establish a regular schedule.
 
-* refine and finalize typeface
-  - are there other variants to consider
-* flesh out your website specimen
-  - what is the journey created through the website?
-  - how can you showcase different components of your typeface?
-  - what typeface are you pairing with your typeface? (since most of you are drawing display faces, select a text face to match your font.)
-* design the responsive version
-  - use `@media` queries to make a mobile-friendly version
-  - how does your typography adapt to the smaller screen?
-* consider expanding what and how you’re curating your content: use JavaScript, JSON, or APIs to enhance the use of your typeface on the web
-
-## Week 4
+Adapted from [Fisher: Isolation Diary](https://ci.labud.nyc/projects/isolation).
 
 
+## c) Propose your own project
+Option C is more like an independent study, in which you will develop your own plan and scope of your new website. You must craft a detailed proposal, including a timeline that outlines a schedule of deliverables for each week. 
+
+Some examples of independent projects might be:
+- Develop a website for a hypothetical festival / events series
+- Learn how to develop a theme to customize an existing CMS
+- Develop an information visualization project using APIs and JavaScript
 
 
-### Glyphs Links
-- [Glyphs: Creating a Variable Font](https://glyphsapp.com/tutorials/creating-a-variable-font)
-- [Glyphs App](https://glyphsapp.com/tutorials)
-- [Glyphs Forum](https://forum.glyphsapp.com/)
+## Timeline
 
-### Testing
-- [Font Goggles](https://github.com/justvanrossum/fontgoggles/releases/tag/v1.1)
-- [Axis Praxis](https://www.axis-praxis.org/specimens/__DEFAULT__")
-- [Dinamo Gauntlet](https://dinamodarkroom.com/gauntlet/)
+### Week 1: Planning
+- Collect content (texts, images, videos, etc.)
+- Map out the information architecture
+  - Macro-level: what are the overaching sections of your website?
+  - Micro-level: what are is the meta-information for each article?
+    - i.e. `title`, `author`, `date`, `category`, `template type`
+- Determine and sketch out different templates (layout formats) in Illustrator / InDesign. It might be something like:
+  - Homepage (A list of articles)
+  - Layout 1 (Article)
+  - Layout 2 (Interview)
+  - General Page (About page)
+- We will review your proposal document and your sketches next week
 
-### Implementing Variable Fonts on Websites
-- [MDN Variable Fonts Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
-- [One File, Many Options: Using Variable Fonts on the Web](https://css-tricks.com/one-file-many-options-using-variable-fonts-web/)
-
-### Supporting Tutorials
-- [Codecademy JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
-- [Eloquent Javascript](https://eloquentjavascript.net/)
-
-### General APIs
-- [Data.gov APIs](https://www.data.gov/developers/apis)
-- [API List](https://apilist.fun/)
 

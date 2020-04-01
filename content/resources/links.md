@@ -31,7 +31,6 @@ Below are links to webtype-type sites. The purpose here is to document a variety
 - [Strelka Alumni Ball](https://alumniball.strelka.com/)
 - [Het Nieuwe Institut](https://hetnieuweinstituut.nl/)
 - [PACKET](http://packet-biweekly.com/)
-- [Ryder Ripps](http://ryder-ripps.com/)
 
 ## Sites for Typefaces
 - [Fem Type](http://www.femtype.com/)
