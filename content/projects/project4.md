@@ -26,7 +26,7 @@ General requirements:
 - Consider what kind of viewing modes are available for 
 - Consider the relationship between images & words
 - Experiment with how we navigate from one article to another
-- Develop a robust typographic system, paying careful attention to typographic hierarchy
+- Develop a robust typographic identity system, paying careful attention to typographic hierarchy and refinements
 
 
 ## a) Web Publication / Anthology
