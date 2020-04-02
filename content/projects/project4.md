@@ -73,6 +73,12 @@ Some examples of independent projects might be:
   - Layout 1 (Article)
   - Layout 2 (Interview)
   - General Page (About page)
+- Sketch out some style palettes to different versions of your typographic identity system
 - We will review your proposal document and your sketches next week
 
+### Week 2: Develop prototype
+### Week 3: Add interactivity, CSS illustrations
+### Week 4: Develop into responsive platform
+### Week 5: Refine
 
+- Final Crit: May 7
