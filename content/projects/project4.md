@@ -76,7 +76,13 @@ Some examples of independent projects might be:
 - Sketch out some style palettes to different versions of your typographic identity system
 - We will review your proposal document and your sketches next week
 
-### Week 2: Develop prototype
+### Week 2: Develop site prototype
+- Translate your PDF mockups into HTML / CSS
+  - Using the structure developed in week 1, flesh out the templates / content-type-specific layouts for each.
+- Populate and style as much of your content as possible
+- Process your other assets — do your images need to be cropped, processed?
+- We will review your live prototype of the entire website next week
+
 ### Week 3: Add interactivity, CSS illustrations
 ### Week 4: Develop into responsive platform
 ### Week 5: Refine
