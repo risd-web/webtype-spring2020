@@ -37,8 +37,9 @@ Reading collections  The Avery Review HTML Output Critical Atlas of the Internet
       
       <guid>https://risd-web.github.io/webtype-spring2020/colophon/</guid>
       <description>This site is a work-in-progress. The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
- Full code for this site is available on Github It is compiled with the static site generator Hugo  V3 March 4
- change typeface to variable font Magmatic and Dispatch Mono for code update colors that work better with type add subnavigation anchors to sidebar  V2 February 26</description>
+ Full code for this site is available on Github It is compiled with the static site generator Hugo  V5 April 9
+ add print styles via media queries  V4 March 12
+ add “dark mode” button via jQuery  V3 March 4</description>
     </item>
     
     <item>

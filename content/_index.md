@@ -16,11 +16,17 @@ For those who are on the east / west coast, let’s meet at 1:00pm EST Thursday;
 
 We’ll be holding the meeting on [Zoom](https://risd.zoom.us/j/8072945194). If you haven’t used Zoom before, please try clicking the link and loading the app prior to the class.
 
+## Class 7
+<time>April 9</time>
+- [Sign up](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit#gid=1526707000) for individual meetings to discuss final projects
+- Technical Q & A / Review at 4:00pm
+
 
 ## Class 6
 <time>April 2</time>
 - Housekeeping / Check-in
-- Project 4 introduction
+- Introduce [Index collection]({{< ref "/projects/collection.md" >}})  project
+- [Project 4]({{< ref "/projects/project4.md" >}}) introduction
 - Variable Font Website crit
 
 ## Class 5
@@ -46,7 +52,7 @@ We’ll be holding the meeting on [Zoom](https://risd.zoom.us/j/8072945194). If 
 - Show & Tell quick post
 - Project 1 crit (all)
 - [Print to Web](https://docs.google.com/document/d/1qTQfgC3mjbN-JF6yoWRfjQz_rEd8fSegA0zprKejcbg/edit?usp=sharing) responsive typography summary
-- Project 2 & 3 introduction
+- [Project 2 & 3]({{< ref "/projects/project2-3.md" >}})) introduction
 - Demo: [Glyphs and type design basics]({{< ref "/lectures/04-typedesign.md" >}})
 	- [In-class demo Glyphs file](https://github.com/risd-web/webtype-demos/tree/master/03-variable-font)
 
@@ -66,7 +72,7 @@ We’ll be holding the meeting on [Zoom](https://risd.zoom.us/j/8072945194). If 
 - Class website
   - Resources
 - Setup	
-- Project 1 introduction
+- [Project 1]({{< ref "/projects/project1.md" >}}) introduction
 - Lecture: [Intro]({{< ref "/lectures/00-webtype.md" >}}), [HTML]({{< ref "/lectures/01-html.md" >}}) and [CSS Basics]({{< ref "/lectures/02-css.md" >}})
 	- [In-class demo files](https://github.com/risd-web/webtype-demos/tree/master/01-html-css)
 

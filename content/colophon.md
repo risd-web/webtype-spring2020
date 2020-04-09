@@ -10,6 +10,16 @@ weight: 10
 - Full code for this site is available on [Github](https://github.com/risd-web/webtype-spring2020/)
 - It is compiled with the static site generator [Hugo](https://gohugo.io/) 
 
+## V5
+<time>April 9</time>
+- add print styles via media queries
+
+
+## V4
+<time>March 12</time>
+- add “dark mode” button via jQuery
+
+
 ## V3
 <time>March 4</time>
 - change typeface to variable font [Magmatic](https://occupantfonts.com/fonts/magmatic/) and [Dispatch Mono](https://occupantfonts.com/fonts/dispatch-mono/) for code
