@@ -63,7 +63,6 @@ The content is the “variable” part of, such as the actual text content, or i
 
 A common format to store textual content is [markdown](https://www.markdownguide.org/getting-started/). You can create a markdown file with your text editor in the same way as you would an `html` file, with a `.md` extension instead. Markdown allows you to write documents in plain text; the CMS then renders this into HTML.
 
-
 Often, at the top of these markdown files are file **frontmatter**, or **metadata** that tells the CMS how to handle compiling this webpage. It’s important that the syntax used here does not have any typos and strictly follows the requirements of the CMS. 
 
 Often, required metadata includes `title`, `date`; `categories`, `tags`. 
@@ -86,4 +85,28 @@ When you push Jekyll files onto Github, Github automatically compiles your site.
 
 1. Follow instructions to [install Jekyll](https://jekyllrb.com/docs/installation/macos/) via the Terminal
 
-2. Follow the [step-by-steyp tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
+2. Follow the [step-by-step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
+
+After installing Jekyll, open your Terminal, then navigate to your desired Finder folder.
+You can do this by typing in `cd ` (be sure to include the space) then drag-and-drop the folder into the Terminal.
+
+- To create a new jekyll site, enter 
+```
+jekyll new demo --blank
+```
+and substitute  `demo` with your custom folder name.
+
+- Then navigate to it:
+```
+cd demo
+```
+
+- Run Jekyll to compile
+```
+jekyll serve --watch
+```
+
+Navigate to the local server
+```
+http://localhost:4000/
+```
