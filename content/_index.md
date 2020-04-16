@@ -3,9 +3,9 @@ title: "Web Type"
 date: 2020-02-26
 ---
 
-# Index7
+# Index
 This is the class website for WEB TYPE (RISD GRAPH-2313-01)
-We’re now meeting on [Zoom](https://risd.zoom.us/j/8072945194)!
+We’re now meeting [remotely](https://risd.zoom.us/j/8072945194)!
 For Office Hours, please [sign up here](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit?usp=sharing) to schedule an appointment.
 
 
