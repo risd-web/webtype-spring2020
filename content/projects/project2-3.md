@@ -106,8 +106,10 @@ Create a typographic website for your typeface, as a specimen that responds to s
 - [Dinamo Gauntlet](https://dinamodarkroom.com/gauntlet/)
 
 ### Implementing Variable Fonts on Websites
+- [A Variable Fonts Primer](https://variablefonts.io/)
 - [MDN Variable Fonts Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
 - [One File, Many Options: Using Variable Fonts on the Web](https://css-tricks.com/one-file-many-options-using-variable-fonts-web/)
+- [Interactivity and Animation with Variable Fonts](https://24ways.org/2019/interactivity-and-animation-with-variable-fonts/)
 
 ### Supporting Tutorials
 - [Codecademy JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)

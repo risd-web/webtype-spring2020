@@ -6,5 +6,9 @@ theme = "type"
 sectionPagesMenu = "main"
 pygmentsUseClasses = true
 
+buildFuture = true
+buildDrafts = true
+
 [markup.goldmark.renderer]
 unsafe = true
+

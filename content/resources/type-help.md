@@ -43,9 +43,11 @@ Below are links to some resources for typefaces and typography.
 
 ## Type technology tools and reference
 - [Using @font-face](https://css-tricks.com/snippets/css/using-font-face/)
+- [A Variable Fonts Primer](https://variablefonts.io/)
 - [typetura.js](https://github.com/typetura/typetura.js)
 - [Variable Fonts](https://v-fonts.com/)
 - [Axis Praxis](https://www.axis-praxis.org/specimens/__DEFAULT__)
 - [Dinamo Gauntlet](https://dinamodarkroom.com/gauntlet/)
 - [Parametric and Variable Typefaces](https://eyeondesign.aiga.org/parametric-and-variable-typeface-systems-shape-shifters-for-letterforms/)
 - [A brief overview of developments in digital type design](https://medium.com/@fpeulrich/a-brief-overview-of-developments-in-digital-type-design-561d9e63a122)
+- [Interactivity and Animation with Variable Fonts](https://24ways.org/2019/interactivity-and-animation-with-variable-fonts/)

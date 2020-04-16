@@ -318,6 +318,19 @@ td:first-child{
 	margin-bottom: 1em;
 }
 
+
+// Syllabus
+
+#web-type-syllabus-2021{
+	table td{
+		width: 15%;
+		border-bottom: 0;
+		font-size: .85em;
+		line-height: 1.3;
+	}
+}
+
+
 // Dark mode styles
 
 #dark-mode{
@@ -410,7 +423,18 @@ body.dark{
   }
 }
 
+
+#eval table td{
+	width: auto;
+	min-width: 0;
+	border-bottom: 1px solid var(--maincolor);
+	ul{
+		margin-bottom: 0;
+	}
+}
+
 @media print{
+
 	header{
 		display: none;
 	}
@@ -442,8 +466,24 @@ body.dark{
 		h2{
 			margin-top: 1.5em;
 		}
+		h3{
+			text-decoration: underline;
+		}
+		h2, h3, h4, time { 
+			font-size: 1em;
+			letter-spacing: 0;
+			page-break-after: avoid;
+			break-after: avoid;
+		}
+		table{
+			// -webkit-column-break-inside: avoid;
+			// page-break-inside: avoid;
+			// break-inside: avoid;
+		}
 		ul{
 			max-width: 85%;
+		}
+		li{
 			-webkit-column-break-inside: avoid;
 			page-break-inside: avoid;
 			break-inside: avoid;
@@ -452,4 +492,54 @@ body.dark{
 	aside{
 		display: none;
 	}
+
+	#web-type-syllabus-2021{
+		font-family: system-ui;
+		letter-spacing: 0;
+
+		h5{
+			column-span: all;
+		}
+
+		#schedule{
+			column-span: all;
+			page-break-before: all;
+			page-break-after: all;
+			break-before: page;
+			break-after: page;
+
+			h4 time{
+				display: inline-block;
+				font-family: monospace;
+				color: var(--maincolor);
+				font-weight: normal;
+				font-size: .75em;
+			}
+			// table, h4{
+			// 	column-span: all;
+			// }
+
+			table th{
+				border-bottom: .5px solid;
+			}
+			table td{
+				width: 16.66%;
+				border-bottom: 0;
+				font-size: .85em;
+				line-height: 1.3;
+				padding-top: .5em;
+			}
+			table td:first-child{
+				min-width: 0;
+			}
+		}
+		#policies{
+			page-break-before: all;
+			page-break-after: all;
+			break-before: page;
+			break-after: page;
+		}
+		
+	}
+
 }

@@ -1,2 +1,3 @@
 baseURL = "https://risd-web.github.io/webtype-spring2020/"
 publishDir = "docs"
+buildDrafts = false

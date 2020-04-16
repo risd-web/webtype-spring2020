@@ -3,23 +3,21 @@ title: "Web Type"
 date: 2020-02-26
 ---
 
-# Index
+# Index7
 This is the class website for WEB TYPE (RISD GRAPH-2313-01)
+We’re now meeting on [Zoom](https://risd.zoom.us/j/8072945194)!
+For Office Hours, please [sign up here](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit?usp=sharing) to schedule an appointment.
 
-## Update
-Amidst the rapidly evolving public health crisis, I know a lot of you are adjusting to a lot of changes and uncertainty. I’d like to emphasize that this class should not add to the stress — we are switching to a Pass / No Credit system, and as we work towards one more final project, I hope you could take this on as an escape from the anxiety and an opportunity to use a creative practice as a way to move forward. 
 
-I’ll continue to hold office hours virtually, splitting for different time zones. Please [sign up here](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit?usp=sharing) to schedule an appointment.
-
-We will continue our meetings remotely.
-For those who are on the east / west coast, let’s meet at 1:00pm EST Thursday; for those across the globe, let’s meet at 8:30pm EST on Wednesday.
-
-We’ll be holding the meeting on [Zoom](https://risd.zoom.us/j/8072945194). If you haven’t used Zoom before, please try clicking the link and loading the app prior to the class.
+## Class 8
+<time>April 16</time>
+- [Sign up](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit#gid=1581846587) for group meetings to review final project prototypes
+- Lecture on [Content Management Systems]({{< ref "/lectures/09-cms.md" >}}) at 4:00pm
 
 ## Class 7
 <time>April 9</time>
 - [Sign up](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit#gid=1526707000) for individual meetings to discuss final projects
-- Technical Q & A / Review at 4:00pm
+- Technical Q & A and JavaScript Review at 4:00pm
 
 
 ## Class 6
