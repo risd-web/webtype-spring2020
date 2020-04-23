@@ -226,7 +226,7 @@ Visual hierarchy is the order in which the eye perceives what it sees. This orde
 
 - Read more about typography and visual hierarchy with [Ellen Lupton: Thinking with Type](http://thinkingwithtype.com/text/#line-spacing)
 
-## Content Types
+### Content Types
 *Structure within a chunk of content:* the typographic organization of repeating groups of text. In order to structure your typography, we can begin to identify what categories of content there are.
 
 - What types of content tend to be chunked together?
@@ -234,53 +234,17 @@ Visual hierarchy is the order in which the eye perceives what it sees. This orde
 - How can this pattern be abstracted and reused?
 - Read more about [Content Display Patterns](https://superfriendlydesign.systems/articles/content-display-patterns/)
 
-## Wireframes
+### Wireframes
 *Structure within a page:* the visual organization of display patterns laid out within a webpage. Different types of pages will have diffent skeletons.
 
-## Sitemap
+### Sitemap
 *Structure within a website:* the organization of sections of content within a website. 
 
 - All of these structures will inform your HTML markup, or how the elements are nested within another.
 
-# Responsive Design
+## Grids and Columns
 
-Responsive web design refers to the ability of websites to adapt the presentation of content to a range of devices and media.
-
-Responsive design involves:
-- meta tag
-- fluid layout 
-- relative units
-- fluid images
-- media queries
-
-## Meta tag
-
-Insert this meta tag within the `<head></head>` of all your html pages.
-This ensures that the browser will register the physical width of the device’s screen as its screen width.
-
-```
-<meta name="viewport" content="width=device-width, initial-scale=1">
-```
-
-## Fluid layout
-
-A fluid layout often has: 
-- a container element that fills the entire screen size 
-- the container element responds to adjustments in browser widths
-- widths of the columns nested within the container adjust accordingly
-- Review the relative [CSS Units]({{<ref "02-css.md#css-size-units">}}) 
-
-The following CSS relative units may be useful for scalable designs.
-
-|unit|description|example|
-|---|---|---|
-|rem|font size of the root element (html)| `font-size: 2rem;`|
-|em|font size of parent element| `font-size: 2em;`|
-|vw|1% of viewport’s width| `width: 100vw;`|
-|vh |1% viewport’s height| `height: 100vh;`|
-
-
-## CSS Grid
+### CSS Grid
 CSS Grid allows you to define the column-row structure for all of your content. By declaring  `display: grid` on a container element, child elements need to be defined where they align to on the grid.
 - [Learn CSS Grid](https://learncssgrid.com/)
 - Read more on [CSS Grid properties](https://css-tricks.com/snippets/css/complete-guide-grid/)
@@ -339,7 +303,7 @@ CSS Grid allows you to define the column-row structure for all of your content. 
   </div>
 </div>
 
-## Flexbox model
+### Flexbox model
 Flex box is a popular method for creating “flexible” columns of containers. By declaring `display: flex` on a container element, child elements could be made to shrink or expand according to specified properties. 
 
 - See [how it works](http://learnlayout.com/flexbox.html)
@@ -392,57 +356,3 @@ Flex box is a popular method for creating “flexible” columns of containers. 
 ### Grid vs. Flexbox
 - CSS Grid is better used for defining larger content areas
 - CSS Flexbox is better suited for organizing chunks within those areas
-
-
-## Fluid Images
-Any embedded assets, such as images, videos, etc will need to scale appropriately. 
-
-Usually, the image container has defined width. The image itself then has `max-width: 100%;` to scale down if its container resizes, but would never scale up to be larger than its original size.
-
-```HTML
-<div class="container">
-  <img src="image.png">
-</div>
-```
-
-```CSS
-.container {
-  width: 33%;
-}
-
-.figure img {
-  width: 100%;
-}
-```
-
-### Retina displays
-
-- 72dpi (dots  / inch, in this case pixels) used to be the standard for screen resolutions. But now with the introduction of mobile devices and retina screens, screen resolutions may be much higher.
-- In order to have your images appear crisp on retina screens, you will need to provide higher resolution images (at least 2x large.) Many website prepare multiple versions of the same image so that those on a smaller screen (and a slower connection) will not need to download the higher-res image.
-- Read more on various solutions to work with [retina images](https://www.smashingmagazine.com/2012/08/towards-retina-web/).
-
-
-## Media queries
-Media queries are the crux of responsive design. They define the **breakpoints** at which different CSS rules are applied. **Any CSS rule can be adjusted within the media queries.**
-
-You can approach this in two ways.
-1. Desktop first, defining `max-width` breakpoints to go smaller 
-2. Mobile first, defining `min-width` breakpoints to go larger
-    - Sometimes you need to use both `min` and `max`
-
-- Block-level containers are rearranged according to the DOM (HTML structure)
-- Breakpoints determine the browser widths at which your containers will rearrange into a single column
-- Some text may be shortened or omitted on the mobile website
-- See an example of [flexbox and media queries](https://codepen.io/chriscoyier/pen/yCeax)
-
-
-```CSS
-@media screen and (max-width: 480px){ 
-  .container{
-    width: 100%;
-  }
-} 
-```
-
-Note: nested brackets
-

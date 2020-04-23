@@ -204,7 +204,7 @@ Viewport refers to the boundaries of browser window. This means that fixed posit
 <ul>
 <li>Read more about typography and visual hierarchy with <a href="http://thinkingwithtype.com/text/#line-spacing">Ellen Lupton: Thinking with Type</a></li>
 </ul>
-<h2><a id="content-types" class="anchor" ariaLabel="Anchor"></a> Content Types</h2>
+<h3><a id="content-types" class="anchor" ariaLabel="Anchor"></a> Content Types</h3>
 <p><em>Structure within a chunk of content:</em> the typographic organization of repeating groups of text. In order to structure your typography, we can begin to identify what categories of content there are.</p>
 <ul>
 <li>What types of content tend to be chunked together?</li>
@@ -212,68 +212,15 @@ Viewport refers to the boundaries of browser window. This means that fixed posit
 <li>How can this pattern be abstracted and reused?</li>
 <li>Read more about <a href="https://superfriendlydesign.systems/articles/content-display-patterns/">Content Display Patterns</a></li>
 </ul>
-<h2><a id="wireframes" class="anchor" ariaLabel="Anchor"></a> Wireframes</h2>
+<h3><a id="wireframes" class="anchor" ariaLabel="Anchor"></a> Wireframes</h3>
 <p><em>Structure within a page:</em> the visual organization of display patterns laid out within a webpage. Different types of pages will have diffent skeletons.</p>
-<h2><a id="sitemap" class="anchor" ariaLabel="Anchor"></a> Sitemap</h2>
+<h3><a id="sitemap" class="anchor" ariaLabel="Anchor"></a> Sitemap</h3>
 <p><em>Structure within a website:</em> the organization of sections of content within a website.</p>
 <ul>
 <li>All of these structures will inform your HTML markup, or how the elements are nested within another.</li>
 </ul>
-<h1><a id="responsive-design" class="anchor" ariaLabel="Anchor"></a> Responsive Design</h1>
-<p>Responsive web design refers to the ability of websites to adapt the presentation of content to a range of devices and media.</p>
-<p>Responsive design involves:</p>
-<ul>
-<li>meta tag</li>
-<li>fluid layout</li>
-<li>relative units</li>
-<li>fluid images</li>
-<li>media queries</li>
-</ul>
-<h2><a id="meta-tag" class="anchor" ariaLabel="Anchor"></a> Meta tag</h2>
-<p>Insert this meta tag within the <code>&lt;head&gt;&lt;/head&gt;</code> of all your html pages.
-This ensures that the browser will register the physical width of the device’s screen as its screen width.</p>
-<pre><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-</code></pre><h2><a id="fluid-layout" class="anchor" ariaLabel="Anchor"></a> Fluid layout</h2>
-<p>A fluid layout often has:</p>
-<ul>
-<li>a container element that fills the entire screen size</li>
-<li>the container element responds to adjustments in browser widths</li>
-<li>widths of the columns nested within the container adjust accordingly</li>
-<li>Review the relative <a href="https://risd-web.github.io/webtype-spring2020/lectures/02-css/#css-size-units">CSS Units</a></li>
-</ul>
-<p>The following CSS relative units may be useful for scalable designs.</p>
-<table>
-<thead>
-<tr>
-<th>unit</th>
-<th>description</th>
-<th>example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>rem</td>
-<td>font size of the root element (html)</td>
-<td><code>font-size: 2rem;</code></td>
-</tr>
-<tr>
-<td>em</td>
-<td>font size of parent element</td>
-<td><code>font-size: 2em;</code></td>
-</tr>
-<tr>
-<td>vw</td>
-<td>1% of viewport’s width</td>
-<td><code>width: 100vw;</code></td>
-</tr>
-<tr>
-<td>vh</td>
-<td>1% viewport’s height</td>
-<td><code>height: 100vh;</code></td>
-</tr>
-</tbody>
-</table>
-<h2><a id="css-grid" class="anchor" ariaLabel="Anchor"></a> CSS Grid</h2>
+<h2><a id="grids-and-columns" class="anchor" ariaLabel="Anchor"></a> Grids and Columns</h2>
+<h3><a id="css-grid" class="anchor" ariaLabel="Anchor"></a> CSS Grid</h3>
 <p>CSS Grid allows you to define the column-row structure for all of your content. By declaring  <code>display: grid</code> on a container element, child elements need to be defined where they align to on the grid.</p>
 <ul>
 <li><a href="https://learncssgrid.com/">Learn CSS Grid</a></li>
@@ -321,7 +268,7 @@ This ensures that the browser will register the physical width of the device’s
   <div class="line" style="height: auto;">
   </div>
 </div>
-<h2><a id="flexbox-model" class="anchor" ariaLabel="Anchor"></a> Flexbox model</h2>
+<h3><a id="flexbox-model" class="anchor" ariaLabel="Anchor"></a> Flexbox model</h3>
 <p>Flex box is a popular method for creating “flexible” columns of containers. By declaring <code>display: flex</code> on a container element, child elements could be made to shrink or expand according to specified properties.</p>
 <ul>
 <li>See <a href="http://learnlayout.com/flexbox.html">how it works</a></li>
@@ -370,48 +317,6 @@ This ensures that the browser will register the physical width of the device’s
 <li>CSS Grid is better used for defining larger content areas</li>
 <li>CSS Flexbox is better suited for organizing chunks within those areas</li>
 </ul>
-<h2><a id="fluid-images" class="anchor" ariaLabel="Anchor"></a> Fluid Images</h2>
-<p>Any embedded assets, such as images, videos, etc will need to scale appropriately.</p>
-<p>Usually, the image container has defined width. The image itself then has <code>max-width: 100%;</code> to scale down if its container resizes, but would never scale up to be larger than its original size.</p>
-<div class="highlight"><pre class="chroma"><code class="language-HTML" data-lang="HTML"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;container&#34;</span><span class="p"></span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;image.png&#34;</span><span class="p"></span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="p">/</span><span class="nt">div</span><span class="p">&gt;</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="p">.</span><span class="nc">container</span> <span class="p">{</span>
-  <span class="k">width</span><span class="p">:</span> <span class="mi">33</span><span class="kt">%</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">figure</span> <span class="nt">img</span> <span class="p">{</span>
-  <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div><h3><a id="retina-displays" class="anchor" ariaLabel="Anchor"></a> Retina displays</h3>
-<ul>
-<li>72dpi (dots  / inch, in this case pixels) used to be the standard for screen resolutions. But now with the introduction of mobile devices and retina screens, screen resolutions may be much higher.</li>
-<li>In order to have your images appear crisp on retina screens, you will need to provide higher resolution images (at least 2x large.) Many website prepare multiple versions of the same image so that those on a smaller screen (and a slower connection) will not need to download the higher-res image.</li>
-<li>Read more on various solutions to work with <a href="https://www.smashingmagazine.com/2012/08/towards-retina-web/">retina images</a>.</li>
-</ul>
-<h2><a id="media-queries" class="anchor" ariaLabel="Anchor"></a> Media queries</h2>
-<p>Media queries are the crux of responsive design. They define the <strong>breakpoints</strong> at which different CSS rules are applied. <strong>Any CSS rule can be adjusted within the media queries.</strong></p>
-<p>You can approach this in two ways.</p>
-<ol>
-<li>Desktop first, defining <code>max-width</code> breakpoints to go smaller</li>
-<li>Mobile first, defining <code>min-width</code> breakpoints to go larger
-<ul>
-<li>Sometimes you need to use both <code>min</code> and <code>max</code></li>
-</ul>
-</li>
-</ol>
-<ul>
-<li>Block-level containers are rearranged according to the DOM (HTML structure)</li>
-<li>Breakpoints determine the browser widths at which your containers will rearrange into a single column</li>
-<li>Some text may be shortened or omitted on the mobile website</li>
-<li>See an example of <a href="https://codepen.io/chriscoyier/pen/yCeax">flexbox and media queries</a></li>
-</ul>
-<div class="highlight"><pre class="chroma"><code class="language-CSS" data-lang="CSS"><span class="p">@</span><span class="k">media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">480px</span><span class="o">)</span><span class="p">{</span> 
-  <span class="p">.</span><span class="nc">container</span><span class="p">{</span>
-    <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span> 
-</code></pre></div><p>Note: nested brackets</p>
 </article>
 		<aside>
 	<nav id="TableOfContents">
@@ -433,26 +338,20 @@ This ensures that the browser will register the physical width of the device’s
   </ul>
 
   <ul>
-    <li><a href="#content-types">Content Types</a></li>
-    <li><a href="#wireframes">Wireframes</a></li>
-    <li><a href="#sitemap">Sitemap</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#meta-tag">Meta tag</a></li>
-    <li><a href="#fluid-layout">Fluid layout</a></li>
-    <li><a href="#css-grid">CSS Grid</a></li>
-    <li><a href="#flexbox-model">Flexbox model</a>
+    <li>
       <ul>
+        <li><a href="#content-types">Content Types</a></li>
+        <li><a href="#wireframes">Wireframes</a></li>
+        <li><a href="#sitemap">Sitemap</a></li>
+      </ul>
+    </li>
+    <li><a href="#grids-and-columns">Grids and Columns</a>
+      <ul>
+        <li><a href="#css-grid">CSS Grid</a></li>
+        <li><a href="#flexbox-model">Flexbox model</a></li>
         <li><a href="#grid-vs-flexbox">Grid vs. Flexbox</a></li>
       </ul>
     </li>
-    <li><a href="#fluid-images">Fluid Images</a>
-      <ul>
-        <li><a href="#retina-displays">Retina displays</a></li>
-      </ul>
-    </li>
-    <li><a href="#media-queries">Media queries</a></li>
   </ul>
 </nav>
 	

@@ -8,6 +8,11 @@ This is the class website for WEB TYPE (RISD GRAPH-2313-01)
 We’re now meeting [remotely](https://risd.zoom.us/j/8072945194)!
 For Office Hours, please [sign up here](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit?usp=sharing) to schedule an appointment.
 
+## Class 9
+<time>April 23</time>
+- [Small Group Meetings](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit#gid=1321290230) to review websites
+- Review on [Responsive Design Techniques]({{< ref "/lectures/03-responsive.md" >}}) at 4:00pm
+
 
 ## Class 8
 <time>April 16</time>
