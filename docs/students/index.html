@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Web Type Students</title>
+	
+	
+
+	
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.59d9511287ba3e1f3732d2586747bf1ec28bee2c089c72ba2d99579014fcdb01.css">
+
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$('.student').mouseenter(function(){
+				let key = $('.vf',this).attr('id');
+				let anim = key +'-anim';
+				if(key == 'tiger'){
+					$('.vf',this).css('animation', anim +' 4s linear alternate infinite');
+				}else{
+					$('.vf',this).css('animation', anim +' 1s linear alternate infinite');
+				}
+			}).mouseleave(function(){
+				$('.vf',this).css('animation', 'none');
+			});
+		});
+	</script>
+	<style>
+
+		@font-face{
+			font-family: 'Blocks';
+			src: url('../fonts/student-vfs/Christie_BlocksGX.ttf') format('truetype-variations');			
+		}
+		@font-face{
+			font-family: 'ProjectColony';
+			src: url('../fonts/student-vfs/Felix_ProjectColonyGX.ttf') format('truetype-variations');			
+		}
+		@font-face{
+			font-family: 'Shadow';
+			src: url('../fonts/student-vfs/Jina_variableType.ttf') format('truetype-variations');			
+		}
+		@font-face{
+			font-family: 'Wheels';
+			src: url('../fonts/student-vfs/Grace_WHEELSGX.ttf') format('truetype-variations');			
+		}
+		@font-face{
+			font-family: 'Cross Chancery';
+			src: url('../fonts/student-vfs/Tiger_CrossChanceryGX.ttf') format('truetype-variations');			
+		}
+
+		#forough{
+			font-family: "font";
+		}
+		#joy{
+			font-family: "font";
+		}
+		#jina{
+			font-family: "Shadow";
+		}
+		#tiger{
+			font-family: "Cross Chancery";
+		}
+		#laura{
+			font-family: "font";
+		}
+		#everett{
+			font-family: "font";
+		}
+		#jueun{
+			font-family: "font";
+		}
+		#felix{
+			font-family: "ProjectColony";
+		}
+		#grace{
+			font-family: "Wheels";
+		}
+		#christie{
+			font-family: "Blocks";
+		}
+
+		.vf{
+			display: block;
+			font-size: 150px;
+			line-height: .95;
+			margin-bottom: 20px;
+		}
+
+		@keyframes forough-anim{
+			0%{
+				font-variation-settings: 'THIC' 100;
+			}
+			100%{
+				font-variation-settings: 'THIC' 200;
+			}
+		}
+		
+		@keyframes joy-anim{
+			0%{
+				font-variation-settings: 'THIC' 100;
+			}
+			100%{
+				font-variation-settings: 'THIC' 200;
+			}
+		}
+		
+		@keyframes jina-anim{
+			0%{
+				font-variation-settings: 'slnt' 50;
+			}
+			100%{
+				font-variation-settings: 'slnt' 200;
+			}
+		}
+
+		@keyframes tiger-anim{
+			0% {
+				font-variation-settings: 'wght' 100, 'wdth' 1000;
+			}
+			5% {
+				font-variation-settings: 'wght' 100, 'wdth' 1000;
+			}
+			25%{
+				font-variation-settings: 'wght' 1000, 'wdth' 1000;
+			}
+			30%{
+				font-variation-settings: 'wght' 1000, 'wdth' 1000;
+			}
+			50%{
+				font-variation-settings: 'wght' 1000, 'wdth' 100;
+			}
+			55%{
+				font-variation-settings: 'wght' 1000, 'wdth' 100;
+			}
+			75%{
+				font-variation-settings: 'wght' 100, 'wdth' 100;
+			}
+			80% {
+				font-variation-settings: 'wght' 100, 'wdth' 100;
+			}
+		}
+		
+
+		
+		@keyframes felix-anim{
+			0%{
+				font-variation-settings: 'THIC' 100;
+			}
+			100%{
+				font-variation-settings: 'THIC' 200;
+			}
+		}
+		
+		@keyframes grace-anim{
+			0%{
+				font-variation-settings: 'wght' 50;
+			}
+			100%{
+				font-variation-settings: 'wght' 1000;
+			}
+		}
+
+		@keyframes christie-anim{
+			0%{
+				font-variation-settings: 'wght' 50;
+			}
+			100%{
+				font-variation-settings: 'wght' 200;
+			}
+		}
+
+		main{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin: 0;
+		}
+		.student{
+			width: 20vw;
+			height: 50vh;
+			padding: 2em;
+			text-align: center;
+			line-height: 1.1;
+		}
+
+		footer{
+			text-align: center;
+			font-size: .8em;
+			padding: 1em;
+			border-top: 1px solid  var(--maincolor);
+		}
+
+		a{
+			color: var(--secondcolor);
+		}
+		a:hover{
+			color: var(--thirdcolor);
+			font-variation-settings: 'wght' 200,'wdth' 600;
+			letter-spacing: 0.02em;
+			font-size: 1em;
+		}
+	</style>
+</head>
+<body>
+	<main>
+
+		<div class="student">
+			<span class="vf" id="forough">A</span>
+			Forough Abadian
+		</div>	
+		<div class="student">
+			<span class="vf" id="joy">A</span>
+			Joy Cho
+		</div>
+		<a target="_blank" href="https://jinachoi2.github.io/WebType/index/index.html"><div class="student">
+			<span class="vf" id="jina">A</span>
+			Ji Na Choi
+		</div></a>
+		<a target="_blank" href="https://tdingsun.github.io/web-type/projects/"><div class="student">
+			<span class="vf" id="tiger">A</span>
+			Tiger Dingsun
+		</div></a>
+		<div class="student">
+			<span class="vf" id="laura">A</span>
+			Laura de Baldeon
+		</div>
+		<div class="student">
+			<span class="vf" id="everett">A</span>
+			Everett Epstein
+		</div>
+		<div class="student">
+			<span class="vf" id="jueun">A</span>
+			Ju Eun Jeon
+		</div>
+		<a target="_blank" href="https://fsumm.github.io/"><div class="student">
+			<span class="vf" id="felix">A</span>
+			Felix Summ
+		</div></a>
+		<a target="_blank" href="https://www.graceyoung.design/index/index.html"><div class="student">
+			<span class="vf" id="grace">A</span>
+			Grace Young
+		</div></a>
+		<a target="_blank" href="https://christie-index.glitch.me/"><div class="student">
+			<span class="vf" id="christie">A</span>
+			Christie Zhong
+		</div></a>
+	</main>
+	<footer>
+		Experimental Variable Fonts created during <a target="_blank" href="https://risd-web.github.io/webtype-spring2020/">Web Type, Spring 2020</a> at the Rhode Island School of Design.
+	</footer>
+
+</body>
+</html>
