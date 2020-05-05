@@ -8,6 +8,14 @@ This is the class website for WEB TYPE (RISD GRAPH-2313-01)
 We’re now meeting [remotely](https://risd.zoom.us/j/8072945194)!
 For Office Hours, please [sign up here](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit?usp=sharing) to schedule an appointment.
 
+## Class 11
+<time>May 7</time>
+- [Final Crit](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit#gid=263882774) with guest critic [Minkyoung Kim](http://minkyoungkim.com/home/)
+
+## Class 10
+<time>May 1</time>
+- [Pair Meetings](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit#gid=761260334) using breakout rooms
+
 ## Class 9
 <time>April 23</time>
 - [Small Group Meetings](https://docs.google.com/spreadsheets/d/136yATIXq7UNNoointbw3k4T-dUkK4jOqpa0WPCJLDWA/edit#gid=1321290230) to review websites
