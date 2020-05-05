@@ -18,7 +18,7 @@
 	
 	<script>
 		$(document).ready(function(){
-			$('.student').mouseenter(function(){
+			$('.student').each(function(){
 				let key = $('.vf',this).attr('id');
 				let anim = key +'-anim';
 				if(key == 'tiger'){
@@ -26,9 +26,10 @@
 				}else{
 					$('.vf',this).css('animation', anim +' 1s linear alternate infinite');
 				}
-			}).mouseleave(function(){
-				$('.vf',this).css('animation', 'none');
 			});
+			
+			
+			
 		});
 	</script>
 	<style>
