@@ -22,9 +22,9 @@
 				let key = $('.vf',this).attr('id');
 				let anim = key +'-anim';
 				if(key == 'tiger'){
-					$('.vf',this).css('animation', anim +' 4s linear alternate infinite');
+					$('.vf',this).css('animation', anim +' 5s linear infinite');
 				}else{
-					$('.vf',this).css('animation', anim +' 1s linear alternate infinite');
+					$('.vf',this).css('animation', anim +' 1.25s linear alternate infinite');
 				}
 			});
 			
@@ -144,6 +144,9 @@
 			}
 			80% {
 				font-variation-settings: 'wght' 100, 'wdth' 100;
+			}
+			100% {
+				font-variation-settings: 'wght' 100, 'wdth' 1000;
 			}
 		}
 		
