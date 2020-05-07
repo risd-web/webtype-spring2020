@@ -9,7 +9,7 @@
 	
 
 	
-	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.59d9511287ba3e1f3732d2586747bf1ec28bee2c089c72ba2d99579014fcdb01.css">
+	<link rel="stylesheet" href="https://risd-web.github.io/webtype-spring2020/sass/style.min.0ff879fbe50fa20c15ca3ca38bb911fedc0dd1906189829a0d7f6b3d8f3c3674.css">
 
 	<script
 	  src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -54,9 +54,24 @@
 			font-family: 'Cross Chancery';
 			src: url('../fonts/student-vfs/Tiger_CrossChanceryGX.ttf') format('truetype-variations');			
 		}
+		@font-face{
+			font-family: 'Jueun';
+			src: url('../fonts/student-vfs/Jueun_NewFontGX.ttf') format('truetype-variations');			
+		}
+		@font-face{
+			font-family: 'Forough';
+			src: url('../fonts/student-vfs/Forough_AdelleGX.ttf') format('truetype-variations');			
+		}
+		@font-face{
+			font-family: 'Silkscreen';
+			src: url('../fonts/student-vfs/Everett_VariableSilkscreenGX.ttf') format('truetype-variations');			
+		}
+
+		
+		
 
 		#forough{
-			font-family: "font";
+			font-family: "Forough";
 		}
 		#joy{
 			font-family: "font";
@@ -71,10 +86,10 @@
 			font-family: "font";
 		}
 		#everett{
-			font-family: "font";
+			font-family: "Silkscreen";
 		}
 		#jueun{
-			font-family: "font";
+			font-family: "Jueun";
 		}
 		#felix{
 			font-family: "ProjectColony";
@@ -120,6 +135,15 @@
 			}
 		}
 
+		@keyframes jueun-anim{
+			0%{
+				font-variation-settings: 'wght' 100;
+			}
+			100%{
+				font-variation-settings: 'wght' 900;
+			}
+		}
+
 		@keyframes tiger-anim{
 			0% {
 				font-variation-settings: 'wght' 100, 'wdth' 1000;
@@ -149,7 +173,25 @@
 				font-variation-settings: 'wght' 100, 'wdth' 1000;
 			}
 		}
+
+		@keyframes everett-anim{
+			0%{
+				font-variation-settings: 'wght' 100;
+			}
+			100%{
+				font-variation-settings: 'wght' 300;
+			}
+		}
+
 		
+		@keyframes forough-anim{
+			0%{
+				font-variation-settings: 'wght' 500;
+			}
+			100%{
+				font-variation-settings: 'wght' 1000;
+			}
+		}
 
 		
 		@keyframes felix-anim{
@@ -186,6 +228,7 @@
 			margin: 0;
 		}
 		.student{
+			display: block;
 			width: 20vw;
 			height: 50vh;
 			padding: 2em;
@@ -201,10 +244,18 @@
 		}
 
 		a{
+			color: var(--maincolor);
+		}
+		
+
+		.g{
 			color: var(--secondcolor);
 		}
-		a:hover{
+		.r{
 			color: var(--thirdcolor);
+		}
+		a:hover{
+			 
 			font-variation-settings: 'wght' 200,'wdth' 600;
 			letter-spacing: 0.02em;
 			font-size: 1em;
@@ -230,49 +281,49 @@
 <body>
 	<main>
 
-		<div class="student">
-			<span class="vf" id="forough">A</span>
-			Forough Abadian
-		</div>	
-		<div class="student">
-			<span class="vf" id="joy">A</span>
-			Joy Cho
-		</div>
-		<a target="_blank" href="https://jinachoi2.github.io/WebType/index/index.html"><div class="student">
-			<span class="vf" id="jina">A</span>
-			Jina Choi
-		</div></a>
-		<a target="_blank" href="https://tdingsun.github.io/web-type/projects/"><div class="student">
-			<span class="vf" id="tiger">A</span>
-			Tiger Dingsun
-		</div></a>
-		<div class="student">
-			<span class="vf" id="laura">A</span>
-			Laura de Baldeon
-		</div>
-		<div class="student">
-			<span class="vf" id="everett">A</span>
-			Everett Epstein
-		</div>
-		<div class="student">
-			<span class="vf" id="jueun">A</span>
-			Jueun Jeon
-		</div>
-		<a target="_blank" href="https://fsumm.github.io/"><div class="student">
-			<span class="vf" id="felix">A</span>
-			Felix Summ
-		</div></a>
-		<a target="_blank" href="https://www.graceyoung.design/index/index.html"><div class="student">
-			<span class="vf" id="grace">A</span>
-			Grace Young
-		</div></a>
-		<a target="_blank" href="https://christie-index.glitch.me/"><div class="student">
-			<span class="vf" id="christie">A</span>
-			Christie Zhong
-		</div></a>
+		<a target="_blank" href="https://forough1370.github.io/projectIndexWebTypeForough/" class="student">
+			<div class="vf" id="forough">A</div>
+			<div class="name">Forough Abadian</div>
+		</a>
+		<a target="_blank" class="student g" href="">
+			<div class="vf" id="joy">A</div>
+			<div class="name">Joy Cho</div>
+		</a>
+		<a target="_blank" href="https://jinachoi2.github.io/WebType/index/index.html" class="student r">
+			<div class="vf" id="jina">A</div>
+			<div class="name">Jina Choi</div>
+		</a>
+		<a target="_blank" href="https://tdingsun.github.io/web-type/project" class="student">
+			<div class="vf" id="tiger">A</div>
+			<div class="name">Tiger Dingsun</div>
+		</a>
+		<a target="_blank" class="student g" href="">
+			<div class="vf" id="laura">A</div>
+			<div class="name">Laura de Baldeon</div>
+		</a>
+		<a target="_blank" href="https://webtypeindex.glitch.me/" class="student r">
+			<div class="vf" id="everett">a</div>
+			<div class="name">Everett Epstein</div>
+		</a>
+		<a target="_blank" href="https://jjeon02.github.io/jueunwebtype2020/" class="student">
+			<div class="vf" id="jueun">A</div>
+			<div class="name">Jueun Jeon</div>
+		</a>
+		<a target="_blank" href="https://fsumm.github.io/" class="student g">
+			<div class="vf" id="felix">A</div>
+			<div class="name">Felix Summ</div>
+		</a>
+		<a target="_blank" href="https://www.graceyoung.design/index/index.html" class="student r">
+			<div class="vf" id="grace">A</div>
+			<div class="name">Grace Young</div>
+		</a>
+		<a target="_blank" href="https://christie-index.glitch.me/" class="student">
+			<div class="vf" id="christie">A</div>
+			<div class="name">Christie Zhong</div>
+		</a>
 	</main>
 	<footer>
-		Experimental Variable Fonts created during <a target="_blank" href="https://risd-web.github.io/webtype-spring2020/">Web Type, Spring 2020</a> at the Rhode Island School of Design.
+		Experimental Variable Fonts created by students of <a target="_blank" href="https://risd-web.github.io/webtype-spring2020/">Web Type, Spring 2020</a> at the Rhode Island School of Design.
 	</footer>
 
 </body>
