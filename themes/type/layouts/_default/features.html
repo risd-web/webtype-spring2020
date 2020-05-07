@@ -66,6 +66,10 @@
 			font-family: 'Silkscreen';
 			src: url('../fonts/student-vfs/Everett_VariableSilkscreenGX.ttf') format('truetype-variations');			
 		}
+		@font-face{
+			font-family: 'Mimosa';
+			src: url('../fonts/student-vfs/Laura_MimosaGX.ttf') format('truetype-variations');			
+		}
 
 		
 		
@@ -83,7 +87,7 @@
 			font-family: "Cross Chancery";
 		}
 		#laura{
-			font-family: "font";
+			font-family: "Mimosa";
 		}
 		#everett{
 			font-family: "Silkscreen";
@@ -220,6 +224,14 @@
 				font-variation-settings: 'wght' 200;
 			}
 		}
+		@keyframes laura-anim{
+			0%{
+				font-variation-settings: 'COIL' 0;
+			}
+			100%{
+				font-variation-settings: 'COIL' 100;
+			}
+		}
 
 		main{
 			display: flex;
@@ -293,11 +305,11 @@
 			<div class="vf" id="jina">A</div>
 			<div class="name">Jina Choi</div>
 		</a>
-		<a target="_blank" href="https://tdingsun.github.io/web-type/project" class="student">
+		<a target="_blank" href="https://tdingsun.github.io/web-type/projects/" class="student">
 			<div class="vf" id="tiger">A</div>
 			<div class="name">Tiger Dingsun</div>
 		</a>
-		<a target="_blank" class="student g" href="">
+		<a target="_blank" class="student g" href="https://webtype-index.glitch.me/">
 			<div class="vf" id="laura">A</div>
 			<div class="name">Laura de Baldeon</div>
 		</a>
