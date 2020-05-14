@@ -70,6 +70,10 @@
 			font-family: 'Mimosa';
 			src: url('../fonts/student-vfs/Laura_MimosaGX.ttf') format('truetype-variations');			
 		}
+		@font-face{
+			font-family: 'Joy';
+			src: url('../fonts/student-vfs/Joy_dietGX.ttf') format('truetype-variations');			
+		}
 
 		
 		
@@ -78,7 +82,7 @@
 			font-family: "Forough";
 		}
 		#joy{
-			font-family: "font";
+			font-family: "Joy";
 		}
 		#jina{
 			font-family: "Shadow";
@@ -147,6 +151,16 @@
 				font-variation-settings: 'wght' 900;
 			}
 		}
+
+		@keyframes joy-anim{
+			0%{
+				font-variation-settings: 'wght' 100;
+			}
+			100%{
+				font-variation-settings: 'wght' 900;
+			}
+		}
+
 
 		@keyframes tiger-anim{
 			0% {
@@ -271,6 +285,11 @@
 			font-variation-settings: 'wght' 200,'wdth' 600;
 			letter-spacing: 0.02em;
 			font-size: 1em;
+
+		}
+
+		a:hover .name{
+			text-decoration: underline;
 		}
 
 		@media screen and (max-width: 800px){
@@ -297,7 +316,7 @@
 			<div class="vf" id="forough">A</div>
 			<div class="name">Forough Abadian</div>
 		</a>
-		<a target="_blank" class="student g" href="">
+		<a target="_blank" class="student g" href="https://hyejucho.github.io/webtypeeverything/">
 			<div class="vf" id="joy">A</div>
 			<div class="name">Joy Cho</div>
 		</a>
@@ -310,7 +329,7 @@
 			<div class="name">Tiger Dingsun</div>
 		</a>
 		<a target="_blank" class="student g" href="https://webtype-index.glitch.me/">
-			<div class="vf" id="laura">A</div>
+			<div class="vf" id="laura">a</div>
 			<div class="name">Laura de Baldeon</div>
 		</a>
 		<a target="_blank" href="https://webtypeindex.glitch.me/" class="student r">
