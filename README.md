@@ -1,5 +1,5 @@
-# webtype-spring2020
+## Class Site
 https://risd-web.github.io/webtype-spring2020/
 
-## Student work:
+## Student Work
 https://risd-web.github.io/webtype-spring2020/students/
