@@ -43,9 +43,7 @@ a{
 	transition: all 200ms linear;
 }
 a:hover{
-	font-variation-settings: 'wght' 200,'wdth' 950;
-	letter-spacing: 0;
-	font-size: .95em;
+	text-decoration: underline;
 }
 // a:visited{
 // 	color: var(--secondcolor);
