@@ -2,7 +2,6 @@
 title: "Web Type Syllabus 2021"
 date: "2021-02-18"
 menu: "main"
-draft: true
 ---
 
 ## Course Information
