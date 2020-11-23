@@ -43,6 +43,15 @@ Reading collections  The Avery Review HTML Output Critical Atlas of the Internet
     </item>
     
     <item>
+      <title>Web Type Syllabus 2021</title>
+      <link>https://risd-web.github.io/webtype-spring2020/syllabus2021/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/syllabus2021/</guid>
+      <description>Course Information  WEB TYPE (RISD GRAPH-2313-01), Spring 2021 3 credits Marie Otsuka (motsuka@risd.edu) Class Meetings: Thursdays, 1:10pm–6:10pm Office Hours: Tuesdays 10:30am–12:00pm at the Design Office (204 Westminster St.)  Course Description This course explores typography within the browser, considering the web as a medium. We will design an develop typography that activates the capacities and conditions of websites. Projects will respond to our local browser conditions and different device environments, then expand to working with the remote network as source material.</description>
+    </item>
+    
+    <item>
       <title>Web Type Students</title>
       <link>https://risd-web.github.io/webtype-spring2020/students/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
@@ -209,6 +218,15 @@ Type could refer to typography — the arrangement of letterforms — but also t
       <guid>https://risd-web.github.io/webtype-spring2020/resources/common-errors/</guid>
       <description>Common errors to watch out for when troubleshooting:
 HTML  Are your HTML elements wrapped in open and close tags? Are your HTML elements properly nested? Do your attribute values have quotation marks around them? Are your directory paths correct? Double check your link syntax.  CSS  Do you have opening and closing brackets? Does your property and value pairs have colons in between them? Do you have a semicolon at the end of each declaration?</description>
+    </item>
+    
+    <item>
+      <title>Reading Material</title>
+      <link>https://risd-web.github.io/webtype-spring2020/resources/reading-material/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2020/resources/reading-material/</guid>
+      <description>Artist Websites  “Aside from those working directly on digital culture – creating websites, apps, and videos meant to be experienced on a computer or mobile device – few artists today think about their websites as exhibition platforms, when in fact an artist’s website allows for an inordinate amount of freedom and experimentation to present that work to its best advantage to a wide audience. It is also a rare space in which artists can control the way their work is presented.</description>
     </item>
     
     <item>

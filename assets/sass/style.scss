@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
 @font-face {
   font-family: 'Magmatic';
@@ -40,10 +39,9 @@ body{
 a{
 	color: var(--thirdcolor);
 	text-decoration: none;
-	transition: all 200ms linear;
 }
 a:hover{
-	border-bottom: 1px solid;
+	border-bottom: 2px solid;
 }
 // a:visited{
 // 	color: var(--secondcolor);
