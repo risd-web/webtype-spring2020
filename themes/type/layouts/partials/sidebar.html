@@ -1,0 +1,11 @@
+<aside>
+	{{ .TableOfContents }}
+	
+	{{ range .Params.reference }}
+		<figure class="link-preview">
+			 <iframe class="preview" type="text/html" src="{{.link}}" frameborder="0">
+	 		</iframe>
+		    <figcaption><a href="{{.link}}">{{.title}}</a></figcaption>
+		</figure>
+	{{ end }}
+</aside>

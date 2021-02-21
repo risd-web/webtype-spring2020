@@ -1,8 +1,8 @@
 <header>
+	<a href="{{ .Site.BaseURL }}" class="home">{{ .Site.Title }}</a>
+	{{ with .Site.Menus.main }}
 	<nav>
 		<ul>
-			<li><a href="{{ .Site.BaseURL }}" class="home">{{ .Site.Title }}</a></li>
-			{{ with .Site.Menus.main }}
 			{{ range . }}
 			<li><a href="{{ .URL }}">{{ .Name }}</a></li>
 			{{ end }}

@@ -2,29 +2,15 @@
 	<main>
 		<article>
 			{{.Content}}
-		
-			{{$posts := ($.Site.GetPage "section" "schedule").Pages.ByPublishDate.Reverse}}
-			{{ range first 1 $posts }}
-			<div class="week">{{.Content}}</div>
-			{{ end }}
-
-			<h2>Students</h2>
-			<ul class="students">
-				<li>Corinne Izabel Ang</li>
-				<li>Amy Choi</li>
-				<li>Jingyu Feng</li>
-				<li>Daniel Goldberg</li>
-				<li>Mankun Guo</li>
-				<li>Natalya Ho</li>
-				<li>Nayeon Kim</li>
-				<li>William Mianecki</li>
-				<li>Clear Shen</li>
-				<li>Asta Thrastardottir</li>
-				<li>Jordan Weed</li>
-				<li>Qianxue Zhao</li>
-			</ul>
-
+			<!-- <ul>
+				{{ range .Site.AllPages }}
+					<li>
+						<a href="{{.Permalink}}">{{.Title}}</a>
+					</li>
+				{{ end }}
+			</ul> -->
 		</article>
+		{{ partial "sidebar" . }}
 	</main>
 
 {{ end }}

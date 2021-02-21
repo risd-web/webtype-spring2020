@@ -18,10 +18,8 @@
 	<script src="{{ "js/script.js" | relURL }}"></script>
 </head>
 <body>
-	<div class="container">
-		{{ partial "header" . }}
-		{{ block "main" . }}{{ end }}
-		{{ partial "footer" . }}
-	</div>
+	{{ partial "header" . }}
+	{{ block "main" . }}{{ end }}
+	{{ partial "footer" . }}
 </body>
 </html>
