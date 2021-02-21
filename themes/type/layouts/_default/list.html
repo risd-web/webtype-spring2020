@@ -1,6 +1,6 @@
-	{{ define "main" }}
+{{ define "main" }}
 	<main>
-		<article>
+		<article >
 			{{ if or .Title .Content }}
 				{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
 				{{ with .Content }}<p>{{ . }}</p>{{ end }}
@@ -15,6 +15,5 @@
 			{{ end }}
 			</ul>
 		</article>
-		{{ partial "sidebar" . }}
 	</main>
 {{ end }}

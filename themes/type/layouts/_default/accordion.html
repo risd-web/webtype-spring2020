@@ -1,0 +1,23 @@
+{{ define "main" }}
+	<main>
+		{{ if or .Title .Content }}
+			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+			{{ with .Content }}<p>{{ . }}</p>{{ end }}
+		{{ end }}
+		<ul class="index-list">
+		{{ range .Paginator.Pages }}
+			{{ if ne .Draft true}}
+			<li class="accordion">
+				<dt class="content-dropdown">
+					<div class="week-title">{{ .Title }}</div>
+					<time>{{ .Date.Format "January 2, 2006" }}</time>
+				</dt>
+				<dd class="content">
+					{{ .Content  }}
+				</dd>
+			</li>
+			{{ end }}
+		{{ end }}
+		</ul>
+	</main>
+{{ end }}

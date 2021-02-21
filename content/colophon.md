@@ -5,33 +5,10 @@ menu: "main"
 weight: 10
 ---
 
-*This site is a work-in-progress.* The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
+The website will evolve as we progress through our class — you can inspect its code and use it as a tool to learn the techniques discussed in class.
 
 - Full code for this site is available on [Github](https://github.com/risd-web/webtype-spring2020/)
 - It is compiled with the static site generator [Hugo](https://gohugo.io/) 
-
-## V5
-<time>April 9</time>
-- add print styles via media queries
-
-
-## V4
-<time>March 12</time>
-- add “dark mode” button via jQuery
-
-
-## V3
-<time>March 4</time>
-- change typeface to variable font [Magmatic](https://occupantfonts.com/fonts/magmatic/) and [Dispatch Mono](https://occupantfonts.com/fonts/dispatch-mono/) for code
-- update colors that work better with type
-- add subnavigation anchors to sidebar
-
-
-## V2
-<time>February 26</time>
-- typeface changed to [IBM Plex](https://www.ibm.com/plex/) served via [Google Fonts](https://fonts.google.com/)
-- add basic css styling, media queries for responsive layouts
-	- single breakpoint @ 800px
 
 ## V1
 <time>February 13</time>
